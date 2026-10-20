@@ -1,0 +1,8139 @@
+{
+ "funnel": {
+  "search_hits": 4800,
+  "repos_with_root_file": 3346,
+  "metadata_found": 3344,
+  "eligible": 542,
+  "sampled": 542,
+  "min_stars": 50,
+  "max_kb": 150000,
+  "per_type": 10000,
+  "seed": 20261003,
+  "eligible_by_type": {
+   "AGENTS.md": 216,
+   "CLAUDE.md": 179,
+   ".cursorrules": 133,
+   "copilot-instructions.md": 14
+  }
+ },
+ "repos": {
+  "maverick-js/maverick": {
+   "nameWithOwner": "maverick-js/maverick",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1905,
+   "pushedAt": "2026-06-27T00:19:29Z",
+   "createdAt": "2022-07-26T09:06:12Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "swaruplab/operon": {
+   "nameWithOwner": "swaruplab/operon",
+   "stargazerCount": 99,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 81272,
+   "pushedAt": "2026-09-26T21:04:45Z",
+   "createdAt": "2026-03-26T12:23:04Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "cross-platform"
+   }
+  },
+  "nRF24/RF24Mesh": {
+   "nameWithOwner": "nRF24/RF24Mesh",
+   "stargazerCount": 452,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1707,
+   "pushedAt": "2026-06-06T11:37:10Z",
+   "createdAt": "2014-09-17T06:00:59Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "mercury/hs-temporal-sdk": {
+   "nameWithOwner": "mercury/hs-temporal-sdk",
+   "stargazerCount": 71,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8606,
+   "pushedAt": "2026-10-02T15:15:24Z",
+   "createdAt": "2023-05-12T14:27:01Z",
+   "primaryLanguage": {
+    "name": "Haskell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "elastic/elasticsearch-java": {
+   "nameWithOwner": "elastic/elasticsearch-java",
+   "stargazerCount": 524,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 58178,
+   "pushedAt": "2026-09-28T15:03:39Z",
+   "createdAt": "2021-05-07T13:34:18Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "aio-libs/frozenlist": {
+   "nameWithOwner": "aio-libs/frozenlist",
+   "stargazerCount": 126,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1076,
+   "pushedAt": "2026-10-01T10:02:35Z",
+   "createdAt": "2019-08-24T18:36:35Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "tudelft3d/azul": {
+   "nameWithOwner": "tudelft3d/azul",
+   "stargazerCount": 121,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 19534,
+   "pushedAt": "2026-09-01T17:09:24Z",
+   "createdAt": "2016-10-26T15:19:32Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tmchow/illo-skill": {
+   "nameWithOwner": "tmchow/illo-skill",
+   "stargazerCount": 383,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 39926,
+   "pushedAt": "2026-09-21T20:20:03Z",
+   "createdAt": "2026-06-12T16:03:22Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "deerwork-ai/deer-workflow": {
+   "nameWithOwner": "deerwork-ai/deer-workflow",
+   "stargazerCount": 546,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 398,
+   "pushedAt": "2026-08-09T12:28:28Z",
+   "createdAt": "2026-07-26T04:20:50Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Maliksidk19/shadcn-datetime-picker": {
+   "nameWithOwner": "Maliksidk19/shadcn-datetime-picker",
+   "stargazerCount": 278,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 288,
+   "pushedAt": "2026-07-04T14:23:04Z",
+   "createdAt": "2024-07-16T08:26:53Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nette/application": {
+   "nameWithOwner": "nette/application",
+   "stargazerCount": 452,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3261,
+   "pushedAt": "2026-08-27T02:19:45Z",
+   "createdAt": "2014-03-13T03:54:10Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Shuffle/python-apps": {
+   "nameWithOwner": "Shuffle/python-apps",
+   "stargazerCount": 128,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 42413,
+   "pushedAt": "2026-09-15T14:54:19Z",
+   "createdAt": "2020-05-09T06:57:26Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "TheLogicMaster/Cranked": {
+   "nameWithOwner": "TheLogicMaster/Cranked",
+   "stargazerCount": 102,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2656,
+   "pushedAt": "2026-09-18T02:01:03Z",
+   "createdAt": "2023-07-22T22:04:16Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "migueldeicaza/TermKit": {
+   "nameWithOwner": "migueldeicaza/TermKit",
+   "stargazerCount": 582,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3968,
+   "pushedAt": "2026-02-01T00:34:14Z",
+   "createdAt": "2019-04-05T21:15:09Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ECarry/photography-website": {
+   "nameWithOwner": "ECarry/photography-website",
+   "stargazerCount": 371,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 121005,
+   "pushedAt": "2026-09-11T16:05:05Z",
+   "createdAt": "2023-09-25T06:35:00Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "wenshao/codeagents": {
+   "nameWithOwner": "wenshao/codeagents",
+   "stargazerCount": 88,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7705,
+   "pushedAt": "2026-06-21T22:18:56Z",
+   "createdAt": "2026-03-17T06:27:39Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ciscoheat/sveltekit-superforms": {
+   "nameWithOwner": "ciscoheat/sveltekit-superforms",
+   "stargazerCount": 2782,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4579,
+   "pushedAt": "2026-10-02T10:07:19Z",
+   "createdAt": "2023-02-20T01:39:50Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "graphframes/graphframes": {
+   "nameWithOwner": "graphframes/graphframes",
+   "stargazerCount": 1211,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6903,
+   "pushedAt": "2026-09-29T17:44:10Z",
+   "createdAt": "2016-01-20T23:17:56Z",
+   "primaryLanguage": {
+    "name": "Scala"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "raphaelsalaja/userinterface-wiki": {
+   "nameWithOwner": "raphaelsalaja/userinterface-wiki",
+   "stargazerCount": 902,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 39622,
+   "pushedAt": "2026-07-29T11:38:26Z",
+   "createdAt": "2025-09-24T10:41:39Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Flohhhhh/ultimate-lighting-controller": {
+   "nameWithOwner": "Flohhhhh/ultimate-lighting-controller",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1170,
+   "pushedAt": "2026-08-13T15:01:39Z",
+   "createdAt": "2022-12-23T22:03:25Z",
+   "primaryLanguage": {
+    "name": "Lua"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "opxiahub/tanya": {
+   "nameWithOwner": "opxiahub/tanya",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 521,
+   "pushedAt": "2026-05-26T06:54:14Z",
+   "createdAt": "2026-04-04T03:10:37Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Andersbakken/rtags": {
+   "nameWithOwner": "Andersbakken/rtags",
+   "stargazerCount": 1845,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 26116,
+   "pushedAt": "2026-08-21T04:18:31Z",
+   "createdAt": "2011-07-19T05:15:16Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "frankdilo/MarkdownViewer": {
+   "nameWithOwner": "frankdilo/MarkdownViewer",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1569,
+   "pushedAt": "2026-03-16T10:59:23Z",
+   "createdAt": "2026-01-08T08:55:16Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "exoscale/cli": {
+   "nameWithOwner": "exoscale/cli",
+   "stargazerCount": 92,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 40762,
+   "pushedAt": "2026-10-02T14:23:01Z",
+   "createdAt": "2018-09-18T08:55:10Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "DataDog/datadog-static-analyzer": {
+   "nameWithOwner": "DataDog/datadog-static-analyzer",
+   "stargazerCount": 139,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8565,
+   "pushedAt": "2026-10-02T20:33:25Z",
+   "createdAt": "2023-07-05T17:47:29Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "boxpositron/envsitter-guard": {
+   "nameWithOwner": "boxpositron/envsitter-guard",
+   "stargazerCount": 79,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 56,
+   "pushedAt": "2026-01-15T22:02:19Z",
+   "createdAt": "2026-01-12T11:07:56Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "triwinds/ns-emu-tools": {
+   "nameWithOwner": "triwinds/ns-emu-tools",
+   "stargazerCount": 4962,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9512,
+   "pushedAt": "2026-09-30T05:30:59Z",
+   "createdAt": "2022-10-22T13:46:50Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nonononull/codex-retry-gateway": {
+   "nameWithOwner": "nonononull/codex-retry-gateway",
+   "stargazerCount": 119,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1012,
+   "pushedAt": "2026-07-15T07:36:21Z",
+   "createdAt": "2026-06-26T02:08:21Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "francoeur003/replication": {
+   "nameWithOwner": "francoeur003/replication",
+   "stargazerCount": 62,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6247,
+   "pushedAt": "2026-09-08T15:28:59Z",
+   "createdAt": "2026-07-29T13:31:23Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "longbridge/gpui-fast": {
+   "nameWithOwner": "longbridge/gpui-fast",
+   "stargazerCount": 118,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7846,
+   "pushedAt": "2026-10-02T12:49:41Z",
+   "createdAt": "2026-09-24T02:45:48Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "figranium/figranium": {
+   "nameWithOwner": "figranium/figranium",
+   "stargazerCount": 757,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 34384,
+   "pushedAt": "2026-10-03T14:09:04Z",
+   "createdAt": "2025-12-25T01:42:51Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "albertsgarde/rustorio": {
+   "nameWithOwner": "albertsgarde/rustorio",
+   "stargazerCount": 358,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2318,
+   "pushedAt": "2026-06-17T16:17:50Z",
+   "createdAt": "2025-07-19T10:11:43Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "snowdreamtech/frp": {
+   "nameWithOwner": "snowdreamtech/frp",
+   "stargazerCount": 911,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10705,
+   "pushedAt": "2026-09-28T16:22:31Z",
+   "createdAt": "2019-06-24T14:29:20Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ZhangHanDong/mempal": {
+   "nameWithOwner": "ZhangHanDong/mempal",
+   "stargazerCount": 285,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2486,
+   "pushedAt": "2026-08-19T13:31:40Z",
+   "createdAt": "2026-04-07T23:13:19Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "pawcoding/astro-loader-pocketbase": {
+   "nameWithOwner": "pawcoding/astro-loader-pocketbase",
+   "stargazerCount": 63,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2005,
+   "pushedAt": "2026-10-03T14:48:13Z",
+   "createdAt": "2024-09-22T12:11:49Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "dftworks/dftworks": {
+   "nameWithOwner": "dftworks/dftworks",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 141765,
+   "pushedAt": "2026-03-30T20:09:28Z",
+   "createdAt": "2021-12-25T00:51:03Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "GoogleContainerTools/config-sync": {
+   "nameWithOwner": "GoogleContainerTools/config-sync",
+   "stargazerCount": 279,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 63257,
+   "pushedAt": "2026-10-02T22:06:01Z",
+   "createdAt": "2022-03-02T07:20:59Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "yu-iskw/dbt-artifacts-parser": {
+   "nameWithOwner": "yu-iskw/dbt-artifacts-parser",
+   "stargazerCount": 118,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2356,
+   "pushedAt": "2026-09-24T05:46:46Z",
+   "createdAt": "2022-03-01T05:15:31Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "OpenWSGR/AutoWSGR": {
+   "nameWithOwner": "OpenWSGR/AutoWSGR",
+   "stargazerCount": 198,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 42421,
+   "pushedAt": "2026-10-03T11:49:41Z",
+   "createdAt": "2022-06-19T05:47:56Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "sous-chefs/postfix": {
+   "nameWithOwner": "sous-chefs/postfix",
+   "stargazerCount": 102,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 613,
+   "pushedAt": "2026-09-26T02:02:35Z",
+   "createdAt": "2012-03-14T18:18:57Z",
+   "primaryLanguage": {
+    "name": "Ruby"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "alexiszamanidis/vscode-git-worktrees": {
+   "nameWithOwner": "alexiszamanidis/vscode-git-worktrees",
+   "stargazerCount": 76,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 725,
+   "pushedAt": "2026-09-25T21:00:06Z",
+   "createdAt": "2022-03-03T20:28:20Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "RobertoMachorro/Moped": {
+   "nameWithOwner": "RobertoMachorro/Moped",
+   "stargazerCount": 115,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 28543,
+   "pushedAt": "2026-08-24T00:57:23Z",
+   "createdAt": "2019-08-11T19:49:44Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "helm/helm-www": {
+   "nameWithOwner": "helm/helm-www",
+   "stargazerCount": 230,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 37517,
+   "pushedAt": "2026-10-01T14:58:35Z",
+   "createdAt": "2015-10-20T22:41:42Z",
+   "primaryLanguage": {
+    "name": "MDX"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tin-computer/with-md": {
+   "nameWithOwner": "tin-computer/with-md",
+   "stargazerCount": 74,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5582,
+   "pushedAt": "2026-09-29T21:32:19Z",
+   "createdAt": "2026-02-16T06:29:16Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Sunagatov/Iced-Latte-Frontend": {
+   "nameWithOwner": "Sunagatov/Iced-Latte-Frontend",
+   "stargazerCount": 203,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9595,
+   "pushedAt": "2026-09-28T16:06:50Z",
+   "createdAt": "2023-07-14T01:47:55Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "development"
+   }
+  },
+  "dmop/puru": {
+   "nameWithOwner": "dmop/puru",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 592,
+   "pushedAt": "2026-05-26T13:27:06Z",
+   "createdAt": "2026-04-03T19:39:02Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Leaf-lsgtky/OppoPods": {
+   "nameWithOwner": "Leaf-lsgtky/OppoPods",
+   "stargazerCount": 96,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1466,
+   "pushedAt": "2026-09-22T17:05:23Z",
+   "createdAt": "2026-02-17T01:31:49Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "saubakirov/KZ-IT-telegram-list": {
+   "nameWithOwner": "saubakirov/KZ-IT-telegram-list",
+   "stargazerCount": 143,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3140,
+   "pushedAt": "2026-08-29T12:15:46Z",
+   "createdAt": "2017-05-23T07:53:13Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "kubernetes-sigs/cluster-api-provider-openstack": {
+   "nameWithOwner": "kubernetes-sigs/cluster-api-provider-openstack",
+   "stargazerCount": 370,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 55920,
+   "pushedAt": "2026-10-02T09:55:21Z",
+   "createdAt": "2018-06-13T15:40:05Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mandatoryprogrammer/thermoptic": {
+   "nameWithOwner": "mandatoryprogrammer/thermoptic",
+   "stargazerCount": 1045,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5453,
+   "pushedAt": "2026-03-31T00:32:48Z",
+   "createdAt": "2025-09-02T04:44:12Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "apache/jackrabbit-filevault": {
+   "nameWithOwner": "apache/jackrabbit-filevault",
+   "stargazerCount": 57,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7314,
+   "pushedAt": "2026-09-28T15:30:18Z",
+   "createdAt": "2014-01-18T08:00:07Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "tanevanwifferen/pi-mail": {
+   "nameWithOwner": "tanevanwifferen/pi-mail",
+   "stargazerCount": 93,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1021,
+   "pushedAt": "2026-09-30T16:23:53Z",
+   "createdAt": "2026-06-11T12:32:22Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "skywind3000/vim": {
+   "nameWithOwner": "skywind3000/vim",
+   "stargazerCount": 938,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1818,
+   "pushedAt": "2026-09-23T12:16:57Z",
+   "createdAt": "2016-04-04T00:37:03Z",
+   "primaryLanguage": {
+    "name": "Vim Script"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "team-mirai/mirai-gikai": {
+   "nameWithOwner": "team-mirai/mirai-gikai",
+   "stargazerCount": 212,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8710,
+   "pushedAt": "2026-10-01T11:14:04Z",
+   "createdAt": "2025-09-04T08:14:29Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "develop"
+   }
+  },
+  "jaychempan/coding-with-beat": {
+   "nameWithOwner": "jaychempan/coding-with-beat",
+   "stargazerCount": 114,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9659,
+   "pushedAt": "2026-06-30T05:04:06Z",
+   "createdAt": "2026-05-21T03:08:10Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Hacker-Valley-Media/Interceptor": {
+   "nameWithOwner": "Hacker-Valley-Media/Interceptor",
+   "stargazerCount": 485,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 17569,
+   "pushedAt": "2026-10-02T18:24:31Z",
+   "createdAt": "2026-03-18T15:24:40Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "LeadMagic/gtm-skills": {
+   "nameWithOwner": "LeadMagic/gtm-skills",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5671,
+   "pushedAt": "2026-10-01T05:08:09Z",
+   "createdAt": "2026-06-07T17:36:20Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Niall-Young/Canvasight": {
+   "nameWithOwner": "Niall-Young/Canvasight",
+   "stargazerCount": 211,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 31251,
+   "pushedAt": "2026-09-24T09:43:10Z",
+   "createdAt": "2026-07-04T02:27:33Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "1Password/SCAM": {
+   "nameWithOwner": "1Password/SCAM",
+   "stargazerCount": 136,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 31215,
+   "pushedAt": "2026-02-12T13:56:08Z",
+   "createdAt": "2026-02-10T21:30:33Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "addyosmani/factory": {
+   "nameWithOwner": "addyosmani/factory",
+   "stargazerCount": 221,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 127,
+   "pushedAt": "2026-08-21T18:28:27Z",
+   "createdAt": "2026-08-18T23:10:20Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "abrookins/WrapToColumn": {
+   "nameWithOwner": "abrookins/WrapToColumn",
+   "stargazerCount": 70,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9559,
+   "pushedAt": "2026-01-22T21:43:13Z",
+   "createdAt": "2013-05-07T04:54:01Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Radexito/tidal-dl-ng-For-DJ": {
+   "nameWithOwner": "Radexito/tidal-dl-ng-For-DJ",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2999,
+   "pushedAt": "2026-09-08T23:59:01Z",
+   "createdAt": "2026-01-14T02:02:57Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "trevor-nichols/agentrules-architect": {
+   "nameWithOwner": "trevor-nichols/agentrules-architect",
+   "stargazerCount": 123,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5649,
+   "pushedAt": "2026-08-30T00:42:12Z",
+   "createdAt": "2024-11-30T19:47:45Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "robot-i-o/rio": {
+   "nameWithOwner": "robot-i-o/rio",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 311,
+   "pushedAt": "2026-09-21T17:08:51Z",
+   "createdAt": "2026-05-11T19:37:24Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "wcygan/dotfiles": {
+   "nameWithOwner": "wcygan/dotfiles",
+   "stargazerCount": 196,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6681,
+   "pushedAt": "2026-10-03T15:58:08Z",
+   "createdAt": "2023-03-10T04:06:04Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Menghuan1918/drawio2go": {
+   "nameWithOwner": "Menghuan1918/drawio2go",
+   "stargazerCount": 235,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3643,
+   "pushedAt": "2026-01-04T14:23:27Z",
+   "createdAt": "2025-10-20T09:09:38Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "vahiiiid/go-rest-api-boilerplate": {
+   "nameWithOwner": "vahiiiid/go-rest-api-boilerplate",
+   "stargazerCount": 69,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 17919,
+   "pushedAt": "2026-08-17T17:52:37Z",
+   "createdAt": "2025-10-04T07:43:46Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jmagly/aiwg": {
+   "nameWithOwner": "jmagly/aiwg",
+   "stargazerCount": 219,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 96408,
+   "pushedAt": "2026-10-03T03:29:03Z",
+   "createdAt": "2025-08-14T17:52:47Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "IBM/mobx-react-router": {
+   "nameWithOwner": "IBM/mobx-react-router",
+   "stargazerCount": 437,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7591,
+   "pushedAt": "2026-10-01T19:32:42Z",
+   "createdAt": "2016-09-30T13:10:47Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "suitux/Tagr": {
+   "nameWithOwner": "suitux/Tagr",
+   "stargazerCount": 185,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9454,
+   "pushedAt": "2026-09-30T07:41:30Z",
+   "createdAt": "2026-02-19T11:00:27Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "vmDeshpande/ai-agent-automation": {
+   "nameWithOwner": "vmDeshpande/ai-agent-automation",
+   "stargazerCount": 178,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3429,
+   "pushedAt": "2026-09-12T14:50:12Z",
+   "createdAt": "2025-11-19T08:42:55Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "unclebob/empire-2025": {
+   "nameWithOwner": "unclebob/empire-2025",
+   "stargazerCount": 89,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6408,
+   "pushedAt": "2026-09-01T23:20:37Z",
+   "createdAt": "2025-12-23T14:22:22Z",
+   "primaryLanguage": {
+    "name": "Clojure"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "treyhunner/dotfiles": {
+   "nameWithOwner": "treyhunner/dotfiles",
+   "stargazerCount": 51,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5999,
+   "pushedAt": "2026-04-05T00:41:26Z",
+   "createdAt": "2011-12-13T02:11:42Z",
+   "primaryLanguage": {
+    "name": "Vim Script"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zaidmukaddam/miniscira": {
+   "nameWithOwner": "zaidmukaddam/miniscira",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1104,
+   "pushedAt": "2026-08-05T21:39:43Z",
+   "createdAt": "2026-08-04T15:50:14Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "HavenDV/H.Ipc": {
+   "nameWithOwner": "HavenDV/H.Ipc",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 454,
+   "pushedAt": "2026-09-28T00:06:20Z",
+   "createdAt": "2021-12-03T02:28:19Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "NanoNative/nano": {
+   "nameWithOwner": "NanoNative/nano",
+   "stargazerCount": 108,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1406,
+   "pushedAt": "2026-09-19T10:31:49Z",
+   "createdAt": "2024-08-02T13:27:41Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Akianonymus/gdrive-downloader": {
+   "nameWithOwner": "Akianonymus/gdrive-downloader",
+   "stargazerCount": 368,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 550,
+   "pushedAt": "2026-07-17T15:54:15Z",
+   "createdAt": "2020-01-20T16:45:20Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "immobiliare/backstage-plugin-gitlab": {
+   "nameWithOwner": "immobiliare/backstage-plugin-gitlab",
+   "stargazerCount": 133,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8345,
+   "pushedAt": "2026-09-21T06:56:17Z",
+   "createdAt": "2022-05-30T10:21:07Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ConaMobileDev/PdfKmp": {
+   "nameWithOwner": "ConaMobileDev/PdfKmp",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5884,
+   "pushedAt": "2026-08-17T09:05:24Z",
+   "createdAt": "2026-04-30T08:17:50Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "FlineDev/ContextKit": {
+   "nameWithOwner": "FlineDev/ContextKit",
+   "stargazerCount": 167,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 553,
+   "pushedAt": "2026-03-10T00:49:42Z",
+   "createdAt": "2025-09-11T21:59:13Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "MetrolistGroup/Metrolist": {
+   "nameWithOwner": "MetrolistGroup/Metrolist",
+   "stargazerCount": 13226,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 128064,
+   "pushedAt": "2026-10-03T12:17:47Z",
+   "createdAt": "2023-08-11T12:19:23Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "EmuKit/emukit": {
+   "nameWithOwner": "EmuKit/emukit",
+   "stargazerCount": 677,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9669,
+   "pushedAt": "2026-08-30T23:09:30Z",
+   "createdAt": "2018-09-04T05:01:34Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "superagent-ai/gateway": {
+   "nameWithOwner": "superagent-ai/gateway",
+   "stargazerCount": 74,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 166,
+   "pushedAt": "2026-08-30T08:55:09Z",
+   "createdAt": "2026-07-04T20:23:50Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jmandel/health-skillz": {
+   "nameWithOwner": "jmandel/health-skillz",
+   "stargazerCount": 82,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13145,
+   "pushedAt": "2026-06-08T18:18:52Z",
+   "createdAt": "2026-01-12T17:57:44Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "eclipse-ankaios/ankaios": {
+   "nameWithOwner": "eclipse-ankaios/ankaios",
+   "stargazerCount": 125,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22121,
+   "pushedAt": "2026-10-02T11:13:55Z",
+   "createdAt": "2023-05-04T11:48:25Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dave-hillier/refactor-mcp": {
+   "nameWithOwner": "dave-hillier/refactor-mcp",
+   "stargazerCount": 94,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3205,
+   "pushedAt": "2026-09-26T07:55:54Z",
+   "createdAt": "2025-06-09T16:59:53Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "phatMT97/VKey": {
+   "nameWithOwner": "phatMT97/VKey",
+   "stargazerCount": 175,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 68970,
+   "pushedAt": "2026-09-28T10:11:37Z",
+   "createdAt": "2025-11-24T03:32:56Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "Main"
+   }
+  },
+  "medama-io/medama": {
+   "nameWithOwner": "medama-io/medama",
+   "stargazerCount": 643,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11850,
+   "pushedAt": "2026-08-07T22:06:37Z",
+   "createdAt": "2023-10-04T15:41:31Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "cqframework/clinical_quality_language": {
+   "nameWithOwner": "cqframework/clinical_quality_language",
+   "stargazerCount": 332,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 77822,
+   "pushedAt": "2026-09-30T21:37:40Z",
+   "createdAt": "2014-08-26T17:30:05Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "MrFrenik/gunslinger": {
+   "nameWithOwner": "MrFrenik/gunslinger",
+   "stargazerCount": 1415,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22299,
+   "pushedAt": "2026-06-23T16:05:51Z",
+   "createdAt": "2020-03-06T19:05:15Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "codecation/trailmix": {
+   "nameWithOwner": "codecation/trailmix",
+   "stargazerCount": 418,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1232,
+   "pushedAt": "2026-08-21T14:18:53Z",
+   "createdAt": "2014-09-21T20:00:23Z",
+   "primaryLanguage": {
+    "name": "Ruby"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "plexe-ai/plexe": {
+   "nameWithOwner": "plexe-ai/plexe",
+   "stargazerCount": 2647,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8787,
+   "pushedAt": "2026-03-06T11:41:05Z",
+   "createdAt": "2025-01-05T18:34:25Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "hughjonesd/huxtable": {
+   "nameWithOwner": "hughjonesd/huxtable",
+   "stargazerCount": 332,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 40223,
+   "pushedAt": "2026-09-21T10:21:29Z",
+   "createdAt": "2017-02-24T11:29:06Z",
+   "primaryLanguage": {
+    "name": "R"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "ryanrasti/typegres": {
+   "nameWithOwner": "ryanrasti/typegres",
+   "stargazerCount": 55,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9296,
+   "pushedAt": "2026-09-22T00:33:43Z",
+   "createdAt": "2025-06-30T13:49:16Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mhernesniemi/hoikka": {
+   "nameWithOwner": "mhernesniemi/hoikka",
+   "stargazerCount": 62,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5654,
+   "pushedAt": "2026-08-25T16:24:51Z",
+   "createdAt": "2026-01-13T20:05:34Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "huthvincent/yt-bilingual-app": {
+   "nameWithOwner": "huthvincent/yt-bilingual-app",
+   "stargazerCount": 194,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 49501,
+   "pushedAt": "2026-09-11T13:25:10Z",
+   "createdAt": "2026-03-09T13:58:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "gogpu/gg": {
+   "nameWithOwner": "gogpu/gg",
+   "stargazerCount": 166,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10453,
+   "pushedAt": "2026-09-10T10:01:37Z",
+   "createdAt": "2025-12-05T15:25:05Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nextcloud/notes-android": {
+   "nameWithOwner": "nextcloud/notes-android",
+   "stargazerCount": 1102,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 37962,
+   "pushedAt": "2026-10-03T07:34:42Z",
+   "createdAt": "2015-10-01T15:53:21Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "moonbitlang/x": {
+   "nameWithOwner": "moonbitlang/x",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1644,
+   "pushedAt": "2026-09-24T05:57:34Z",
+   "createdAt": "2024-05-15T02:53:48Z",
+   "primaryLanguage": {
+    "name": "MoonBit"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "maitrungduc1410/react-native-video-trim": {
+   "nameWithOwner": "maitrungduc1410/react-native-video-trim",
+   "stargazerCount": 176,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 78108,
+   "pushedAt": "2026-10-03T10:56:14Z",
+   "createdAt": "2023-07-28T09:08:03Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "chen0416ccc-cpu/codex-windows-fast-patch-skill": {
+   "nameWithOwner": "chen0416ccc-cpu/codex-windows-fast-patch-skill",
+   "stargazerCount": 1237,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1341,
+   "pushedAt": "2026-09-30T10:36:47Z",
+   "createdAt": "2026-05-20T02:45:32Z",
+   "primaryLanguage": {
+    "name": "PowerShell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "remorses/tuistory": {
+   "nameWithOwner": "remorses/tuistory",
+   "stargazerCount": 366,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 986,
+   "pushedAt": "2026-08-21T13:56:19Z",
+   "createdAt": "2025-12-04T13:27:18Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "chhoumann/MetaEdit": {
+   "nameWithOwner": "chhoumann/MetaEdit",
+   "stargazerCount": 506,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4531,
+   "pushedAt": "2026-10-03T15:03:56Z",
+   "createdAt": "2021-05-07T19:22:05Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Eilgnaw/dexo": {
+   "nameWithOwner": "Eilgnaw/dexo",
+   "stargazerCount": 141,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3590,
+   "pushedAt": "2026-09-22T09:08:08Z",
+   "createdAt": "2026-03-21T14:13:54Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "michaelklishin/pantomime": {
+   "nameWithOwner": "michaelklishin/pantomime",
+   "stargazerCount": 205,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 549,
+   "pushedAt": "2026-01-19T04:08:46Z",
+   "createdAt": "2011-09-08T18:50:54Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "acgurl/mori": {
+   "nameWithOwner": "acgurl/mori",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 710,
+   "pushedAt": "2026-09-28T16:57:19Z",
+   "createdAt": "2025-11-29T02:08:02Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "semantic-release/gitlab": {
+   "nameWithOwner": "semantic-release/gitlab",
+   "stargazerCount": 343,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3014,
+   "pushedAt": "2026-09-30T23:45:05Z",
+   "createdAt": "2018-01-01T20:48:13Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "owncloud/notes": {
+   "nameWithOwner": "owncloud/notes",
+   "stargazerCount": 200,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 18562,
+   "pushedAt": "2026-09-13T23:38:29Z",
+   "createdAt": "2013-03-18T22:56:50Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "sveneisenschmidt/n8n-openai-bridge": {
+   "nameWithOwner": "sveneisenschmidt/n8n-openai-bridge",
+   "stargazerCount": 131,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13413,
+   "pushedAt": "2026-03-27T11:34:06Z",
+   "createdAt": "2025-10-10T16:02:50Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "KryptosAI/mcp-observatory": {
+   "nameWithOwner": "KryptosAI/mcp-observatory",
+   "stargazerCount": 140,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10086,
+   "pushedAt": "2026-10-01T05:52:08Z",
+   "createdAt": "2026-03-19T00:28:30Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ultralytics/magellan": {
+   "nameWithOwner": "ultralytics/magellan",
+   "stargazerCount": 66,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 61844,
+   "pushedAt": "2026-08-28T10:37:04Z",
+   "createdAt": "2018-05-17T21:45:11Z",
+   "primaryLanguage": {
+    "name": "MATLAB"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "meilisearch/meilisearch-java": {
+   "nameWithOwner": "meilisearch/meilisearch-java",
+   "stargazerCount": 244,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2901,
+   "pushedAt": "2026-08-11T03:41:58Z",
+   "createdAt": "2020-02-02T02:29:46Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "go-spring/go-spring": {
+   "nameWithOwner": "go-spring/go-spring",
+   "stargazerCount": 1804,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 27748,
+   "pushedAt": "2026-10-03T12:07:06Z",
+   "createdAt": "2019-10-11T11:26:55Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Smith42/astroPT": {
+   "nameWithOwner": "Smith42/astroPT",
+   "stargazerCount": 50,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 48004,
+   "pushedAt": "2026-09-29T17:27:49Z",
+   "createdAt": "2024-01-30T15:36:37Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dashiell-zhang/NetEngine": {
+   "nameWithOwner": "dashiell-zhang/NetEngine",
+   "stargazerCount": 392,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 20430,
+   "pushedAt": "2026-09-12T02:01:14Z",
+   "createdAt": "2022-01-27T04:48:15Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "malforge/mdk2": {
+   "nameWithOwner": "malforge/mdk2",
+   "stargazerCount": 219,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9938,
+   "pushedAt": "2026-09-04T13:32:17Z",
+   "createdAt": "2023-11-17T19:45:21Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tovifun/VivalArc": {
+   "nameWithOwner": "tovifun/VivalArc",
+   "stargazerCount": 668,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 23514,
+   "pushedAt": "2026-03-27T03:57:56Z",
+   "createdAt": "2022-08-27T11:42:47Z",
+   "primaryLanguage": {
+    "name": "CSS"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "SapiensAnatis/Dawnshard": {
+   "nameWithOwner": "SapiensAnatis/Dawnshard",
+   "stargazerCount": 150,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 47554,
+   "pushedAt": "2026-10-01T17:42:18Z",
+   "createdAt": "2022-09-10T17:17:17Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "HassanZahirnia/laravel-package-ocean": {
+   "nameWithOwner": "HassanZahirnia/laravel-package-ocean",
+   "stargazerCount": 221,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10922,
+   "pushedAt": "2026-08-18T18:30:45Z",
+   "createdAt": "2023-03-21T14:45:55Z",
+   "primaryLanguage": {
+    "name": "Blade"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nacos-group/nacos-sdk-rust": {
+   "nameWithOwner": "nacos-group/nacos-sdk-rust",
+   "stargazerCount": 170,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 871,
+   "pushedAt": "2026-09-12T02:50:31Z",
+   "createdAt": "2022-09-19T01:36:24Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "HorusGoul/eslint-plugin-react-render-types": {
+   "nameWithOwner": "HorusGoul/eslint-plugin-react-render-types",
+   "stargazerCount": 111,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 444,
+   "pushedAt": "2026-07-18T00:18:10Z",
+   "createdAt": "2026-01-26T15:56:31Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "northword/zotero-format-metadata": {
+   "nameWithOwner": "northword/zotero-format-metadata",
+   "stargazerCount": 1060,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 20328,
+   "pushedAt": "2026-09-09T07:19:55Z",
+   "createdAt": "2023-03-21T12:08:30Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Apocrathia/home-assistant-config": {
+   "nameWithOwner": "Apocrathia/home-assistant-config",
+   "stargazerCount": 179,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4166,
+   "pushedAt": "2026-09-21T22:27:20Z",
+   "createdAt": "2018-05-14T16:02:29Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "MiroKaku/Musa.Veil": {
+   "nameWithOwner": "MiroKaku/Musa.Veil",
+   "stargazerCount": 372,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1601,
+   "pushedAt": "2026-09-19T06:17:09Z",
+   "createdAt": "2022-03-16T10:30:01Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "joesdu/EasilyNET": {
+   "nameWithOwner": "joesdu/EasilyNET",
+   "stargazerCount": 97,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13911,
+   "pushedAt": "2026-10-02T15:18:47Z",
+   "createdAt": "2023-02-20T04:56:54Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mblode/burger": {
+   "nameWithOwner": "mblode/burger",
+   "stargazerCount": 818,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2262,
+   "pushedAt": "2026-10-03T08:21:57Z",
+   "createdAt": "2015-04-04T09:53:50Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "purton-tech/rust-on-nails": {
+   "nameWithOwner": "purton-tech/rust-on-nails",
+   "stargazerCount": 443,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 52667,
+   "pushedAt": "2026-07-22T11:08:34Z",
+   "createdAt": "2022-04-30T13:38:47Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "manager-dot-dev/manager-skills": {
+   "nameWithOwner": "manager-dot-dev/manager-skills",
+   "stargazerCount": 114,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 439,
+   "pushedAt": "2026-05-09T17:26:19Z",
+   "createdAt": "2026-04-10T17:24:34Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "aashaexo/soundshuman": {
+   "nameWithOwner": "aashaexo/soundshuman",
+   "stargazerCount": 297,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 43,
+   "pushedAt": "2026-08-07T19:35:27Z",
+   "createdAt": "2026-08-07T19:11:26Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "firehol/iprange": {
+   "nameWithOwner": "firehol/iprange",
+   "stargazerCount": 241,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 31349,
+   "pushedAt": "2026-09-30T13:29:08Z",
+   "createdAt": "2015-11-15T14:43:39Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "bytedance/vArmor": {
+   "nameWithOwner": "bytedance/vArmor",
+   "stargazerCount": 505,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 79792,
+   "pushedAt": "2026-09-28T09:15:07Z",
+   "createdAt": "2023-08-08T07:14:32Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TryGhost/Journal": {
+   "nameWithOwner": "TryGhost/Journal",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1173,
+   "pushedAt": "2026-10-02T23:32:48Z",
+   "createdAt": "2021-07-26T05:57:02Z",
+   "primaryLanguage": {
+    "name": "Handlebars"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jxnl/systematically-improving-rag": {
+   "nameWithOwner": "jxnl/systematically-improving-rag",
+   "stargazerCount": 248,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 65827,
+   "pushedAt": "2026-09-11T23:12:05Z",
+   "createdAt": "2024-07-12T03:52:04Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jossephus/chuchu": {
+   "nameWithOwner": "jossephus/chuchu",
+   "stargazerCount": 268,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 18502,
+   "pushedAt": "2026-09-27T18:45:08Z",
+   "createdAt": "2026-04-11T13:52:10Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "fchangjun/awesome-design-md-cn": {
+   "nameWithOwner": "fchangjun/awesome-design-md-cn",
+   "stargazerCount": 143,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1199,
+   "pushedAt": "2026-07-07T07:47:56Z",
+   "createdAt": "2026-04-07T10:53:32Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "CESNET/ndk-fpga": {
+   "nameWithOwner": "CESNET/ndk-fpga",
+   "stargazerCount": 99,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 77630,
+   "pushedAt": "2026-09-30T10:34:55Z",
+   "createdAt": "2022-04-13T12:01:22Z",
+   "primaryLanguage": {
+    "name": "VHDL"
+   },
+   "defaultBranchRef": {
+    "name": "devel"
+   }
+  },
+  "workos/case": {
+   "nameWithOwner": "workos/case",
+   "stargazerCount": 160,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1510,
+   "pushedAt": "2026-09-15T14:45:20Z",
+   "createdAt": "2026-03-09T15:48:16Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Gridea-Pro/gridea-pro": {
+   "nameWithOwner": "Gridea-Pro/gridea-pro",
+   "stargazerCount": 462,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 57564,
+   "pushedAt": "2026-09-16T09:50:10Z",
+   "createdAt": "2026-02-05T06:04:02Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TiddlyWiki/MultiWikiServer": {
+   "nameWithOwner": "TiddlyWiki/MultiWikiServer",
+   "stargazerCount": 60,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22068,
+   "pushedAt": "2026-09-02T21:53:47Z",
+   "createdAt": "2025-02-18T08:53:40Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "syi0808/screenize": {
+   "nameWithOwner": "syi0808/screenize",
+   "stargazerCount": 607,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 36434,
+   "pushedAt": "2026-05-22T13:37:56Z",
+   "createdAt": "2026-01-21T00:57:07Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zuston/riffle": {
+   "nameWithOwner": "zuston/riffle",
+   "stargazerCount": 72,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2451,
+   "pushedAt": "2026-09-18T10:03:05Z",
+   "createdAt": "2024-05-28T07:01:04Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "nmoroze/tclint": {
+   "nameWithOwner": "nmoroze/tclint",
+   "stargazerCount": 114,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 474,
+   "pushedAt": "2026-08-25T05:56:59Z",
+   "createdAt": "2023-09-09T16:51:01Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "AgentToolkit/altk-evolve": {
+   "nameWithOwner": "AgentToolkit/altk-evolve",
+   "stargazerCount": 118,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8116,
+   "pushedAt": "2026-10-03T06:25:30Z",
+   "createdAt": "2025-12-12T20:14:48Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "fl-sean03/OpenSDL": {
+   "nameWithOwner": "fl-sean03/OpenSDL",
+   "stargazerCount": 107,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 144267,
+   "pushedAt": "2026-10-02T06:17:39Z",
+   "createdAt": "2026-08-02T23:33:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "NovyWave/NovyWave": {
+   "nameWithOwner": "NovyWave/NovyWave",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 50814,
+   "pushedAt": "2026-05-30T00:22:04Z",
+   "createdAt": "2025-03-11T20:32:41Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "leboncoin/spark-web": {
+   "nameWithOwner": "leboncoin/spark-web",
+   "stargazerCount": 93,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 141160,
+   "pushedAt": "2026-09-29T06:43:51Z",
+   "createdAt": "2023-01-26T09:51:17Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "FlyinPancake/yoink": {
+   "nameWithOwner": "FlyinPancake/yoink",
+   "stargazerCount": 112,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5229,
+   "pushedAt": "2026-09-27T22:06:59Z",
+   "createdAt": "2026-02-24T21:56:35Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "matiasvillaverde/context-creator": {
+   "nameWithOwner": "matiasvillaverde/context-creator",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1345,
+   "pushedAt": "2026-05-04T15:49:04Z",
+   "createdAt": "2025-07-10T21:30:04Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rolod0x/rolod0x": {
+   "nameWithOwner": "rolod0x/rolod0x",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10557,
+   "pushedAt": "2025-11-09T00:36:50Z",
+   "createdAt": "2022-04-09T17:42:14Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "manusa/podman-mcp-server": {
+   "nameWithOwner": "manusa/podman-mcp-server",
+   "stargazerCount": 84,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 605,
+   "pushedAt": "2026-08-21T03:57:59Z",
+   "createdAt": "2025-02-28T05:09:41Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zhangchenchen/awesome_sora2_prompt": {
+   "nameWithOwner": "zhangchenchen/awesome_sora2_prompt",
+   "stargazerCount": 221,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 109,
+   "pushedAt": "2025-12-17T15:29:50Z",
+   "createdAt": "2025-10-01T12:50:27Z",
+   "primaryLanguage": null,
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "JaKooLit/NixOS-Hyprland": {
+   "nameWithOwner": "JaKooLit/NixOS-Hyprland",
+   "stargazerCount": 397,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 66542,
+   "pushedAt": "2026-02-22T15:41:03Z",
+   "createdAt": "2024-09-04T10:34:41Z",
+   "primaryLanguage": {
+    "name": "Nix"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Nutlope/make-comics": {
+   "nameWithOwner": "Nutlope/make-comics",
+   "stargazerCount": 511,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10622,
+   "pushedAt": "2026-07-30T13:14:38Z",
+   "createdAt": "2025-12-22T15:53:26Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Xceptance/neodymium": {
+   "nameWithOwner": "Xceptance/neodymium",
+   "stargazerCount": 87,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 57197,
+   "pushedAt": "2026-10-02T15:00:30Z",
+   "createdAt": "2017-08-17T14:22:03Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "bawkee/MdcAi": {
+   "nameWithOwner": "bawkee/MdcAi",
+   "stargazerCount": 51,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 139265,
+   "pushedAt": "2026-09-16T20:28:15Z",
+   "createdAt": "2023-11-16T21:46:37Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "PaloAltoNetworks/docusaurus-openapi-docs": {
+   "nameWithOwner": "PaloAltoNetworks/docusaurus-openapi-docs",
+   "stargazerCount": 1102,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12415,
+   "pushedAt": "2026-09-30T19:56:39Z",
+   "createdAt": "2022-02-16T16:06:40Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nwiizo/ccswarm": {
+   "nameWithOwner": "nwiizo/ccswarm",
+   "stargazerCount": 153,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4548,
+   "pushedAt": "2026-09-14T14:43:42Z",
+   "createdAt": "2025-06-11T04:05:27Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "attogram/bash-screensavers": {
+   "nameWithOwner": "attogram/bash-screensavers",
+   "stargazerCount": 953,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 85472,
+   "pushedAt": "2026-07-23T08:25:56Z",
+   "createdAt": "2025-08-11T14:15:58Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Lum1104/MER-Factory": {
+   "nameWithOwner": "Lum1104/MER-Factory",
+   "stargazerCount": 119,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3372,
+   "pushedAt": "2026-03-13T12:45:28Z",
+   "createdAt": "2025-06-24T09:55:00Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "exon-research/genomi": {
+   "nameWithOwner": "exon-research/genomi",
+   "stargazerCount": 484,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 34308,
+   "pushedAt": "2026-08-31T19:30:56Z",
+   "createdAt": "2026-05-28T22:12:06Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "bbplayer-app/BBPlayer": {
+   "nameWithOwner": "bbplayer-app/BBPlayer",
+   "stargazerCount": 1021,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 37054,
+   "pushedAt": "2026-09-26T02:04:25Z",
+   "createdAt": "2025-03-08T10:37:02Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "unvell/ReoScript": {
+   "nameWithOwner": "unvell/ReoScript",
+   "stargazerCount": 109,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3703,
+   "pushedAt": "2026-04-14T14:10:38Z",
+   "createdAt": "2013-02-15T15:06:10Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "thumbor/libthumbor": {
+   "nameWithOwner": "thumbor/libthumbor",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 321,
+   "pushedAt": "2026-10-01T13:09:31Z",
+   "createdAt": "2011-03-30T17:31:59Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "SimonDanisch/Bonito.jl": {
+   "nameWithOwner": "SimonDanisch/Bonito.jl",
+   "stargazerCount": 325,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 29097,
+   "pushedAt": "2026-09-30T12:09:27Z",
+   "createdAt": "2019-07-10T09:03:08Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "huisezhiyin/sdd-riper": {
+   "nameWithOwner": "huisezhiyin/sdd-riper",
+   "stargazerCount": 330,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 26591,
+   "pushedAt": "2026-08-28T05:08:32Z",
+   "createdAt": "2026-02-25T10:02:34Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "strangebuzz/MicroSymfony": {
+   "nameWithOwner": "strangebuzz/MicroSymfony",
+   "stargazerCount": 137,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1501,
+   "pushedAt": "2026-09-02T08:16:02Z",
+   "createdAt": "2023-02-26T10:06:53Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "antoniolg/agent-kit": {
+   "nameWithOwner": "antoniolg/agent-kit",
+   "stargazerCount": 99,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3635,
+   "pushedAt": "2026-05-18T09:06:59Z",
+   "createdAt": "2025-12-29T11:01:47Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mouse-lin/finesse-brief": {
+   "nameWithOwner": "mouse-lin/finesse-brief",
+   "stargazerCount": 76,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3899,
+   "pushedAt": "2026-08-04T11:21:40Z",
+   "createdAt": "2026-08-04T09:12:53Z",
+   "primaryLanguage": null,
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "botiverse/hands": {
+   "nameWithOwner": "botiverse/hands",
+   "stargazerCount": 55,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5310,
+   "pushedAt": "2026-10-03T16:06:37Z",
+   "createdAt": "2026-06-26T11:42:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "GainSec/AutoProber": {
+   "nameWithOwner": "GainSec/AutoProber",
+   "stargazerCount": 331,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7285,
+   "pushedAt": "2026-04-16T06:18:50Z",
+   "createdAt": "2026-04-16T06:18:47Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "OpenEnvision/BlogrXiv": {
+   "nameWithOwner": "OpenEnvision/BlogrXiv",
+   "stargazerCount": 161,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 141556,
+   "pushedAt": "2026-09-21T05:40:20Z",
+   "createdAt": "2026-05-22T10:28:09Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Arize-ai/arize-skills": {
+   "nameWithOwner": "Arize-ai/arize-skills",
+   "stargazerCount": 56,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1470,
+   "pushedAt": "2026-10-02T21:02:48Z",
+   "createdAt": "2026-03-05T20:05:43Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "contagon/evalio": {
+   "nameWithOwner": "contagon/evalio",
+   "stargazerCount": 55,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 45014,
+   "pushedAt": "2026-08-28T15:44:23Z",
+   "createdAt": "2024-09-24T15:05:22Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "hjinco/mdit": {
+   "nameWithOwner": "hjinco/mdit",
+   "stargazerCount": 86,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6403,
+   "pushedAt": "2026-05-26T10:25:45Z",
+   "createdAt": "2025-08-27T14:57:16Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "bhauman/clojure-mcp": {
+   "nameWithOwner": "bhauman/clojure-mcp",
+   "stargazerCount": 780,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2163,
+   "pushedAt": "2026-06-20T15:53:48Z",
+   "createdAt": "2025-03-29T17:50:08Z",
+   "primaryLanguage": {
+    "name": "Clojure"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "simonw/simonwillisonblog": {
+   "nameWithOwner": "simonw/simonwillisonblog",
+   "stargazerCount": 429,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3915,
+   "pushedAt": "2026-09-30T13:03:26Z",
+   "createdAt": "2017-09-24T19:25:46Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rwightman/timme": {
+   "nameWithOwner": "rwightman/timme",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 231,
+   "pushedAt": "2026-05-28T20:01:05Z",
+   "createdAt": "2026-04-27T18:46:23Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tektoncd/catalog": {
+   "nameWithOwner": "tektoncd/catalog",
+   "stargazerCount": 735,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10199,
+   "pushedAt": "2026-10-01T08:27:17Z",
+   "createdAt": "2019-04-25T19:54:27Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Nuyoahwjl/MediCheck": {
+   "nameWithOwner": "Nuyoahwjl/MediCheck",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 17579,
+   "pushedAt": "2026-05-26T16:23:08Z",
+   "createdAt": "2025-03-25T13:15:50Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "YurunChen/repo-docs-skills": {
+   "nameWithOwner": "YurunChen/repo-docs-skills",
+   "stargazerCount": 467,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 14499,
+   "pushedAt": "2026-07-12T04:53:42Z",
+   "createdAt": "2026-06-23T05:44:10Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Awesome3DGS/3D-Gaussian-Splatting-Papers": {
+   "nameWithOwner": "Awesome3DGS/3D-Gaussian-Splatting-Papers",
+   "stargazerCount": 3166,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6692,
+   "pushedAt": "2026-06-12T07:01:54Z",
+   "createdAt": "2023-12-20T11:47:05Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "caltechads/deployfish": {
+   "nameWithOwner": "caltechads/deployfish",
+   "stargazerCount": 91,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7693,
+   "pushedAt": "2026-09-15T21:05:03Z",
+   "createdAt": "2017-07-27T21:14:50Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "paulovenoy/venoyBot": {
+   "nameWithOwner": "paulovenoy/venoyBot",
+   "stargazerCount": 81,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 45578,
+   "pushedAt": "2026-09-22T20:57:58Z",
+   "createdAt": "2026-04-04T14:14:57Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "carlrannaberg/claudekit": {
+   "nameWithOwner": "carlrannaberg/claudekit",
+   "stargazerCount": 765,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3197,
+   "pushedAt": "2026-03-31T20:45:06Z",
+   "createdAt": "2025-07-11T19:09:58Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "asmyshlyaev177/state-in-url": {
+   "nameWithOwner": "asmyshlyaev177/state-in-url",
+   "stargazerCount": 419,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7512,
+   "pushedAt": "2026-09-24T14:37:06Z",
+   "createdAt": "2024-02-28T18:22:36Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "TAKETODAY/today-infrastructure": {
+   "nameWithOwner": "TAKETODAY/today-infrastructure",
+   "stargazerCount": 132,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 99732,
+   "pushedAt": "2026-10-03T15:36:51Z",
+   "createdAt": "2018-08-16T12:12:39Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "wxpusher/wxpusher-docs": {
+   "nameWithOwner": "wxpusher/wxpusher-docs",
+   "stargazerCount": 77,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7592,
+   "pushedAt": "2026-09-29T07:40:00Z",
+   "createdAt": "2020-02-14T13:55:37Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "johnathanchiu/roomform": {
+   "nameWithOwner": "johnathanchiu/roomform",
+   "stargazerCount": 146,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 49726,
+   "pushedAt": "2026-08-09T04:58:42Z",
+   "createdAt": "2026-08-05T17:15:30Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "meain/dotfiles": {
+   "nameWithOwner": "meain/dotfiles",
+   "stargazerCount": 285,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6087,
+   "pushedAt": "2026-09-05T06:13:44Z",
+   "createdAt": "2015-12-06T16:13:28Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Static-Analyzer-Factory/static-analyzer-factory": {
+   "nameWithOwner": "Static-Analyzer-Factory/static-analyzer-factory",
+   "stargazerCount": 73,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 33884,
+   "pushedAt": "2026-09-18T02:34:47Z",
+   "createdAt": "2026-04-07T11:25:10Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "relytcloud/pg_ducklake": {
+   "nameWithOwner": "relytcloud/pg_ducklake",
+   "stargazerCount": 142,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9222,
+   "pushedAt": "2026-08-26T07:46:57Z",
+   "createdAt": "2026-01-12T10:53:10Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ECPay/ECPay-API-Skill": {
+   "nameWithOwner": "ECPay/ECPay-API-Skill",
+   "stargazerCount": 226,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1494,
+   "pushedAt": "2026-09-29T08:51:42Z",
+   "createdAt": "2026-03-12T01:28:35Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "lajarre/pi-vim": {
+   "nameWithOwner": "lajarre/pi-vim",
+   "stargazerCount": 106,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 882,
+   "pushedAt": "2026-09-07T21:37:51Z",
+   "createdAt": "2026-03-03T01:19:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "vlasenkoalexey/tpu_performance_autoresearch_wiki": {
+   "nameWithOwner": "vlasenkoalexey/tpu_performance_autoresearch_wiki",
+   "stargazerCount": 56,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 59806,
+   "pushedAt": "2026-09-04T01:07:39Z",
+   "createdAt": "2026-04-22T17:17:10Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "KORAYTEACHER/fintech-advisor": {
+   "nameWithOwner": "KORAYTEACHER/fintech-advisor",
+   "stargazerCount": 174,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12371,
+   "pushedAt": "2026-10-01T07:29:59Z",
+   "createdAt": "2026-07-09T06:23:12Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "thoth-pub/thoth": {
+   "nameWithOwner": "thoth-pub/thoth",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22767,
+   "pushedAt": "2026-10-02T17:34:27Z",
+   "createdAt": "2020-02-11T09:51:09Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "openshift-examples/web": {
+   "nameWithOwner": "openshift-examples/web",
+   "stargazerCount": 181,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 66094,
+   "pushedAt": "2026-09-04T13:07:08Z",
+   "createdAt": "2017-03-02T12:50:13Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "JanusTida/Tida.CAD": {
+   "nameWithOwner": "JanusTida/Tida.CAD",
+   "stargazerCount": 99,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 64508,
+   "pushedAt": "2026-08-19T01:26:21Z",
+   "createdAt": "2019-04-14T09:41:45Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "davideast/inbrowser-agent": {
+   "nameWithOwner": "davideast/inbrowser-agent",
+   "stargazerCount": 88,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1797,
+   "pushedAt": "2026-07-25T05:00:43Z",
+   "createdAt": "2026-05-17T07:14:46Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jeffdcamp/android-template": {
+   "nameWithOwner": "jeffdcamp/android-template",
+   "stargazerCount": 116,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5027,
+   "pushedAt": "2026-09-25T15:59:57Z",
+   "createdAt": "2013-09-15T22:19:07Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "raphaelmansuy/edgecrab": {
+   "nameWithOwner": "raphaelmansuy/edgecrab",
+   "stargazerCount": 90,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13718,
+   "pushedAt": "2026-07-24T15:02:35Z",
+   "createdAt": "2026-04-05T10:25:20Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Alanaktion/phproject": {
+   "nameWithOwner": "Alanaktion/phproject",
+   "stargazerCount": 401,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12586,
+   "pushedAt": "2026-10-02T19:06:38Z",
+   "createdAt": "2013-10-17T21:43:32Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "DeepAgentLabs/agenticlens": {
+   "nameWithOwner": "DeepAgentLabs/agenticlens",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2866,
+   "pushedAt": "2026-09-27T02:41:14Z",
+   "createdAt": "2026-06-25T02:52:20Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "apache/maven-deploy-plugin": {
+   "nameWithOwner": "apache/maven-deploy-plugin",
+   "stargazerCount": 76,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 930,
+   "pushedAt": "2026-10-03T11:19:58Z",
+   "createdAt": "2017-12-09T15:06:15Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "letuswerss/werss": {
+   "nameWithOwner": "letuswerss/werss",
+   "stargazerCount": 65,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 24111,
+   "pushedAt": "2026-04-28T06:47:56Z",
+   "createdAt": "2026-04-25T12:04:01Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dg/adminer": {
+   "nameWithOwner": "dg/adminer",
+   "stargazerCount": 135,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7954,
+   "pushedAt": "2026-09-18T14:30:26Z",
+   "createdAt": "2013-06-30T20:47:04Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "nolebase/integrations": {
+   "nameWithOwner": "nolebase/integrations",
+   "stargazerCount": 320,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 83816,
+   "pushedAt": "2026-10-03T05:41:05Z",
+   "createdAt": "2023-08-23T08:04:29Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "HiThink-Research/GAGE": {
+   "nameWithOwner": "HiThink-Research/GAGE",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 105051,
+   "pushedAt": "2026-06-02T06:49:47Z",
+   "createdAt": "2025-05-20T10:42:43Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mackt/pi-language-tutor": {
+   "nameWithOwner": "mackt/pi-language-tutor",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3142,
+   "pushedAt": "2026-09-29T23:06:04Z",
+   "createdAt": "2026-07-11T18:34:15Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "androsovm/clorch": {
+   "nameWithOwner": "androsovm/clorch",
+   "stargazerCount": 158,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2936,
+   "pushedAt": "2026-03-30T08:45:47Z",
+   "createdAt": "2026-02-23T19:55:50Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jumpserver/luna": {
+   "nameWithOwner": "jumpserver/luna",
+   "stargazerCount": 313,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 77074,
+   "pushedAt": "2026-09-29T09:53:35Z",
+   "createdAt": "2017-03-03T02:32:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "Leask/Tabminal": {
+   "nameWithOwner": "Leask/Tabminal",
+   "stargazerCount": 391,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4404,
+   "pushedAt": "2026-06-14T15:22:02Z",
+   "createdAt": "2025-11-23T03:51:15Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "cardmagic/classifier": {
+   "nameWithOwner": "cardmagic/classifier",
+   "stargazerCount": 742,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 498,
+   "pushedAt": "2026-09-19T15:37:54Z",
+   "createdAt": "2008-05-05T17:24:11Z",
+   "primaryLanguage": {
+    "name": "Ruby"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Adamant-im/adamant": {
+   "nameWithOwner": "Adamant-im/adamant",
+   "stargazerCount": 933,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8026,
+   "pushedAt": "2026-08-07T17:43:30Z",
+   "createdAt": "2017-09-21T08:25:56Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "nim-lang/atlas": {
+   "nameWithOwner": "nim-lang/atlas",
+   "stargazerCount": 152,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1028,
+   "pushedAt": "2026-09-15T11:39:47Z",
+   "createdAt": "2023-06-09T15:00:29Z",
+   "primaryLanguage": {
+    "name": "Nim"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Ar9av/gemini-nano-chrome": {
+   "nameWithOwner": "Ar9av/gemini-nano-chrome",
+   "stargazerCount": 199,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 655,
+   "pushedAt": "2026-10-01T15:20:01Z",
+   "createdAt": "2026-06-17T09:02:13Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "sugarforever/01coder-agent-skills": {
+   "nameWithOwner": "sugarforever/01coder-agent-skills",
+   "stargazerCount": 136,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 641,
+   "pushedAt": "2026-06-19T17:52:39Z",
+   "createdAt": "2026-01-12T15:13:12Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dbrattli/OSlash": {
+   "nameWithOwner": "dbrattli/OSlash",
+   "stargazerCount": 757,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 279,
+   "pushedAt": "2025-11-17T06:48:25Z",
+   "createdAt": "2015-03-08T10:46:11Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "exa-labs/exa-js": {
+   "nameWithOwner": "exa-labs/exa-js",
+   "stargazerCount": 132,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1613,
+   "pushedAt": "2026-10-02T07:46:47Z",
+   "createdAt": "2023-07-02T23:48:53Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Skykai521/StickerCamera": {
+   "nameWithOwner": "Skykai521/StickerCamera",
+   "stargazerCount": 3169,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9524,
+   "pushedAt": "2026-06-18T11:59:06Z",
+   "createdAt": "2015-07-05T14:12:43Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "six-ddc/livecaption": {
+   "nameWithOwner": "six-ddc/livecaption",
+   "stargazerCount": 169,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4679,
+   "pushedAt": "2026-06-29T14:21:25Z",
+   "createdAt": "2026-06-12T02:52:44Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "getredash/contrib-helm-chart": {
+   "nameWithOwner": "getredash/contrib-helm-chart",
+   "stargazerCount": 174,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3112,
+   "pushedAt": "2026-08-26T06:41:48Z",
+   "createdAt": "2019-10-31T14:36:51Z",
+   "primaryLanguage": {
+    "name": "Mustache"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "davehenke/rekordbox-mcp": {
+   "nameWithOwner": "davehenke/rekordbox-mcp",
+   "stargazerCount": 111,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2133,
+   "pushedAt": "2026-04-15T10:56:13Z",
+   "createdAt": "2025-08-15T14:13:38Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kingbootoshi/codex-orchestrator": {
+   "nameWithOwner": "kingbootoshi/codex-orchestrator",
+   "stargazerCount": 352,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2884,
+   "pushedAt": "2026-05-28T02:51:35Z",
+   "createdAt": "2026-01-17T05:56:49Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "blopa/Resume-Builder": {
+   "nameWithOwner": "blopa/Resume-Builder",
+   "stargazerCount": 250,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 18561,
+   "pushedAt": "2026-09-03T17:26:33Z",
+   "createdAt": "2018-01-17T23:21:27Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TornLux/UnrealBridge": {
+   "nameWithOwner": "TornLux/UnrealBridge",
+   "stargazerCount": 305,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10350,
+   "pushedAt": "2026-10-01T06:44:09Z",
+   "createdAt": "2026-04-12T18:27:45Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jvkersch/tmtools": {
+   "nameWithOwner": "jvkersch/tmtools",
+   "stargazerCount": 68,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3138,
+   "pushedAt": "2026-08-20T12:04:23Z",
+   "createdAt": "2021-11-13T02:04:01Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Aurealibe/claude-config": {
+   "nameWithOwner": "Aurealibe/claude-config",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 441,
+   "pushedAt": "2026-07-10T01:51:20Z",
+   "createdAt": "2026-01-08T15:51:09Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "igorbarshteyn/athena": {
+   "nameWithOwner": "igorbarshteyn/athena",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 597,
+   "pushedAt": "2026-09-20T13:46:16Z",
+   "createdAt": "2026-04-11T13:53:27Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dlt/pg_glimpse": {
+   "nameWithOwner": "dlt/pg_glimpse",
+   "stargazerCount": 90,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 54335,
+   "pushedAt": "2026-05-09T09:30:41Z",
+   "createdAt": "2026-02-04T08:53:30Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mkleehammer/pyodbc": {
+   "nameWithOwner": "mkleehammer/pyodbc",
+   "stargazerCount": 3086,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1919,
+   "pushedAt": "2026-06-06T22:06:03Z",
+   "createdAt": "2008-10-03T15:19:37Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "altasoft/DomainPrimitives": {
+   "nameWithOwner": "altasoft/DomainPrimitives",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3526,
+   "pushedAt": "2026-09-09T09:44:21Z",
+   "createdAt": "2024-01-09T11:36:15Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kosukesaigusa/geoflutterfire_plus": {
+   "nameWithOwner": "kosukesaigusa/geoflutterfire_plus",
+   "stargazerCount": 65,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 512,
+   "pushedAt": "2026-03-06T19:34:28Z",
+   "createdAt": "2022-12-24T05:17:07Z",
+   "primaryLanguage": {
+    "name": "Dart"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kousen/java_8_recipes": {
+   "nameWithOwner": "kousen/java_8_recipes",
+   "stargazerCount": 393,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2184,
+   "pushedAt": "2026-09-28T10:05:32Z",
+   "createdAt": "2016-03-11T16:35:29Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "jhlee0409/claude-code-history-viewer": {
+   "nameWithOwner": "jhlee0409/claude-code-history-viewer",
+   "stargazerCount": 2220,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11297,
+   "pushedAt": "2026-10-03T08:23:24Z",
+   "createdAt": "2025-06-28T10:29:54Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "marc-shade/Ollama-Workbench": {
+   "nameWithOwner": "marc-shade/Ollama-Workbench",
+   "stargazerCount": 50,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 53127,
+   "pushedAt": "2026-07-18T17:32:06Z",
+   "createdAt": "2024-06-18T16:21:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "PaulBratslavsky/astro-strapi-example-project": {
+   "nameWithOwner": "PaulBratslavsky/astro-strapi-example-project",
+   "stargazerCount": 104,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 61851,
+   "pushedAt": "2026-04-08T01:10:49Z",
+   "createdAt": "2025-03-06T16:52:21Z",
+   "primaryLanguage": {
+    "name": "Astro"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "emacsorphanage/key-chord": {
+   "nameWithOwner": "emacsorphanage/key-chord",
+   "stargazerCount": 149,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 71,
+   "pushedAt": "2025-03-30T20:14:00Z",
+   "createdAt": "2010-02-18T01:09:45Z",
+   "primaryLanguage": {
+    "name": "Emacs Lisp"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "1amageek/SwiftAgent": {
+   "nameWithOwner": "1amageek/SwiftAgent",
+   "stargazerCount": 106,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7280,
+   "pushedAt": "2026-08-19T05:20:37Z",
+   "createdAt": "2025-01-12T17:34:01Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "egraphs-good/egglog": {
+   "nameWithOwner": "egraphs-good/egglog",
+   "stargazerCount": 852,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 16030,
+   "pushedAt": "2026-10-02T21:04:22Z",
+   "createdAt": "2022-02-07T21:19:07Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "bloxbean/cardano-client-lib": {
+   "nameWithOwner": "bloxbean/cardano-client-lib",
+   "stargazerCount": 133,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 18164,
+   "pushedAt": "2026-10-03T16:00:50Z",
+   "createdAt": "2021-04-03T12:10:26Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "zhixianio/botdrop-android": {
+   "nameWithOwner": "zhixianio/botdrop-android",
+   "stargazerCount": 396,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11085,
+   "pushedAt": "2026-09-17T02:27:51Z",
+   "createdAt": "2026-02-04T13:40:45Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Laurian/context-compression-experiments-2508": {
+   "nameWithOwner": "Laurian/context-compression-experiments-2508",
+   "stargazerCount": 72,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 415,
+   "pushedAt": "2025-09-02T19:21:00Z",
+   "createdAt": "2025-08-30T13:06:46Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "yxbian23/research-mate": {
+   "nameWithOwner": "yxbian23/research-mate",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13105,
+   "pushedAt": "2026-09-28T16:06:39Z",
+   "createdAt": "2026-03-17T00:45:27Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "hengfengliya/imgood": {
+   "nameWithOwner": "hengfengliya/imgood",
+   "stargazerCount": 261,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 110,
+   "pushedAt": "2026-05-28T06:32:34Z",
+   "createdAt": "2026-03-14T03:28:30Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rivertwilight/kanso": {
+   "nameWithOwner": "rivertwilight/kanso",
+   "stargazerCount": 87,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 114505,
+   "pushedAt": "2026-05-17T01:25:23Z",
+   "createdAt": "2020-06-26T11:37:57Z",
+   "primaryLanguage": {
+    "name": "MDX"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zamesin/Next-Move-Theory-Canon-and-Skills": {
+   "nameWithOwner": "zamesin/Next-Move-Theory-Canon-and-Skills",
+   "stargazerCount": 400,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 958,
+   "pushedAt": "2026-09-13T12:59:26Z",
+   "createdAt": "2026-06-01T21:19:32Z",
+   "primaryLanguage": {
+    "name": "PowerShell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ckotzbauer/vulnerability-operator": {
+   "nameWithOwner": "ckotzbauer/vulnerability-operator",
+   "stargazerCount": 88,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1849,
+   "pushedAt": "2026-09-26T22:36:46Z",
+   "createdAt": "2022-02-02T07:52:40Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "bio-ontology-research-group/mowl": {
+   "nameWithOwner": "bio-ontology-research-group/mowl",
+   "stargazerCount": 97,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 105964,
+   "pushedAt": "2026-10-01T15:02:25Z",
+   "createdAt": "2020-03-09T09:21:18Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "openshift/cluster-kube-descheduler-operator": {
+   "nameWithOwner": "openshift/cluster-kube-descheduler-operator",
+   "stargazerCount": 85,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 96885,
+   "pushedAt": "2026-10-03T08:07:58Z",
+   "createdAt": "2018-10-16T20:52:47Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rtk-ai/grit": {
+   "nameWithOwner": "rtk-ai/grit",
+   "stargazerCount": 119,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 866,
+   "pushedAt": "2026-06-14T21:34:55Z",
+   "createdAt": "2026-03-17T13:29:09Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "mateonunez/website": {
+   "nameWithOwner": "mateonunez/website",
+   "stargazerCount": 80,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 15692,
+   "pushedAt": "2026-08-31T10:45:27Z",
+   "createdAt": "2021-11-05T15:45:33Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "thecfu/scraparr": {
+   "nameWithOwner": "thecfu/scraparr",
+   "stargazerCount": 419,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2052,
+   "pushedAt": "2026-08-26T18:19:44Z",
+   "createdAt": "2025-02-05T14:51:49Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "pbakaus/agent-reviews": {
+   "nameWithOwner": "pbakaus/agent-reviews",
+   "stargazerCount": 290,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 361,
+   "pushedAt": "2026-09-21T16:06:25Z",
+   "createdAt": "2026-02-10T23:59:49Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "spring-ai-community/agent-client": {
+   "nameWithOwner": "spring-ai-community/agent-client",
+   "stargazerCount": 104,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2188,
+   "pushedAt": "2026-08-06T17:06:44Z",
+   "createdAt": "2025-08-25T00:05:40Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "stefanbschneider/mobile-env": {
+   "nameWithOwner": "stefanbschneider/mobile-env",
+   "stargazerCount": 155,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5615,
+   "pushedAt": "2026-08-15T13:03:33Z",
+   "createdAt": "2021-03-20T16:13:48Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "pktgen/Pktgen-DPDK": {
+   "nameWithOwner": "pktgen/Pktgen-DPDK",
+   "stargazerCount": 497,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10969,
+   "pushedAt": "2026-08-31T14:42:44Z",
+   "createdAt": "2019-10-02T16:11:34Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kiitdev/kiit": {
+   "nameWithOwner": "kiitdev/kiit",
+   "stargazerCount": 114,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 75212,
+   "pushedAt": "2026-07-19T00:41:24Z",
+   "createdAt": "2016-04-11T04:37:12Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Prismer-AI/Prismer": {
+   "nameWithOwner": "Prismer-AI/Prismer",
+   "stargazerCount": 783,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 19574,
+   "pushedAt": "2026-06-24T04:36:01Z",
+   "createdAt": "2026-01-28T09:17:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "soloterm/dumps": {
+   "nameWithOwner": "soloterm/dumps",
+   "stargazerCount": 127,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2192,
+   "pushedAt": "2026-03-16T16:57:58Z",
+   "createdAt": "2025-03-19T23:34:15Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "fivetaku/llm-wiki": {
+   "nameWithOwner": "fivetaku/llm-wiki",
+   "stargazerCount": 83,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 39,
+   "pushedAt": "2026-06-19T09:51:09Z",
+   "createdAt": "2026-06-19T09:08:30Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zenml-io/zenml-dashboard": {
+   "nameWithOwner": "zenml-io/zenml-dashboard",
+   "stargazerCount": 63,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 14552,
+   "pushedAt": "2026-09-28T06:10:53Z",
+   "createdAt": "2022-08-21T08:22:47Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "981029l/webnovel-writer": {
+   "nameWithOwner": "981029l/webnovel-writer",
+   "stargazerCount": 237,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3187,
+   "pushedAt": "2026-07-25T05:23:50Z",
+   "createdAt": "2026-03-04T05:24:53Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "bpolaszek/meiliweb": {
+   "nameWithOwner": "bpolaszek/meiliweb",
+   "stargazerCount": 69,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 906,
+   "pushedAt": "2026-10-03T06:09:51Z",
+   "createdAt": "2024-04-10T12:59:40Z",
+   "primaryLanguage": {
+    "name": "Vue"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ZenMux/zenmux-doc": {
+   "nameWithOwner": "ZenMux/zenmux-doc",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6899,
+   "pushedAt": "2026-09-30T06:19:25Z",
+   "createdAt": "2025-07-18T05:12:23Z",
+   "primaryLanguage": {
+    "name": "Vue"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "EUCPilots/evergreen-module": {
+   "nameWithOwner": "EUCPilots/evergreen-module",
+   "stargazerCount": 445,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11785,
+   "pushedAt": "2026-09-28T20:43:36Z",
+   "createdAt": "2018-11-17T22:39:08Z",
+   "primaryLanguage": {
+    "name": "PowerShell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jrnl-org/jrnl": {
+   "nameWithOwner": "jrnl-org/jrnl",
+   "stargazerCount": 7333,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5066,
+   "pushedAt": "2026-10-02T00:33:03Z",
+   "createdAt": "2012-03-29T17:23:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "hschne/puny-monitor": {
+   "nameWithOwner": "hschne/puny-monitor",
+   "stargazerCount": 102,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 812,
+   "pushedAt": "2025-10-17T08:44:41Z",
+   "createdAt": "2024-09-15T05:18:45Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "moq-dev/web-transport": {
+   "nameWithOwner": "moq-dev/web-transport",
+   "stargazerCount": 266,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2523,
+   "pushedAt": "2026-10-02T04:54:50Z",
+   "createdAt": "2023-07-13T23:09:14Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "semos-labs/attyx": {
+   "nameWithOwner": "semos-labs/attyx",
+   "stargazerCount": 245,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22520,
+   "pushedAt": "2026-08-11T14:09:47Z",
+   "createdAt": "2026-02-22T18:41:34Z",
+   "primaryLanguage": {
+    "name": "Zig"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "broadinstitute/gnomad_methods": {
+   "nameWithOwner": "broadinstitute/gnomad_methods",
+   "stargazerCount": 102,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7866,
+   "pushedAt": "2026-10-02T19:37:21Z",
+   "createdAt": "2017-09-28T17:34:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "deivdev/nomacode": {
+   "nameWithOwner": "deivdev/nomacode",
+   "stargazerCount": 66,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 249,
+   "pushedAt": "2026-08-11T16:23:20Z",
+   "createdAt": "2026-02-01T17:44:29Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "xxraincandyxx/Amadeus": {
+   "nameWithOwner": "xxraincandyxx/Amadeus",
+   "stargazerCount": 184,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5439,
+   "pushedAt": "2026-09-29T02:35:04Z",
+   "createdAt": "2026-02-09T16:01:38Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "ivngineer/sword": {
+   "nameWithOwner": "ivngineer/sword",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 72509,
+   "pushedAt": "2026-06-12T14:35:37Z",
+   "createdAt": "2026-05-21T12:30:41Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "X-Profiler/xprofiler": {
+   "nameWithOwner": "X-Profiler/xprofiler",
+   "stargazerCount": 452,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 146823,
+   "pushedAt": "2026-04-22T08:08:10Z",
+   "createdAt": "2019-10-26T12:12:32Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "jasonanewcoder/abaqus_skills": {
+   "nameWithOwner": "jasonanewcoder/abaqus_skills",
+   "stargazerCount": 72,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 408,
+   "pushedAt": "2026-08-11T08:36:05Z",
+   "createdAt": "2026-03-05T05:55:08Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "junh0328/prepare_frontend_interview": {
+   "nameWithOwner": "junh0328/prepare_frontend_interview",
+   "stargazerCount": 1736,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 29426,
+   "pushedAt": "2026-08-17T05:44:59Z",
+   "createdAt": "2021-09-21T07:29:49Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "cdavid817/vanehub-ai": {
+   "nameWithOwner": "cdavid817/vanehub-ai",
+   "stargazerCount": 116,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 70771,
+   "pushedAt": "2026-09-29T22:37:24Z",
+   "createdAt": "2026-07-13T03:19:03Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kzahel/web-server-chrome": {
+   "nameWithOwner": "kzahel/web-server-chrome",
+   "stargazerCount": 1288,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7499,
+   "pushedAt": "2026-10-03T09:32:55Z",
+   "createdAt": "2014-02-19T17:07:08Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "SuLG-ik/yandex-mapkit-kmp": {
+   "nameWithOwner": "SuLG-ik/yandex-mapkit-kmp",
+   "stargazerCount": 69,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5307,
+   "pushedAt": "2026-08-01T13:41:00Z",
+   "createdAt": "2024-06-12T04:11:26Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "davraamides/todotxt-mode": {
+   "nameWithOwner": "davraamides/todotxt-mode",
+   "stargazerCount": 66,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 39381,
+   "pushedAt": "2026-06-12T20:02:41Z",
+   "createdAt": "2019-04-19T18:58:51Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "maxmind/GeoIP2-ruby": {
+   "nameWithOwner": "maxmind/GeoIP2-ruby",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 656,
+   "pushedAt": "2026-10-01T22:54:36Z",
+   "createdAt": "2020-01-08T17:16:20Z",
+   "primaryLanguage": {
+    "name": "Ruby"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "meodai/skill.color-expert": {
+   "nameWithOwner": "meodai/skill.color-expert",
+   "stargazerCount": 602,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1434,
+   "pushedAt": "2026-09-23T21:11:45Z",
+   "createdAt": "2026-03-22T17:09:18Z",
+   "primaryLanguage": null,
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "puikinsh/kiaalap": {
+   "nameWithOwner": "puikinsh/kiaalap",
+   "stargazerCount": 326,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8923,
+   "pushedAt": "2026-08-07T18:45:04Z",
+   "createdAt": "2018-10-15T11:10:45Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "tevelee/swift-graphs": {
+   "nameWithOwner": "tevelee/swift-graphs",
+   "stargazerCount": 71,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1789,
+   "pushedAt": "2026-08-23T21:34:16Z",
+   "createdAt": "2024-09-26T11:15:20Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "opra-project/OPRA": {
+   "nameWithOwner": "opra-project/OPRA",
+   "stargazerCount": 172,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22066,
+   "pushedAt": "2026-10-01T04:15:07Z",
+   "createdAt": "2024-10-31T19:29:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "muraenateam/necrobrowser": {
+   "nameWithOwner": "muraenateam/necrobrowser",
+   "stargazerCount": 188,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2161,
+   "pushedAt": "2026-02-17T06:22:11Z",
+   "createdAt": "2020-11-28T14:51:26Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "lambdaclass/spawned": {
+   "nameWithOwner": "lambdaclass/spawned",
+   "stargazerCount": 60,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 953,
+   "pushedAt": "2026-05-14T19:00:27Z",
+   "createdAt": "2025-03-28T18:48:30Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Mister-leo/fssh": {
+   "nameWithOwner": "Mister-leo/fssh",
+   "stargazerCount": 74,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 27461,
+   "pushedAt": "2026-01-07T06:04:27Z",
+   "createdAt": "2025-11-15T09:55:37Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ahtavarasmus/lightfriend": {
+   "nameWithOwner": "ahtavarasmus/lightfriend",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 116188,
+   "pushedAt": "2026-10-01T14:32:05Z",
+   "createdAt": "2025-02-01T12:27:57Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "zabbix-community/helm-zabbix": {
+   "nameWithOwner": "zabbix-community/helm-zabbix",
+   "stargazerCount": 132,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 731,
+   "pushedAt": "2026-07-06T07:03:56Z",
+   "createdAt": "2022-09-09T22:40:54Z",
+   "primaryLanguage": {
+    "name": "Mustache"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rust-tieng-viet/rust-tieng-viet.github.io": {
+   "nameWithOwner": "rust-tieng-viet/rust-tieng-viet.github.io",
+   "stargazerCount": 87,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13470,
+   "pushedAt": "2026-10-03T13:10:44Z",
+   "createdAt": "2022-07-08T14:21:10Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "community-of-python/microbootstrap": {
+   "nameWithOwner": "community-of-python/microbootstrap",
+   "stargazerCount": 71,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 953,
+   "pushedAt": "2026-10-01T10:40:46Z",
+   "createdAt": "2024-07-01T10:10:34Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "animeshkundu/youtube-audio": {
+   "nameWithOwner": "animeshkundu/youtube-audio",
+   "stargazerCount": 171,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3267,
+   "pushedAt": "2026-09-14T06:15:15Z",
+   "createdAt": "2016-10-14T14:13:43Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "coverallsapp/coverage-reporter": {
+   "nameWithOwner": "coverallsapp/coverage-reporter",
+   "stargazerCount": 70,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11862,
+   "pushedAt": "2026-09-29T18:27:40Z",
+   "createdAt": "2018-10-11T17:45:57Z",
+   "primaryLanguage": {
+    "name": "Crystal"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "crossoverJie/cim": {
+   "nameWithOwner": "crossoverJie/cim",
+   "stargazerCount": 9489,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 35278,
+   "pushedAt": "2026-04-05T02:05:13Z",
+   "createdAt": "2018-05-20T15:55:56Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Shpigford/studio": {
+   "nameWithOwner": "Shpigford/studio",
+   "stargazerCount": 164,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12457,
+   "pushedAt": "2026-03-27T21:22:21Z",
+   "createdAt": "2026-03-15T20:01:12Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "openMF/mifos-mobile": {
+   "nameWithOwner": "openMF/mifos-mobile",
+   "stargazerCount": 360,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 88462,
+   "pushedAt": "2026-10-01T10:18:41Z",
+   "createdAt": "2016-05-24T21:51:53Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "lukaspustina/mhost": {
+   "nameWithOwner": "lukaspustina/mhost",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 14777,
+   "pushedAt": "2026-08-19T13:36:45Z",
+   "createdAt": "2017-09-18T17:28:17Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "liuxingqitd/skills-hub": {
+   "nameWithOwner": "liuxingqitd/skills-hub",
+   "stargazerCount": 81,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4470,
+   "pushedAt": "2026-08-31T08:56:47Z",
+   "createdAt": "2026-05-10T13:46:07Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "narnia-sh/layrr": {
+   "nameWithOwner": "narnia-sh/layrr",
+   "stargazerCount": 266,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 50635,
+   "pushedAt": "2026-05-10T06:35:30Z",
+   "createdAt": "2025-10-28T10:26:14Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "trigger/trigger": {
+   "nameWithOwner": "trigger/trigger",
+   "stargazerCount": 559,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2636,
+   "pushedAt": "2026-10-01T00:26:42Z",
+   "createdAt": "2012-02-28T21:57:00Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nstrayer/cv": {
+   "nameWithOwner": "nstrayer/cv",
+   "stargazerCount": 537,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 41626,
+   "pushedAt": "2025-04-02T14:38:46Z",
+   "createdAt": "2019-07-18T19:21:23Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "say828/claude-router": {
+   "nameWithOwner": "say828/claude-router",
+   "stargazerCount": 56,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 86,
+   "pushedAt": "2025-09-04T10:59:34Z",
+   "createdAt": "2025-09-03T13:22:27Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "umputun/cc-thingz": {
+   "nameWithOwner": "umputun/cc-thingz",
+   "stargazerCount": 482,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 397,
+   "pushedAt": "2026-09-08T16:34:13Z",
+   "createdAt": "2026-02-17T17:19:23Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "SSSYoung/vibe-coding-mobile-engineering": {
+   "nameWithOwner": "SSSYoung/vibe-coding-mobile-engineering",
+   "stargazerCount": 197,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 17542,
+   "pushedAt": "2026-05-10T15:33:58Z",
+   "createdAt": "2025-12-25T15:25:22Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "OriNachum/claude-code-guide": {
+   "nameWithOwner": "OriNachum/claude-code-guide",
+   "stargazerCount": 122,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 522,
+   "pushedAt": "2026-06-17T11:57:09Z",
+   "createdAt": "2026-03-04T05:57:39Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "MacroPower/kat": {
+   "nameWithOwner": "MacroPower/kat",
+   "stargazerCount": 167,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 20984,
+   "pushedAt": "2026-10-03T13:51:51Z",
+   "createdAt": "2025-05-16T22:28:32Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "iPzard/electron-react-python-template": {
+   "nameWithOwner": "iPzard/electron-react-python-template",
+   "stargazerCount": 204,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1820,
+   "pushedAt": "2026-09-02T17:31:58Z",
+   "createdAt": "2020-07-11T00:33:46Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "DFiantHDL/DFHDL": {
+   "nameWithOwner": "DFiantHDL/DFHDL",
+   "stargazerCount": 98,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 59209,
+   "pushedAt": "2026-09-08T16:37:06Z",
+   "createdAt": "2019-06-16T19:42:03Z",
+   "primaryLanguage": {
+    "name": "Scala"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "PeonPing/openpeon": {
+   "nameWithOwner": "PeonPing/openpeon",
+   "stargazerCount": 108,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1104,
+   "pushedAt": "2026-08-10T01:32:28Z",
+   "createdAt": "2026-02-12T19:08:54Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "platformatic/undici-cache-redis": {
+   "nameWithOwner": "platformatic/undici-cache-redis",
+   "stargazerCount": 51,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 599,
+   "pushedAt": "2026-10-01T23:11:20Z",
+   "createdAt": "2024-10-01T07:35:56Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mosh-hamedani/helpdesk": {
+   "nameWithOwner": "mosh-hamedani/helpdesk",
+   "stargazerCount": 74,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 312,
+   "pushedAt": "2026-03-12T23:02:36Z",
+   "createdAt": "2026-03-12T23:02:14Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "niqiuqiux/AMem": {
+   "nameWithOwner": "niqiuqiux/AMem",
+   "stargazerCount": 99,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 94121,
+   "pushedAt": "2026-07-17T11:19:55Z",
+   "createdAt": "2025-10-18T06:05:34Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "LF-Decentralized-Trust-labs/gitmesh": {
+   "nameWithOwner": "LF-Decentralized-Trust-labs/gitmesh",
+   "stargazerCount": 144,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 53517,
+   "pushedAt": "2026-10-02T10:27:47Z",
+   "createdAt": "2025-07-25T16:43:40Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "NaverPayDev/pie": {
+   "nameWithOwner": "NaverPayDev/pie",
+   "stargazerCount": 115,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12614,
+   "pushedAt": "2026-06-30T07:18:48Z",
+   "createdAt": "2024-04-09T09:19:41Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "strapi-community/plugin-rest-cache": {
+   "nameWithOwner": "strapi-community/plugin-rest-cache",
+   "stargazerCount": 154,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9826,
+   "pushedAt": "2026-09-28T07:00:22Z",
+   "createdAt": "2022-01-20T01:44:47Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "microsoft/Agent365-devTools": {
+   "nameWithOwner": "microsoft/Agent365-devTools",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 20009,
+   "pushedAt": "2026-10-02T05:07:46Z",
+   "createdAt": "2025-11-05T04:45:37Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "marcobambini/gravity": {
+   "nameWithOwner": "marcobambini/gravity",
+   "stargazerCount": 4573,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3048,
+   "pushedAt": "2026-09-19T07:33:12Z",
+   "createdAt": "2017-02-24T14:57:37Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "jordanhindo/beadboard": {
+   "nameWithOwner": "jordanhindo/beadboard",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 23433,
+   "pushedAt": "2026-07-26T20:08:08Z",
+   "createdAt": "2026-02-12T03:55:17Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Siigari/claude-heartbeat": {
+   "nameWithOwner": "Siigari/claude-heartbeat",
+   "stargazerCount": 184,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 32,
+   "pushedAt": "2026-05-14T11:45:55Z",
+   "createdAt": "2026-05-13T19:08:36Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "steveyegge/vc": {
+   "nameWithOwner": "steveyegge/vc",
+   "stargazerCount": 343,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13978,
+   "pushedAt": "2025-11-26T07:21:12Z",
+   "createdAt": "2025-10-12T06:19:45Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Roznoshchik/Lurnby": {
+   "nameWithOwner": "Roznoshchik/Lurnby",
+   "stargazerCount": 703,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 74475,
+   "pushedAt": "2026-05-01T14:46:54Z",
+   "createdAt": "2020-05-03T10:57:32Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "creasty/dotfiles": {
+   "nameWithOwner": "creasty/dotfiles",
+   "stargazerCount": 104,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 16421,
+   "pushedAt": "2026-10-03T09:22:54Z",
+   "createdAt": "2013-09-30T10:09:14Z",
+   "primaryLanguage": {
+    "name": "Lua"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "siriwatknp/mui-treasury": {
+   "nameWithOwner": "siriwatknp/mui-treasury",
+   "stargazerCount": 2440,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 147190,
+   "pushedAt": "2026-05-22T09:10:00Z",
+   "createdAt": "2019-03-11T16:21:23Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "tychedelia/td-rs": {
+   "nameWithOwner": "tychedelia/td-rs",
+   "stargazerCount": 60,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 65284,
+   "pushedAt": "2026-09-11T03:00:03Z",
+   "createdAt": "2021-11-20T17:09:24Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "NakaokaRei/swift-mcp-gui": {
+   "nameWithOwner": "NakaokaRei/swift-mcp-gui",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 138,
+   "pushedAt": "2026-08-30T22:56:40Z",
+   "createdAt": "2025-03-20T08:12:45Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "romiluz13/cc10x": {
+   "nameWithOwner": "romiluz13/cc10x",
+   "stargazerCount": 164,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9360,
+   "pushedAt": "2026-09-30T08:39:25Z",
+   "createdAt": "2025-10-22T11:54:14Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "wpnuxt/wpnuxt": {
+   "nameWithOwner": "wpnuxt/wpnuxt",
+   "stargazerCount": 82,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10002,
+   "pushedAt": "2026-09-07T08:42:02Z",
+   "createdAt": "2023-10-26T18:50:42Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "sethlaw/sputr": {
+   "nameWithOwner": "sethlaw/sputr",
+   "stargazerCount": 86,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 90,
+   "pushedAt": "2026-02-18T02:45:33Z",
+   "createdAt": "2016-09-01T20:43:10Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "FriendsOfREDAXO/search_it": {
+   "nameWithOwner": "FriendsOfREDAXO/search_it",
+   "stargazerCount": 69,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1936,
+   "pushedAt": "2026-10-01T14:38:33Z",
+   "createdAt": "2016-08-31T09:29:14Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Adamlixi/codenano": {
+   "nameWithOwner": "Adamlixi/codenano",
+   "stargazerCount": 62,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1032,
+   "pushedAt": "2026-04-03T15:10:04Z",
+   "createdAt": "2026-04-01T11:46:34Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "scosman/Biscotti": {
+   "nameWithOwner": "scosman/Biscotti",
+   "stargazerCount": 168,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5431,
+   "pushedAt": "2026-10-02T17:34:13Z",
+   "createdAt": "2026-06-05T14:18:43Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tjdrhs90/flutter-flame-harness": {
+   "nameWithOwner": "tjdrhs90/flutter-flame-harness",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4317,
+   "pushedAt": "2026-09-01T08:42:28Z",
+   "createdAt": "2026-06-22T02:09:06Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mozilla-ai/any-guardrail": {
+   "nameWithOwner": "mozilla-ai/any-guardrail",
+   "stargazerCount": 123,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2897,
+   "pushedAt": "2026-10-02T00:34:06Z",
+   "createdAt": "2025-07-18T14:11:25Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "afragen/git-updater": {
+   "nameWithOwner": "afragen/git-updater",
+   "stargazerCount": 3319,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 18771,
+   "pushedAt": "2026-10-02T23:35:23Z",
+   "createdAt": "2013-07-07T20:44:47Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "develop"
+   }
+  },
+  "aliyun/coolbpf": {
+   "nameWithOwner": "aliyun/coolbpf",
+   "stargazerCount": 291,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 62172,
+   "pushedAt": "2026-10-03T15:40:30Z",
+   "createdAt": "2022-06-07T01:36:00Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "edmundmiller/dotfiles": {
+   "nameWithOwner": "edmundmiller/dotfiles",
+   "stargazerCount": 81,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 93958,
+   "pushedAt": "2026-10-02T23:40:09Z",
+   "createdAt": "2017-05-19T21:26:29Z",
+   "primaryLanguage": {
+    "name": "Nix"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "sem-in-r/seminr": {
+   "nameWithOwner": "sem-in-r/seminr",
+   "stargazerCount": 79,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9504,
+   "pushedAt": "2026-09-30T12:41:41Z",
+   "createdAt": "2016-10-11T04:58:23Z",
+   "primaryLanguage": {
+    "name": "R"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "pavlof01/jslab": {
+   "nameWithOwner": "pavlof01/jslab",
+   "stargazerCount": 314,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12646,
+   "pushedAt": "2026-10-02T02:37:47Z",
+   "createdAt": "2025-09-20T17:46:22Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Jesseovo/last30days-skill-cn": {
+   "nameWithOwner": "Jesseovo/last30days-skill-cn",
+   "stargazerCount": 1861,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 17393,
+   "pushedAt": "2026-10-03T11:00:46Z",
+   "createdAt": "2026-03-31T08:13:20Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "suiyuebaobao/go-proxy-pro": {
+   "nameWithOwner": "suiyuebaobao/go-proxy-pro",
+   "stargazerCount": 97,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 31399,
+   "pushedAt": "2026-04-30T02:36:59Z",
+   "createdAt": "2025-12-29T03:19:12Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "lexler/skill-factory": {
+   "nameWithOwner": "lexler/skill-factory",
+   "stargazerCount": 238,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 975,
+   "pushedAt": "2026-08-26T11:23:14Z",
+   "createdAt": "2025-12-29T18:21:13Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tokuhirom/jawiki-kana-kanji-dict": {
+   "nameWithOwner": "tokuhirom/jawiki-kana-kanji-dict",
+   "stargazerCount": 65,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 143197,
+   "pushedAt": "2026-10-01T19:12:36Z",
+   "createdAt": "2020-08-23T14:21:04Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "dioptx/mcp-atom-of-thoughts": {
+   "nameWithOwner": "dioptx/mcp-atom-of-thoughts",
+   "stargazerCount": 91,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2446,
+   "pushedAt": "2026-04-28T10:36:17Z",
+   "createdAt": "2026-02-13T17:47:09Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "timweiland/Latte.jl": {
+   "nameWithOwner": "timweiland/Latte.jl",
+   "stargazerCount": 50,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 34895,
+   "pushedAt": "2026-08-31T19:08:34Z",
+   "createdAt": "2025-06-18T12:17:01Z",
+   "primaryLanguage": {
+    "name": "Julia"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "generalui/s3p": {
+   "nameWithOwner": "generalui/s3p",
+   "stargazerCount": 323,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5291,
+   "pushedAt": "2026-04-17T14:00:26Z",
+   "createdAt": "2020-04-29T21:36:38Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "jessegrosjean/TaskPaper": {
+   "nameWithOwner": "jessegrosjean/TaskPaper",
+   "stargazerCount": 98,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5257,
+   "pushedAt": "2026-07-06T19:31:53Z",
+   "createdAt": "2023-08-12T13:10:57Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "5pyj29s7cm-tech/LumiCore": {
+   "nameWithOwner": "5pyj29s7cm-tech/LumiCore",
+   "stargazerCount": 267,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 39616,
+   "pushedAt": "2026-09-28T19:12:53Z",
+   "createdAt": "2026-05-08T05:35:57Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "boyter/cs": {
+   "nameWithOwner": "boyter/cs",
+   "stargazerCount": 1079,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 19005,
+   "pushedAt": "2026-09-30T10:16:51Z",
+   "createdAt": "2019-07-25T04:20:23Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "CarbeneAI/Talon": {
+   "nameWithOwner": "CarbeneAI/Talon",
+   "stargazerCount": 58,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2380,
+   "pushedAt": "2026-07-10T21:42:38Z",
+   "createdAt": "2026-04-17T02:04:56Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "vunguyentuan/vscode-css-variables": {
+   "nameWithOwner": "vunguyentuan/vscode-css-variables",
+   "stargazerCount": 192,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 23533,
+   "pushedAt": "2026-03-10T02:21:19Z",
+   "createdAt": "2020-12-14T03:04:11Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "HDFGroup/hdf5-json": {
+   "nameWithOwner": "HDFGroup/hdf5-json",
+   "stargazerCount": 81,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3351,
+   "pushedAt": "2026-10-02T20:32:42Z",
+   "createdAt": "2014-11-27T20:53:32Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "yahiafarghaly/PrettyOS": {
+   "nameWithOwner": "yahiafarghaly/PrettyOS",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 285,
+   "pushedAt": "2026-05-23T11:03:38Z",
+   "createdAt": "2020-06-22T21:40:55Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "axeII/home-ops": {
+   "nameWithOwner": "axeII/home-ops",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8835,
+   "pushedAt": "2026-10-03T08:33:17Z",
+   "createdAt": "2021-07-06T17:45:25Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ilius/ayandict": {
+   "nameWithOwner": "ilius/ayandict",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3446,
+   "pushedAt": "2026-09-04T19:14:26Z",
+   "createdAt": "2023-03-20T00:51:56Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "v3"
+   }
+  },
+  "baptisterajaut/amber": {
+   "nameWithOwner": "baptisterajaut/amber",
+   "stargazerCount": 56,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 34412,
+   "pushedAt": "2026-10-01T18:17:16Z",
+   "createdAt": "2026-03-10T11:31:53Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "greyhaven-ai/autocontext": {
+   "nameWithOwner": "greyhaven-ai/autocontext",
+   "stargazerCount": 1303,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 33925,
+   "pushedAt": "2026-09-30T00:37:00Z",
+   "createdAt": "2026-02-11T22:23:23Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "alibaba/UnifiedModel": {
+   "nameWithOwner": "alibaba/UnifiedModel",
+   "stargazerCount": 411,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3233,
+   "pushedAt": "2026-09-23T23:06:15Z",
+   "createdAt": "2026-05-06T07:51:44Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "2ue/ccman": {
+   "nameWithOwner": "2ue/ccman",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 26896,
+   "pushedAt": "2026-09-21T09:05:29Z",
+   "createdAt": "2025-08-06T03:48:09Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "easychen/markmark": {
+   "nameWithOwner": "easychen/markmark",
+   "stargazerCount": 118,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 19178,
+   "pushedAt": "2026-07-27T10:13:12Z",
+   "createdAt": "2026-06-09T13:09:17Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "brilliantlabsAR/halo-firmware": {
+   "nameWithOwner": "brilliantlabsAR/halo-firmware",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13677,
+   "pushedAt": "2026-10-03T13:28:43Z",
+   "createdAt": "2026-08-19T03:06:18Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "etowahadams/interprot": {
+   "nameWithOwner": "etowahadams/interprot",
+   "stargazerCount": 129,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3595,
+   "pushedAt": "2026-04-23T00:24:40Z",
+   "createdAt": "2024-08-30T22:01:08Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "napjon/krisk": {
+   "nameWithOwner": "napjon/krisk",
+   "stargazerCount": 118,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2652,
+   "pushedAt": "2026-10-01T17:30:16Z",
+   "createdAt": "2016-07-06T13:02:14Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "zsylvester/meanderpy": {
+   "nameWithOwner": "zsylvester/meanderpy",
+   "stargazerCount": 173,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13331,
+   "pushedAt": "2026-02-13T10:33:41Z",
+   "createdAt": "2018-11-21T21:50:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "softwaredoug/searcharray": {
+   "nameWithOwner": "softwaredoug/searcharray",
+   "stargazerCount": 313,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 51629,
+   "pushedAt": "2026-05-04T13:07:00Z",
+   "createdAt": "2023-11-03T13:25:16Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Endle/fireSeqSearch": {
+   "nameWithOwner": "Endle/fireSeqSearch",
+   "stargazerCount": 108,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4514,
+   "pushedAt": "2026-08-22T16:15:25Z",
+   "createdAt": "2021-12-10T07:55:12Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "mike-bronner/zed-laravel": {
+   "nameWithOwner": "mike-bronner/zed-laravel",
+   "stargazerCount": 107,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13019,
+   "pushedAt": "2026-09-29T10:26:38Z",
+   "createdAt": "2025-12-14T14:44:47Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "takehaya/xdperf": {
+   "nameWithOwner": "takehaya/xdperf",
+   "stargazerCount": 81,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9150,
+   "pushedAt": "2026-07-26T18:27:33Z",
+   "createdAt": "2025-10-11T08:42:20Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "up-to-speed/vibe-coded-lol": {
+   "nameWithOwner": "up-to-speed/vibe-coded-lol",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 115,
+   "pushedAt": "2025-10-22T10:28:59Z",
+   "createdAt": "2025-10-15T22:43:04Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nullptrx/pangle_flutter": {
+   "nameWithOwner": "nullptrx/pangle_flutter",
+   "stargazerCount": 129,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 68516,
+   "pushedAt": "2026-05-30T04:11:40Z",
+   "createdAt": "2020-07-28T06:51:02Z",
+   "primaryLanguage": {
+    "name": "Dart"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "TSchonleber/brainctl": {
+   "nameWithOwner": "TSchonleber/brainctl",
+   "stargazerCount": 79,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 47739,
+   "pushedAt": "2026-08-06T20:24:41Z",
+   "createdAt": "2026-04-02T23:14:18Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TOKTOKHAN-DEV/agent-company": {
+   "nameWithOwner": "TOKTOKHAN-DEV/agent-company",
+   "stargazerCount": 83,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1146,
+   "pushedAt": "2026-08-27T03:53:20Z",
+   "createdAt": "2026-07-27T14:34:21Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dofy/learn-vim": {
+   "nameWithOwner": "dofy/learn-vim",
+   "stargazerCount": 1731,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 323,
+   "pushedAt": "2026-09-10T06:23:46Z",
+   "createdAt": "2016-01-13T08:14:10Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "stoicflame/enunciate": {
+   "nameWithOwner": "stoicflame/enunciate",
+   "stargazerCount": 491,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 41641,
+   "pushedAt": "2026-09-21T19:40:58Z",
+   "createdAt": "2011-05-05T15:54:15Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "confluentinc/agent-skills": {
+   "nameWithOwner": "confluentinc/agent-skills",
+   "stargazerCount": 58,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1574,
+   "pushedAt": "2026-10-03T00:37:50Z",
+   "createdAt": "2026-03-13T14:31:16Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dvcrn/mcp-server-devonthink": {
+   "nameWithOwner": "dvcrn/mcp-server-devonthink",
+   "stargazerCount": 105,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 985,
+   "pushedAt": "2026-09-09T04:03:01Z",
+   "createdAt": "2025-07-18T09:42:40Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "AIDotNet/ClaudeCodexUi": {
+   "nameWithOwner": "AIDotNet/ClaudeCodexUi",
+   "stargazerCount": 163,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 725,
+   "pushedAt": "2026-05-31T12:28:19Z",
+   "createdAt": "2026-03-16T14:16:26Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "guess/claude_code": {
+   "nameWithOwner": "guess/claude_code",
+   "stargazerCount": 97,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8602,
+   "pushedAt": "2026-06-05T13:26:15Z",
+   "createdAt": "2025-06-13T14:08:32Z",
+   "primaryLanguage": {
+    "name": "Elixir"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Gerstep/HumanCompiler": {
+   "nameWithOwner": "Gerstep/HumanCompiler",
+   "stargazerCount": 154,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 58,
+   "pushedAt": "2026-02-17T20:01:13Z",
+   "createdAt": "2026-02-16T20:06:30Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "kantord/headson": {
+   "nameWithOwner": "kantord/headson",
+   "stargazerCount": 254,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 64235,
+   "pushedAt": "2026-09-06T23:33:27Z",
+   "createdAt": "2025-10-16T19:04:36Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "dynatrace-oss/hash4j": {
+   "nameWithOwner": "dynatrace-oss/hash4j",
+   "stargazerCount": 158,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 46106,
+   "pushedAt": "2026-10-01T19:42:32Z",
+   "createdAt": "2022-01-26T15:50:55Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TAJD/economist-style-guide-plugin": {
+   "nameWithOwner": "TAJD/economist-style-guide-plugin",
+   "stargazerCount": 122,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 111,
+   "pushedAt": "2026-08-01T03:42:55Z",
+   "createdAt": "2025-12-30T18:12:46Z",
+   "primaryLanguage": null,
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Melkeydev/yappr": {
+   "nameWithOwner": "Melkeydev/yappr",
+   "stargazerCount": 124,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1179,
+   "pushedAt": "2026-02-08T02:32:24Z",
+   "createdAt": "2025-07-07T05:12:01Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "broadinstitute/delphy": {
+   "nameWithOwner": "broadinstitute/delphy",
+   "stargazerCount": 57,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5258,
+   "pushedAt": "2026-10-02T14:17:43Z",
+   "createdAt": "2024-05-22T10:05:36Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "workersio/skills": {
+   "nameWithOwner": "workersio/skills",
+   "stargazerCount": 179,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9808,
+   "pushedAt": "2026-07-31T12:11:36Z",
+   "createdAt": "2026-02-14T01:05:02Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "fivetaku/cc101": {
+   "nameWithOwner": "fivetaku/cc101",
+   "stargazerCount": 301,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7623,
+   "pushedAt": "2026-09-24T03:28:51Z",
+   "createdAt": "2026-02-24T13:14:28Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "hectcastro/gh-metrics": {
+   "nameWithOwner": "hectcastro/gh-metrics",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 282,
+   "pushedAt": "2026-10-01T10:49:07Z",
+   "createdAt": "2022-03-22T21:05:16Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "securego/gosec": {
+   "nameWithOwner": "securego/gosec",
+   "stargazerCount": 8961,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6762,
+   "pushedAt": "2026-10-02T09:40:49Z",
+   "createdAt": "2016-07-18T18:01:08Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "radekamirko/C.R.I.S.P": {
+   "nameWithOwner": "radekamirko/C.R.I.S.P",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 352,
+   "pushedAt": "2026-09-18T09:26:56Z",
+   "createdAt": "2026-03-23T16:38:57Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "SamuelZ12/screen-scribe": {
+   "nameWithOwner": "SamuelZ12/screen-scribe",
+   "stargazerCount": 96,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13695,
+   "pushedAt": "2026-08-23T18:31:40Z",
+   "createdAt": "2025-04-23T22:33:18Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "oalanicolas/claude-design-premium": {
+   "nameWithOwner": "oalanicolas/claude-design-premium",
+   "stargazerCount": 272,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 475,
+   "pushedAt": "2026-06-19T04:13:56Z",
+   "createdAt": "2026-06-14T23:00:30Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "url-kaist/ERASOR2": {
+   "nameWithOwner": "url-kaist/ERASOR2",
+   "stargazerCount": 208,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 41451,
+   "pushedAt": "2026-05-22T12:03:36Z",
+   "createdAt": "2023-05-18T03:45:12Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "samuelloranger/labby": {
+   "nameWithOwner": "samuelloranger/labby",
+   "stargazerCount": 93,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 27375,
+   "pushedAt": "2026-10-03T15:06:45Z",
+   "createdAt": "2026-06-16T11:07:39Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "SmokinCaterpillar/pypet": {
+   "nameWithOwner": "SmokinCaterpillar/pypet",
+   "stargazerCount": 91,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 15126,
+   "pushedAt": "2026-03-13T21:47:07Z",
+   "createdAt": "2013-09-17T17:06:00Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "sfakir/feiertagejs": {
+   "nameWithOwner": "sfakir/feiertagejs",
+   "stargazerCount": 75,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1113,
+   "pushedAt": "2026-07-07T11:36:40Z",
+   "createdAt": "2015-08-17T15:29:17Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "depalmar/ai_for_the_win": {
+   "nameWithOwner": "depalmar/ai_for_the_win",
+   "stargazerCount": 163,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 6360,
+   "pushedAt": "2026-09-25T07:04:33Z",
+   "createdAt": "2025-12-15T23:55:09Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ecotoneframework/ecotone-dev": {
+   "nameWithOwner": "ecotoneframework/ecotone-dev",
+   "stargazerCount": 56,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13775,
+   "pushedAt": "2026-10-03T15:05:56Z",
+   "createdAt": "2022-07-23T16:29:44Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "veloplanner/map-matrix": {
+   "nameWithOwner": "veloplanner/map-matrix",
+   "stargazerCount": 177,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8460,
+   "pushedAt": "2024-12-01T19:22:58Z",
+   "createdAt": "2024-11-17T10:35:37Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "CarlosZiegler/zt-stack": {
+   "nameWithOwner": "CarlosZiegler/zt-stack",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1283,
+   "pushedAt": "2025-03-11T21:22:44Z",
+   "createdAt": "2025-02-23T19:22:07Z",
+   "primaryLanguage": {
+    "name": "HTML"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "EvandroLG/ts-audio": {
+   "nameWithOwner": "EvandroLG/ts-audio",
+   "stargazerCount": 339,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11851,
+   "pushedAt": "2026-01-18T17:38:27Z",
+   "createdAt": "2013-08-25T03:01:42Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "synatic/noql": {
+   "nameWithOwner": "synatic/noql",
+   "stargazerCount": 55,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7958,
+   "pushedAt": "2026-09-11T06:37:16Z",
+   "createdAt": "2021-03-02T07:16:11Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "David-Sola/AIGaming": {
+   "nameWithOwner": "David-Sola/AIGaming",
+   "stargazerCount": 66,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 27562,
+   "pushedAt": "2025-03-10T20:34:55Z",
+   "createdAt": "2025-03-09T06:49:35Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "wasp-lang/vibe-coding-video": {
+   "nameWithOwner": "wasp-lang/vibe-coding-video",
+   "stargazerCount": 191,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 261,
+   "pushedAt": "2025-10-01T10:26:35Z",
+   "createdAt": "2025-04-11T13:33:05Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "video-starter"
+   }
+  },
+  "radxa/radxa-som-projects": {
+   "nameWithOwner": "radxa/radxa-som-projects",
+   "stargazerCount": 93,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 103144,
+   "pushedAt": "2026-09-04T06:46:57Z",
+   "createdAt": "2021-11-06T10:08:22Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "jxnl/kura": {
+   "nameWithOwner": "jxnl/kura",
+   "stargazerCount": 530,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 22182,
+   "pushedAt": "2025-09-10T00:43:21Z",
+   "createdAt": "2025-01-04T16:12:18Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kamathhrishi/finance-agent": {
+   "nameWithOwner": "kamathhrishi/finance-agent",
+   "stargazerCount": 144,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 74148,
+   "pushedAt": "2026-06-19T07:42:41Z",
+   "createdAt": "2025-12-06T01:44:21Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "hirokidaichi/gilot": {
+   "nameWithOwner": "hirokidaichi/gilot",
+   "stargazerCount": 210,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 16330,
+   "pushedAt": "2025-05-19T07:02:51Z",
+   "createdAt": "2020-05-29T10:37:39Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "raphaelmansuy/code2prompt": {
+   "nameWithOwner": "raphaelmansuy/code2prompt",
+   "stargazerCount": 884,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1616,
+   "pushedAt": "2026-07-07T05:03:08Z",
+   "createdAt": "2024-03-19T03:41:00Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Alex8791-cyber/cognithor": {
+   "nameWithOwner": "Alex8791-cyber/cognithor",
+   "stargazerCount": 158,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 64157,
+   "pushedAt": "2026-09-28T09:21:12Z",
+   "createdAt": "2026-02-25T01:24:40Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "aptos-labs/aptos-wallet-adapter": {
+   "nameWithOwner": "aptos-labs/aptos-wallet-adapter",
+   "stargazerCount": 124,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 49737,
+   "pushedAt": "2026-09-10T23:51:59Z",
+   "createdAt": "2022-11-21T21:07:34Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "MDGrey33/pyvisionai": {
+   "nameWithOwner": "MDGrey33/pyvisionai",
+   "stargazerCount": 110,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10496,
+   "pushedAt": "2025-07-19T23:24:42Z",
+   "createdAt": "2024-11-26T20:28:11Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ruaan-deysel/unraid-management-agent": {
+   "nameWithOwner": "ruaan-deysel/unraid-management-agent",
+   "stargazerCount": 60,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 97208,
+   "pushedAt": "2026-09-28T06:11:26Z",
+   "createdAt": "2025-10-03T03:30:30Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Doist/todoist-mcp": {
+   "nameWithOwner": "Doist/todoist-mcp",
+   "stargazerCount": 554,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3848,
+   "pushedAt": "2026-10-02T13:39:56Z",
+   "createdAt": "2025-05-21T13:34:02Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "fopost/fopost-social-laravel": {
+   "nameWithOwner": "fopost/fopost-social-laravel",
+   "stargazerCount": 441,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2476,
+   "pushedAt": "2026-09-19T21:46:40Z",
+   "createdAt": "2017-12-20T17:22:25Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "kipsilabs/postie": {
+   "nameWithOwner": "kipsilabs/postie",
+   "stargazerCount": 69,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 37999,
+   "pushedAt": "2026-09-08T09:38:57Z",
+   "createdAt": "2025-05-01T20:40:08Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "smmarty/friflex_flutter_starter": {
+   "nameWithOwner": "smmarty/friflex_flutter_starter",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 287,
+   "pushedAt": "2026-04-27T06:23:14Z",
+   "createdAt": "2025-01-21T11:23:12Z",
+   "primaryLanguage": {
+    "name": "Dart"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "indiesoftby/defold-yagames": {
+   "nameWithOwner": "indiesoftby/defold-yagames",
+   "stargazerCount": 75,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 105034,
+   "pushedAt": "2025-12-28T22:17:45Z",
+   "createdAt": "2020-07-22T14:01:29Z",
+   "primaryLanguage": {
+    "name": "Lua"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "imranarshad/vibe_coding_template": {
+   "nameWithOwner": "imranarshad/vibe_coding_template",
+   "stargazerCount": 93,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 35,
+   "pushedAt": "2025-06-18T22:00:37Z",
+   "createdAt": "2025-05-26T19:17:02Z",
+   "primaryLanguage": null,
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nrgapple/historic-country-borders-app": {
+   "nameWithOwner": "nrgapple/historic-country-borders-app",
+   "stargazerCount": 165,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 18846,
+   "pushedAt": "2026-09-02T21:05:31Z",
+   "createdAt": "2021-01-22T01:31:38Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "julien-blanchon/Montelimar": {
+   "nameWithOwner": "julien-blanchon/Montelimar",
+   "stargazerCount": 87,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 19025,
+   "pushedAt": "2026-02-19T18:06:56Z",
+   "createdAt": "2025-01-01T10:11:28Z",
+   "primaryLanguage": {
+    "name": "Svelte"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "erweixin/langshift.dev": {
+   "nameWithOwner": "erweixin/langshift.dev",
+   "stargazerCount": 1128,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11028,
+   "pushedAt": "2026-07-19T04:20:28Z",
+   "createdAt": "2025-07-08T11:58:09Z",
+   "primaryLanguage": {
+    "name": "MDX"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "terryyin/translate-python": {
+   "nameWithOwner": "terryyin/translate-python",
+   "stargazerCount": 761,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 183,
+   "pushedAt": "2026-07-06T06:29:35Z",
+   "createdAt": "2013-05-06T00:52:08Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "metaspartan/mactop": {
+   "nameWithOwner": "metaspartan/mactop",
+   "stargazerCount": 1657,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 30839,
+   "pushedAt": "2026-09-30T09:27:46Z",
+   "createdAt": "2024-05-31T18:23:00Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "thejaustin/hexodus": {
+   "nameWithOwner": "thejaustin/hexodus",
+   "stargazerCount": 57,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1010,
+   "pushedAt": "2026-09-06T05:24:28Z",
+   "createdAt": "2026-01-29T17:28:10Z",
+   "primaryLanguage": {
+    "name": "Kotlin"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "JuanPabloGilA/your-saas-starterkit": {
+   "nameWithOwner": "JuanPabloGilA/your-saas-starterkit",
+   "stargazerCount": 88,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1959,
+   "pushedAt": "2026-08-23T23:42:28Z",
+   "createdAt": "2025-07-14T01:10:48Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TheAcharya/XLKit": {
+   "nameWithOwner": "TheAcharya/XLKit",
+   "stargazerCount": 86,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4005,
+   "pushedAt": "2026-08-21T06:59:11Z",
+   "createdAt": "2025-07-06T01:04:48Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ohcnetwork/care": {
+   "nameWithOwner": "ohcnetwork/care",
+   "stargazerCount": 409,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 36615,
+   "pushedAt": "2026-10-03T14:05:31Z",
+   "createdAt": "2020-03-17T14:48:11Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "develop"
+   }
+  },
+  "Albertsun6/ontology-builder": {
+   "nameWithOwner": "Albertsun6/ontology-builder",
+   "stargazerCount": 66,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 293,
+   "pushedAt": "2025-12-28T21:55:17Z",
+   "createdAt": "2025-12-28T16:21:59Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rapkin/osm2geojson": {
+   "nameWithOwner": "rapkin/osm2geojson",
+   "stargazerCount": 113,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 975,
+   "pushedAt": "2026-09-21T11:59:13Z",
+   "createdAt": "2019-05-06T16:33:11Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "amaynez/kiro-style-sdd": {
+   "nameWithOwner": "amaynez/kiro-style-sdd",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 45,
+   "pushedAt": "2026-05-13T07:39:32Z",
+   "createdAt": "2025-09-12T21:43:55Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "coyvalyss1/model-matchmaker": {
+   "nameWithOwner": "coyvalyss1/model-matchmaker",
+   "stargazerCount": 168,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 121,
+   "pushedAt": "2026-09-22T23:09:25Z",
+   "createdAt": "2026-03-04T07:38:20Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "VRSEN/agency-voice-interface": {
+   "nameWithOwner": "VRSEN/agency-voice-interface",
+   "stargazerCount": 83,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 289,
+   "pushedAt": "2025-01-22T22:13:36Z",
+   "createdAt": "2024-10-11T02:31:45Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ntygod/ZhiWei": {
+   "nameWithOwner": "ntygod/ZhiWei",
+   "stargazerCount": 137,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 24769,
+   "pushedAt": "2026-08-11T12:56:15Z",
+   "createdAt": "2026-02-27T10:10:57Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "develop"
+   }
+  },
+  "rifkyputra/postlab": {
+   "nameWithOwner": "rifkyputra/postlab",
+   "stargazerCount": 64,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 44163,
+   "pushedAt": "2026-08-13T15:28:14Z",
+   "createdAt": "2025-08-17T05:59:33Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zwl467135974/lumina": {
+   "nameWithOwner": "zwl467135974/lumina",
+   "stargazerCount": 80,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9064,
+   "pushedAt": "2026-09-28T09:53:50Z",
+   "createdAt": "2026-01-19T12:14:46Z",
+   "primaryLanguage": {
+    "name": "Java"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "Tmeister/wppb-generator": {
+   "nameWithOwner": "Tmeister/wppb-generator",
+   "stargazerCount": 85,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3401,
+   "pushedAt": "2025-01-15T02:10:56Z",
+   "createdAt": "2022-09-30T01:13:10Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mckaywrigley/slack-customer-service-ai-agent": {
+   "nameWithOwner": "mckaywrigley/slack-customer-service-ai-agent",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 140,
+   "pushedAt": "2024-09-09T22:50:08Z",
+   "createdAt": "2024-09-09T20:40:50Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ygsgdbd/TypeSwitch": {
+   "nameWithOwner": "ygsgdbd/TypeSwitch",
+   "stargazerCount": 88,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 40466,
+   "pushedAt": "2026-09-12T06:19:14Z",
+   "createdAt": "2024-12-05T16:10:18Z",
+   "primaryLanguage": {
+    "name": "Swift"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "indiesoftby/defold-sharp-sprite": {
+   "nameWithOwner": "indiesoftby/defold-sharp-sprite",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 28703,
+   "pushedAt": "2025-06-10T19:43:44Z",
+   "createdAt": "2020-11-16T16:55:14Z",
+   "primaryLanguage": {
+    "name": "GLSL"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "TutoriaLLM/TutoriaLLM": {
+   "nameWithOwner": "TutoriaLLM/TutoriaLLM",
+   "stargazerCount": 300,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 46818,
+   "pushedAt": "2026-10-03T13:36:03Z",
+   "createdAt": "2024-05-26T11:34:36Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kirill-markin/chrome-auto-image-blocker": {
+   "nameWithOwner": "kirill-markin/chrome-auto-image-blocker",
+   "stargazerCount": 82,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4714,
+   "pushedAt": "2025-03-07T16:39:31Z",
+   "createdAt": "2024-05-31T17:11:27Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ericmjl/pyds-cli": {
+   "nameWithOwner": "ericmjl/pyds-cli",
+   "stargazerCount": 58,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1450,
+   "pushedAt": "2026-08-10T22:34:02Z",
+   "createdAt": "2021-11-04T03:16:15Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "collabland/AI-Agent-Starter-Kit": {
+   "nameWithOwner": "collabland/AI-Agent-Starter-Kit",
+   "stargazerCount": 161,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 190,
+   "pushedAt": "2025-01-29T18:04:11Z",
+   "createdAt": "2024-12-09T13:05:27Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "koljapluemer/learn-worldmap": {
+   "nameWithOwner": "koljapluemer/learn-worldmap",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4364,
+   "pushedAt": "2026-03-15T15:01:12Z",
+   "createdAt": "2025-03-15T10:32:08Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "laurb9/StepperDriver": {
+   "nameWithOwner": "laurb9/StepperDriver",
+   "stargazerCount": 625,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 292,
+   "pushedAt": "2026-07-18T02:48:27Z",
+   "createdAt": "2015-12-11T05:27:10Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "xingBaGan/image-management": {
+   "nameWithOwner": "xingBaGan/image-management",
+   "stargazerCount": 61,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 23255,
+   "pushedAt": "2026-07-23T09:11:58Z",
+   "createdAt": "2025-01-13T13:17:11Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "unpoller/unpoller": {
+   "nameWithOwner": "unpoller/unpoller",
+   "stargazerCount": 2718,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7151,
+   "pushedAt": "2026-10-01T21:00:12Z",
+   "createdAt": "2018-04-20T20:03:17Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "wangdicoder/tiny-design": {
+   "nameWithOwner": "wangdicoder/tiny-design",
+   "stargazerCount": 233,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 26777,
+   "pushedAt": "2026-05-28T18:12:37Z",
+   "createdAt": "2019-03-07T12:54:14Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "chapzin/parse-efd-fiscal": {
+   "nameWithOwner": "chapzin/parse-efd-fiscal",
+   "stargazerCount": 74,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 48396,
+   "pushedAt": "2026-05-07T00:44:04Z",
+   "createdAt": "2017-03-03T13:41:05Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "miyuesc/blog": {
+   "nameWithOwner": "miyuesc/blog",
+   "stargazerCount": 59,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 93975,
+   "pushedAt": "2026-02-02T04:33:32Z",
+   "createdAt": "2019-05-16T06:03:17Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "RvDstudio/nextjs_drizzle_better-auth": {
+   "nameWithOwner": "RvDstudio/nextjs_drizzle_better-auth",
+   "stargazerCount": 128,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5884,
+   "pushedAt": "2026-02-16T10:14:28Z",
+   "createdAt": "2025-04-09T20:51:25Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "justdoinc/justdo": {
+   "nameWithOwner": "justdoinc/justdo",
+   "stargazerCount": 170,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 92,
+   "pushedAt": "2026-02-06T03:03:58Z",
+   "createdAt": "2024-04-22T06:01:58Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "jlvihv/R2Uploader": {
+   "nameWithOwner": "jlvihv/R2Uploader",
+   "stargazerCount": 144,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1726,
+   "pushedAt": "2026-03-11T00:24:54Z",
+   "createdAt": "2024-12-31T19:58:51Z",
+   "primaryLanguage": {
+    "name": "Svelte"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "nnstreamer/nnstreamer": {
+   "nameWithOwner": "nnstreamer/nnstreamer",
+   "stargazerCount": 798,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 96970,
+   "pushedAt": "2026-10-03T10:44:52Z",
+   "createdAt": "2018-07-23T08:57:11Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "eastlondoner/vibe-tools": {
+   "nameWithOwner": "eastlondoner/vibe-tools",
+   "stargazerCount": 4826,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8877,
+   "pushedAt": "2025-08-25T10:10:43Z",
+   "createdAt": "2025-01-13T15:03:33Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Semkoo/niko-table-registry": {
+   "nameWithOwner": "Semkoo/niko-table-registry",
+   "stargazerCount": 69,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5665,
+   "pushedAt": "2026-09-27T21:56:18Z",
+   "createdAt": "2025-11-11T02:23:22Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "oliverearl/nes-php-glfw": {
+   "nameWithOwner": "oliverearl/nes-php-glfw",
+   "stargazerCount": 52,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 552,
+   "pushedAt": "2026-06-14T11:51:18Z",
+   "createdAt": "2025-10-28T19:50:03Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "ludoguenet/laravel-zap": {
+   "nameWithOwner": "ludoguenet/laravel-zap",
+   "stargazerCount": 1469,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3683,
+   "pushedAt": "2026-09-30T07:41:41Z",
+   "createdAt": "2025-06-08T21:22:15Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "team-telnyx/ai": {
+   "nameWithOwner": "team-telnyx/ai",
+   "stargazerCount": 220,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11324,
+   "pushedAt": "2026-10-01T03:41:46Z",
+   "createdAt": "2026-02-06T11:55:57Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "SkeneTechnologies/skene-cookbook": {
+   "nameWithOwner": "SkeneTechnologies/skene-cookbook",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8326,
+   "pushedAt": "2026-02-15T21:34:11Z",
+   "createdAt": "2026-02-09T13:02:27Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "vincanger/envelope-budgeting-test": {
+   "nameWithOwner": "vincanger/envelope-budgeting-test",
+   "stargazerCount": 103,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1818,
+   "pushedAt": "2025-04-11T11:02:36Z",
+   "createdAt": "2025-04-04T09:45:44Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "cscortes/htmxflask": {
+   "nameWithOwner": "cscortes/htmxflask",
+   "stargazerCount": 97,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 633,
+   "pushedAt": "2025-10-01T17:40:26Z",
+   "createdAt": "2020-06-08T01:26:38Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "ssdeanx/deep-research-mcp-server": {
+   "nameWithOwner": "ssdeanx/deep-research-mcp-server",
+   "stargazerCount": 70,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 604,
+   "pushedAt": "2025-08-12T07:35:01Z",
+   "createdAt": "2025-02-20T18:38:42Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "pansila/mcp_server_gdb": {
+   "nameWithOwner": "pansila/mcp_server_gdb",
+   "stargazerCount": 68,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 126,
+   "pushedAt": "2025-09-17T01:11:47Z",
+   "createdAt": "2025-03-15T14:11:42Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Scrapybara/codecapy": {
+   "nameWithOwner": "Scrapybara/codecapy",
+   "stargazerCount": 219,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8024,
+   "pushedAt": "2026-08-29T01:59:11Z",
+   "createdAt": "2025-01-22T02:09:43Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "666fy666/WebMoniter": {
+   "nameWithOwner": "666fy666/WebMoniter",
+   "stargazerCount": 70,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 20163,
+   "pushedAt": "2026-10-02T13:06:40Z",
+   "createdAt": "2025-12-10T05:47:27Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "SiriusFHJ/ShangAnNotes": {
+   "nameWithOwner": "SiriusFHJ/ShangAnNotes",
+   "stargazerCount": 301,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 12946,
+   "pushedAt": "2025-09-26T07:49:17Z",
+   "createdAt": "2024-11-06T03:07:56Z",
+   "primaryLanguage": {
+    "name": "MDX"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "kulterryan/who-to-bother-at-on-x": {
+   "nameWithOwner": "kulterryan/who-to-bother-at-on-x",
+   "stargazerCount": 93,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1030,
+   "pushedAt": "2026-09-04T04:06:52Z",
+   "createdAt": "2025-10-30T14:05:52Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "d3mocide/Sovereign_Watch": {
+   "nameWithOwner": "d3mocide/Sovereign_Watch",
+   "stargazerCount": 92,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 33273,
+   "pushedAt": "2026-08-21T14:20:44Z",
+   "createdAt": "2026-02-03T06:47:33Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "VsevolodUstinov/Personal-Super-Agent-Ru": {
+   "nameWithOwner": "VsevolodUstinov/Personal-Super-Agent-Ru",
+   "stargazerCount": 63,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5947,
+   "pushedAt": "2025-11-18T14:15:18Z",
+   "createdAt": "2025-06-28T00:26:43Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kivo360/OmoiOS": {
+   "nameWithOwner": "kivo360/OmoiOS",
+   "stargazerCount": 79,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 45899,
+   "pushedAt": "2026-06-18T15:52:24Z",
+   "createdAt": "2025-11-16T18:36:27Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "DumbWareio/DumbDrop": {
+   "nameWithOwner": "DumbWareio/DumbDrop",
+   "stargazerCount": 571,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 390,
+   "pushedAt": "2026-06-13T03:55:18Z",
+   "createdAt": "2025-01-22T18:36:46Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "appl-team/appl": {
+   "nameWithOwner": "appl-team/appl",
+   "stargazerCount": 267,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9936,
+   "pushedAt": "2025-02-20T05:26:00Z",
+   "createdAt": "2024-03-09T01:43:37Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "sonpiaz/evox": {
+   "nameWithOwner": "sonpiaz/evox",
+   "stargazerCount": 105,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2185,
+   "pushedAt": "2026-09-13T01:36:17Z",
+   "createdAt": "2026-02-01T01:30:24Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "l0usie/nexus-agents": {
+   "nameWithOwner": "l0usie/nexus-agents",
+   "stargazerCount": 53,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 65,
+   "pushedAt": "2025-01-19T18:08:07Z",
+   "createdAt": "2025-01-19T18:07:33Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "VsevolodUstinov/ai-first-workspace-template": {
+   "nameWithOwner": "VsevolodUstinov/ai-first-workspace-template",
+   "stargazerCount": 105,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5948,
+   "pushedAt": "2025-11-18T13:46:21Z",
+   "createdAt": "2025-06-28T09:28:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "GODrums/BetterFloat": {
+   "nameWithOwner": "GODrums/BetterFloat",
+   "stargazerCount": 107,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 10986,
+   "pushedAt": "2026-10-01T18:41:29Z",
+   "createdAt": "2023-08-10T18:11:41Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "LunaeMons/SDRPlusPlus_CommunityEdition": {
+   "nameWithOwner": "LunaeMons/SDRPlusPlus_CommunityEdition",
+   "stargazerCount": 91,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 36779,
+   "pushedAt": "2025-09-08T18:44:29Z",
+   "createdAt": "2025-08-23T01:49:07Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "doncheli/don-cheli-sdd": {
+   "nameWithOwner": "doncheli/don-cheli-sdd",
+   "stargazerCount": 57,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3761,
+   "pushedAt": "2026-08-10T17:11:12Z",
+   "createdAt": "2026-03-21T23:18:51Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "The-Pocket/PocketFlow-Tutorial-Video-Generator": {
+   "nameWithOwner": "The-Pocket/PocketFlow-Tutorial-Video-Generator",
+   "stargazerCount": 170,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11659,
+   "pushedAt": "2025-12-10T05:12:53Z",
+   "createdAt": "2025-07-13T01:07:53Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "shutiao-org/shutiao-life": {
+   "nameWithOwner": "shutiao-org/shutiao-life",
+   "stargazerCount": 74,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4941,
+   "pushedAt": "2026-03-01T06:11:37Z",
+   "createdAt": "2025-10-27T06:56:35Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "vamshi4001/saas-clawds": {
+   "nameWithOwner": "vamshi4001/saas-clawds",
+   "stargazerCount": 79,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 847,
+   "pushedAt": "2026-03-12T15:25:13Z",
+   "createdAt": "2026-03-10T21:23:04Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Noveum/ai-gateway": {
+   "nameWithOwner": "Noveum/ai-gateway",
+   "stargazerCount": 96,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1367,
+   "pushedAt": "2026-09-30T17:01:16Z",
+   "createdAt": "2024-11-07T10:48:36Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "terragon-labs/terragon-oss": {
+   "nameWithOwner": "terragon-labs/terragon-oss",
+   "stargazerCount": 259,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1842,
+   "pushedAt": "2026-02-10T16:29:02Z",
+   "createdAt": "2026-01-16T03:10:38Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "yanhaoluo0/AlibabaDevelopmentManualSkills": {
+   "nameWithOwner": "yanhaoluo0/AlibabaDevelopmentManualSkills",
+   "stargazerCount": 57,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 127,
+   "pushedAt": "2026-02-02T02:50:28Z",
+   "createdAt": "2026-01-31T05:32:39Z",
+   "primaryLanguage": null,
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "tinybirdco/logs-explorer-template": {
+   "nameWithOwner": "tinybirdco/logs-explorer-template",
+   "stargazerCount": 68,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 882,
+   "pushedAt": "2025-12-12T09:24:35Z",
+   "createdAt": "2025-02-04T14:07:15Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "devsargam/aether": {
+   "nameWithOwner": "devsargam/aether",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 369,
+   "pushedAt": "2025-11-06T23:01:26Z",
+   "createdAt": "2025-10-19T17:16:36Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Ikolvi/Tracelet": {
+   "nameWithOwner": "Ikolvi/Tracelet",
+   "stargazerCount": 63,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 54293,
+   "pushedAt": "2026-10-02T06:23:31Z",
+   "createdAt": "2026-02-20T12:21:08Z",
+   "primaryLanguage": {
+    "name": "Dart"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "madarco/ragrabbit": {
+   "nameWithOwner": "madarco/ragrabbit",
+   "stargazerCount": 136,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7439,
+   "pushedAt": "2026-01-05T12:17:27Z",
+   "createdAt": "2025-01-22T11:46:40Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "UmairBaig8/okf-generator": {
+   "nameWithOwner": "UmairBaig8/okf-generator",
+   "stargazerCount": 106,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 49242,
+   "pushedAt": "2026-08-01T13:46:11Z",
+   "createdAt": "2026-06-29T15:23:54Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "xiashao/KaiyanTool": {
+   "nameWithOwner": "xiashao/KaiyanTool",
+   "stargazerCount": 96,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 40787,
+   "pushedAt": "2026-03-29T15:48:06Z",
+   "createdAt": "2026-02-12T13:50:09Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "o19s/hello-ltr": {
+   "nameWithOwner": "o19s/hello-ltr",
+   "stargazerCount": 175,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 4243,
+   "pushedAt": "2026-08-10T07:58:32Z",
+   "createdAt": "2019-03-11T00:49:17Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rainx/cn_stock_holidays": {
+   "nameWithOwner": "rainx/cn_stock_holidays",
+   "stargazerCount": 173,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 511,
+   "pushedAt": "2026-05-19T21:04:18Z",
+   "createdAt": "2016-10-14T01:21:46Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "DataScienceUIBK/Rankify": {
+   "nameWithOwner": "DataScienceUIBK/Rankify",
+   "stargazerCount": 685,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 57074,
+   "pushedAt": "2026-09-07T22:33:47Z",
+   "createdAt": "2025-02-09T21:03:29Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ducan-ne/opencoder": {
+   "nameWithOwner": "ducan-ne/opencoder",
+   "stargazerCount": 389,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1930,
+   "pushedAt": "2025-04-23T13:46:01Z",
+   "createdAt": "2025-04-05T08:56:56Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "VeriTeknik/pluggedin-app": {
+   "nameWithOwner": "VeriTeknik/pluggedin-app",
+   "stargazerCount": 103,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 43332,
+   "pushedAt": "2026-10-02T17:54:48Z",
+   "createdAt": "2025-03-23T14:26:23Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kenshiro-o/nagato-ai": {
+   "nameWithOwner": "kenshiro-o/nagato-ai",
+   "stargazerCount": 119,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 38380,
+   "pushedAt": "2026-04-16T07:26:30Z",
+   "createdAt": "2024-03-31T11:44:20Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "samurmaykrr/zqlz": {
+   "nameWithOwner": "samurmaykrr/zqlz",
+   "stargazerCount": 191,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 11631,
+   "pushedAt": "2026-08-07T12:19:48Z",
+   "createdAt": "2026-02-14T18:08:54Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "HTMLGuyLLC/jAlert": {
+   "nameWithOwner": "HTMLGuyLLC/jAlert",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 8090,
+   "pushedAt": "2026-05-22T07:08:41Z",
+   "createdAt": "2015-06-20T12:37:05Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "DumbWareio/DumbPad": {
+   "nameWithOwner": "DumbWareio/DumbPad",
+   "stargazerCount": 474,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 600,
+   "pushedAt": "2025-12-31T01:08:19Z",
+   "createdAt": "2025-01-23T20:54:53Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mxstbr/mxstbr.com": {
+   "nameWithOwner": "mxstbr/mxstbr.com",
+   "stargazerCount": 499,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 43683,
+   "pushedAt": "2026-09-23T20:35:12Z",
+   "createdAt": "2018-10-15T10:12:46Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "formkit/auto-animate": {
+   "nameWithOwner": "formkit/auto-animate",
+   "stargazerCount": 13925,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 70533,
+   "pushedAt": "2026-07-10T16:08:00Z",
+   "createdAt": "2022-05-11T18:50:01Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "pikapikaspeedup/Antigravity-Mobility-CLI": {
+   "nameWithOwner": "pikapikaspeedup/Antigravity-Mobility-CLI",
+   "stargazerCount": 91,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3239,
+   "pushedAt": "2026-09-02T22:21:23Z",
+   "createdAt": "2026-03-18T11:48:41Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "funnywwh/prjflow": {
+   "nameWithOwner": "funnywwh/prjflow",
+   "stargazerCount": 87,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 100622,
+   "pushedAt": "2026-04-28T10:22:42Z",
+   "createdAt": "2025-11-17T03:03:57Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ZimoLiao/scholaraio": {
+   "nameWithOwner": "ZimoLiao/scholaraio",
+   "stargazerCount": 575,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 16598,
+   "pushedAt": "2026-09-25T14:08:23Z",
+   "createdAt": "2026-03-09T18:14:03Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "atrislabs/atris": {
+   "nameWithOwner": "atrislabs/atris",
+   "stargazerCount": 70,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 28622,
+   "pushedAt": "2026-10-03T08:34:09Z",
+   "createdAt": "2025-10-20T20:43:58Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "arcanis/terminosaurus": {
+   "nameWithOwner": "arcanis/terminosaurus",
+   "stargazerCount": 211,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1368,
+   "pushedAt": "2025-02-23T20:20:08Z",
+   "createdAt": "2024-03-06T22:50:39Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mckaywrigley/o1-xml-parser": {
+   "nameWithOwner": "mckaywrigley/o1-xml-parser",
+   "stargazerCount": 456,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 151,
+   "pushedAt": "2025-01-12T10:39:25Z",
+   "createdAt": "2024-12-08T09:19:18Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Wafris/wafris-rb": {
+   "nameWithOwner": "Wafris/wafris-rb",
+   "stargazerCount": 113,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1485,
+   "pushedAt": "2024-12-10T15:39:20Z",
+   "createdAt": "2022-12-14T14:13:34Z",
+   "primaryLanguage": {
+    "name": "Ruby"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ericmjl/llamabot": {
+   "nameWithOwner": "ericmjl/llamabot",
+   "stargazerCount": 182,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9965,
+   "pushedAt": "2026-10-02T19:41:25Z",
+   "createdAt": "2023-04-03T17:53:50Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "kristiyan-velkov/frontend-production-dockerfiles": {
+   "nameWithOwner": "kristiyan-velkov/frontend-production-dockerfiles",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3450,
+   "pushedAt": "2026-03-24T17:25:54Z",
+   "createdAt": "2025-02-22T10:50:13Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "ThreeMoonsLab/agents-shipgate": {
+   "nameWithOwner": "ThreeMoonsLab/agents-shipgate",
+   "stargazerCount": 89,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 44191,
+   "pushedAt": "2026-10-03T09:28:01Z",
+   "createdAt": "2026-04-25T04:42:24Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "shangyankeji/super-dev": {
+   "nameWithOwner": "shangyankeji/super-dev",
+   "stargazerCount": 274,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 23887,
+   "pushedAt": "2026-06-19T13:03:50Z",
+   "createdAt": "2025-12-29T22:06:11Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "benbjurstrom/otpz": {
+   "nameWithOwner": "benbjurstrom/otpz",
+   "stargazerCount": 282,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 419,
+   "pushedAt": "2026-04-15T14:30:44Z",
+   "createdAt": "2024-09-21T00:50:33Z",
+   "primaryLanguage": {
+    "name": "PHP"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "zzfn/zzf": {
+   "nameWithOwner": "zzfn/zzf",
+   "stargazerCount": 63,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 29150,
+   "pushedAt": "2026-08-18T05:43:53Z",
+   "createdAt": "2020-08-23T07:43:42Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "allenai/atlantes": {
+   "nameWithOwner": "allenai/atlantes",
+   "stargazerCount": 67,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 68544,
+   "pushedAt": "2026-07-20T06:33:33Z",
+   "createdAt": "2025-01-07T20:14:58Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "pomerium/mcp-app-demo": {
+   "nameWithOwner": "pomerium/mcp-app-demo",
+   "stargazerCount": 51,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 902,
+   "pushedAt": "2026-08-06T17:05:29Z",
+   "createdAt": "2025-05-22T20:50:21Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "leemonade/leemons": {
+   "nameWithOwner": "leemonade/leemons",
+   "stargazerCount": 292,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 96901,
+   "pushedAt": "2025-05-14T09:50:10Z",
+   "createdAt": "2021-03-01T16:45:58Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "mjcumming/wiim": {
+   "nameWithOwner": "mjcumming/wiim",
+   "stargazerCount": 138,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3974,
+   "pushedAt": "2026-10-02T18:59:58Z",
+   "createdAt": "2025-05-23T14:22:45Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "passportxyz/passport": {
+   "nameWithOwner": "passportxyz/passport",
+   "stargazerCount": 1223,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 67491,
+   "pushedAt": "2026-09-27T13:09:42Z",
+   "createdAt": "2022-03-14T17:57:02Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "askui/python-sdk": {
+   "nameWithOwner": "askui/python-sdk",
+   "stargazerCount": 554,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7280,
+   "pushedAt": "2026-09-22T12:57:28Z",
+   "createdAt": "2024-10-25T10:21:19Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "qelos-io/qelos": {
+   "nameWithOwner": "qelos-io/qelos",
+   "stargazerCount": 54,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 61467,
+   "pushedAt": "2026-10-03T12:21:43Z",
+   "createdAt": "2025-08-25T05:53:57Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "agility/agilitycms-nextjs-starter": {
+   "nameWithOwner": "agility/agilitycms-nextjs-starter",
+   "stargazerCount": 90,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1051,
+   "pushedAt": "2026-10-03T14:14:10Z",
+   "createdAt": "2021-03-18T23:34:33Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "passwall/passwall-server": {
+   "nameWithOwner": "passwall/passwall-server",
+   "stargazerCount": 768,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2300,
+   "pushedAt": "2026-06-13T12:00:19Z",
+   "createdAt": "2020-04-04T20:41:50Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "AgentAnycast/agentanycast": {
+   "nameWithOwner": "AgentAnycast/agentanycast",
+   "stargazerCount": 78,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 9491,
+   "pushedAt": "2026-03-28T09:12:27Z",
+   "createdAt": "2026-03-17T05:57:15Z",
+   "primaryLanguage": {
+    "name": "Shell"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "xplainable/xplainable": {
+   "nameWithOwner": "xplainable/xplainable",
+   "stargazerCount": 65,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 32993,
+   "pushedAt": "2026-07-23T02:43:38Z",
+   "createdAt": "2022-09-22T23:49:20Z",
+   "primaryLanguage": {
+    "name": "Python"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "evolution-foundation/evo-ai": {
+   "nameWithOwner": "evolution-foundation/evo-ai",
+   "stargazerCount": 613,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 111685,
+   "pushedAt": "2025-06-02T21:59:04Z",
+   "createdAt": "2025-05-13T09:45:28Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "Azure/kimojio-rs": {
+   "nameWithOwner": "Azure/kimojio-rs",
+   "stargazerCount": 264,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 417,
+   "pushedAt": "2026-09-29T23:38:46Z",
+   "createdAt": "2025-10-30T20:47:58Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "shanselman/FlaUI-MCP": {
+   "nameWithOwner": "shanselman/FlaUI-MCP",
+   "stargazerCount": 103,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 66,
+   "pushedAt": "2026-07-08T19:51:26Z",
+   "createdAt": "2026-02-02T19:19:07Z",
+   "primaryLanguage": {
+    "name": "C#"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "utkuozdemir/nvidia_gpu_exporter": {
+   "nameWithOwner": "utkuozdemir/nvidia_gpu_exporter",
+   "stargazerCount": 1564,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7690,
+   "pushedAt": "2026-10-01T03:32:29Z",
+   "createdAt": "2021-06-08T22:42:30Z",
+   "primaryLanguage": {
+    "name": "Go"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "thomasnordquist/MQTT-Explorer": {
+   "nameWithOwner": "thomasnordquist/MQTT-Explorer",
+   "stargazerCount": 4078,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 23006,
+   "pushedAt": "2026-05-08T01:27:42Z",
+   "createdAt": "2019-01-02T15:38:09Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "lldap/lldap": {
+   "nameWithOwner": "lldap/lldap",
+   "stargazerCount": 6543,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 3922,
+   "pushedAt": "2026-09-26T11:31:51Z",
+   "createdAt": "2021-03-02T11:39:53Z",
+   "primaryLanguage": {
+    "name": "Rust"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "AzureAD/microsoft-authentication-library-common-for-objc": {
+   "nameWithOwner": "AzureAD/microsoft-authentication-library-common-for-objc",
+   "stargazerCount": 66,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 19840,
+   "pushedAt": "2026-10-02T20:09:53Z",
+   "createdAt": "2017-11-02T18:22:35Z",
+   "primaryLanguage": {
+    "name": "Objective-C"
+   },
+   "defaultBranchRef": {
+    "name": "dev"
+   }
+  },
+  "johnpapa/vscode-peacock": {
+   "nameWithOwner": "johnpapa/vscode-peacock",
+   "stargazerCount": 1184,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 48511,
+   "pushedAt": "2026-10-01T11:28:50Z",
+   "createdAt": "2019-02-22T05:50:25Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "EliasOenal/multimon-ng": {
+   "nameWithOwner": "EliasOenal/multimon-ng",
+   "stargazerCount": 1141,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 13805,
+   "pushedAt": "2026-09-27T05:36:57Z",
+   "createdAt": "2012-05-20T00:48:56Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "rstrouse/nodejs-poolController-dashPanel": {
+   "nameWithOwner": "rstrouse/nodejs-poolController-dashPanel",
+   "stargazerCount": 50,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5095,
+   "pushedAt": "2026-09-09T23:38:24Z",
+   "createdAt": "2019-10-13T18:05:40Z",
+   "primaryLanguage": {
+    "name": "JavaScript"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  },
+  "johnpapa/vscode-winteriscoming": {
+   "nameWithOwner": "johnpapa/vscode-winteriscoming",
+   "stargazerCount": 182,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 5840,
+   "pushedAt": "2026-07-24T06:05:56Z",
+   "createdAt": "2017-10-18T14:55:36Z",
+   "primaryLanguage": {
+    "name": "CSS"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "rmpowell77/wxUI": {
+   "nameWithOwner": "rmpowell77/wxUI",
+   "stargazerCount": 72,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1684,
+   "pushedAt": "2026-09-15T15:40:23Z",
+   "createdAt": "2022-07-31T01:47:10Z",
+   "primaryLanguage": {
+    "name": "C++"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "some-natalie/kubernoodles": {
+   "nameWithOwner": "some-natalie/kubernoodles",
+   "stargazerCount": 106,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 1070,
+   "pushedAt": "2026-10-03T07:05:40Z",
+   "createdAt": "2022-03-07T19:32:17Z",
+   "primaryLanguage": {
+    "name": "Dockerfile"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "code-a2z/code-a2z": {
+   "nameWithOwner": "code-a2z/code-a2z",
+   "stargazerCount": 148,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 2705,
+   "pushedAt": "2026-04-14T17:00:39Z",
+   "createdAt": "2023-02-17T19:14:17Z",
+   "primaryLanguage": {
+    "name": "TypeScript"
+   },
+   "defaultBranchRef": {
+    "name": "main"
+   }
+  },
+  "wolfSSL/wolfTPM": {
+   "nameWithOwner": "wolfSSL/wolfTPM",
+   "stargazerCount": 346,
+   "isFork": false,
+   "isArchived": false,
+   "diskUsage": 7186,
+   "pushedAt": "2026-10-01T23:52:30Z",
+   "createdAt": "2018-01-30T18:52:42Z",
+   "primaryLanguage": {
+    "name": "C"
+   },
+   "defaultBranchRef": {
+    "name": "master"
+   }
+  }
+ }
+}
