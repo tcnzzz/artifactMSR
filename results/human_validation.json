@@ -1,0 +1,410 @@
+{
+ "A_extraction": {
+  "status": "complete",
+  "items": 190,
+  "filled_by_both": 190,
+  "raw_agreement": 0.8421052631578947,
+  "cohen_kappa": 0.5212497900218374,
+  "to_adjudicate": [],
+  "adjudicated": 30,
+  "final_unsure": 0,
+  "all": {
+   "n": 190,
+   "yes": 145,
+   "weighted_share": 0.8747250216731688,
+   "ci": [
+    0.8090504442999568,
+    0.9274668806892068
+   ],
+   "by_stratum": {
+    "anchored_satisfied_lenient": {
+     "n": 30,
+     "yes": 29,
+     "share": 0.9666666666666667,
+     "population": 2299
+    },
+    "anchored_violated": {
+     "n": 60,
+     "yes": 51,
+     "share": 0.85,
+     "population": 93
+    },
+    "anchored_satisfied_exact": {
+     "n": 40,
+     "yes": 37,
+     "share": 0.925,
+     "population": 8410
+    },
+    "never_valid": {
+     "n": 40,
+     "yes": 18,
+     "share": 0.45,
+     "population": 1381
+    },
+    "entered_invalid_later_valid": {
+     "n": 20,
+     "yes": 10,
+     "share": 0.5,
+     "population": 121
+    }
+   }
+  },
+  "anchored": {
+   "n": 130,
+   "yes": 117,
+   "weighted_share": 0.9332222427945444,
+   "ci": [
+    0.8604980559155713,
+    0.9916142072455719
+   ],
+   "by_stratum": {
+    "anchored_satisfied_lenient": {
+     "n": 30,
+     "yes": 29,
+     "share": 0.9666666666666667,
+     "population": 2299
+    },
+    "anchored_violated": {
+     "n": 60,
+     "yes": 51,
+     "share": 0.85,
+     "population": 93
+    },
+    "anchored_satisfied_exact": {
+     "n": 40,
+     "yes": 37,
+     "share": 0.925,
+     "population": 8410
+    }
+   }
+  },
+  "anchored_violated": {
+   "n": 60,
+   "yes": 51,
+   "weighted_share": 0.85,
+   "ci": [
+    0.75,
+    0.9333333333333333
+   ],
+   "by_stratum": {
+    "anchored_violated": {
+     "n": 60,
+     "yes": 51,
+     "share": 0.85,
+     "population": 93
+    }
+   }
+  }
+ },
+ "B_breaks": {
+  "status": "complete",
+  "items": 140,
+  "filled_by_both": 140,
+  "raw_agreement": 0.9357142857142857,
+  "cohen_kappa": 0.690873405299313,
+  "to_adjudicate": [],
+  "adjudicated": 9,
+  "final_unsure": 0,
+  "context": {
+   "n": 79,
+   "yes": 69,
+   "weighted_share": 0.8796557120500783,
+   "ci": [
+    0.80372848200313,
+    0.9508607198748044
+   ],
+   "by_stratum": {
+    "context_path": {
+     "n": 60,
+     "yes": 53,
+     "share": 0.8833333333333333,
+     "population": 194
+    },
+    "context_non_path": {
+     "n": 19,
+     "yes": 16,
+     "share": 0.8421052631578947,
+     "population": 19
+    }
+   }
+  },
+  "readme": {
+   "n": 61,
+   "yes": 55,
+   "weighted_share": 0.9152930402930404,
+   "ci": [
+    0.8365384615384616,
+    0.9817994505494505
+   ],
+   "by_stratum": {
+    "readme_path": {
+     "n": 52,
+     "yes": 48,
+     "share": 0.9230769230769231,
+     "population": 159
+    },
+    "readme_non_path": {
+     "n": 9,
+     "yes": 7,
+     "share": 0.7777777777777778,
+     "population": 9
+    }
+   }
+  },
+  "difference_context_minus_readme": {
+   "est": -0.03563732824296206,
+   "ci": [
+    -0.1399998683339353,
+    0.06628139026466477
+   ]
+  }
+ },
+ "S_insync": {
+  "status": "complete",
+  "items": 120,
+  "filled_by_both": 120,
+  "raw_agreement": 0.9666666666666667,
+  "cohen_kappa": 0.64963503649635,
+  "to_adjudicate": [],
+  "adjudicated": 4,
+  "final_unsure": 0,
+  "context": {
+   "n": 60,
+   "yes": 56,
+   "weighted_share": 0.9333333333333333,
+   "ci": [
+    0.8666666666666666,
+    0.9833333333333333
+   ],
+   "by_stratum": {
+    "context": {
+     "n": 60,
+     "yes": 56,
+     "share": 0.9333333333333333,
+     "population": 336
+    }
+   }
+  },
+  "readme": {
+   "n": 60,
+   "yes": 57,
+   "weighted_share": 0.9499999999999998,
+   "ci": [
+    0.8833333333333333,
+    1.0
+   ],
+   "by_stratum": {
+    "readme": {
+     "n": 60,
+     "yes": 57,
+     "share": 0.95,
+     "population": 444
+    }
+   }
+  },
+  "difference_context_minus_readme": {
+   "est": -0.016666666666666496,
+   "ci": [
+    -0.09999999999999998,
+    0.06666666666666665
+   ]
+  }
+ },
+ "L_lenient": {
+  "status": "complete",
+  "items": 100,
+  "filled_by_both": 100,
+  "raw_agreement": 0.96,
+  "cohen_kappa": 0.4805194805194805,
+  "to_adjudicate": [],
+  "adjudicated": 4,
+  "final_unsure": 0,
+  "intended": {
+   "n": 100,
+   "yes": 96,
+   "share": 0.96,
+   "wilson": [
+    0.9016278276739262,
+    0.984336949448152
+   ]
+  }
+ },
+ "R_recall": {
+  "status": "complete",
+  "frame": "uniform sample of all non-blank lines of 30 context files, weighted by lines over sampled lines",
+  "n_files": 30,
+  "n_lines": 590,
+  "rater1": {
+   "recall": {
+    "path": 0.6538859338061469,
+    "script": 0.8180354267310788,
+    "target": 0.0,
+    "manifest": 0.16199376947040497,
+    "dep": 0.23257839721254353,
+    "all": 0.5686838472158309
+   },
+   "ci_all": [
+    0.3897793592369747,
+    0.6889190063484839
+   ],
+   "true_references_in_sample": 193.0
+  },
+  "rater2": {
+   "recall": {
+    "path": 0.666838046272494,
+    "script": 0.8037974683544304,
+    "target": 0.0,
+    "manifest": 1.0,
+    "dep": 0.06914765906362544,
+    "all": 0.5416020948004064
+   },
+   "ci_all": [
+    0.37064178211794074,
+    0.6601059825106523
+   ],
+   "true_references_in_sample": 182.0
+  },
+  "mean_recall_all": 0.5551429710081186,
+  "mean_recall_path": 0.6603619900393205,
+  "mean_ci_all": [
+   0.3802105706774577,
+   0.6745124944295682
+  ],
+  "agreement_line_has_reference": {
+   "raw_agreement": 0.8949152542372881,
+   "cohen_kappa": 0.6942749686585874
+  },
+  "exact_count_agreement": 0.8610169491525423,
+  "tool_wrong_mean": 12.0
+ },
+ "R_recall_readme": {
+  "status": "complete",
+  "frame": "uniform sample of all non-blank lines of root README files, weighted by lines over sampled lines",
+  "n_files": 15,
+  "n_lines": 300,
+  "rater1": {
+   "recall": {
+    "path": 0.3490175801447777,
+    "script": 0.12307692307692308,
+    "target": null,
+    "manifest": 1.0,
+    "dep": null,
+    "all": 0.396568789178489
+   },
+   "ci_all": [
+    0.18608021730443614,
+    0.7008706933896951
+   ],
+   "true_references_in_sample": 16.0
+  },
+  "rater2": {
+   "recall": {
+    "path": 0.3490175801447777,
+    "script": 0.12307692307692308,
+    "target": null,
+    "manifest": 1.0,
+    "dep": null,
+    "all": 0.396568789178489
+   },
+   "ci_all": [
+    0.19161370659094115,
+    0.6893397748069107
+   ],
+   "true_references_in_sample": 16.0
+  },
+  "mean_recall_all": 0.396568789178489,
+  "mean_recall_path": 0.3490175801447777,
+  "mean_ci_all": [
+   0.18884696194768863,
+   0.6951052340983028
+  ],
+  "agreement_line_has_reference": {
+   "raw_agreement": 1.0,
+   "cohen_kappa": 1.0
+  },
+  "exact_count_agreement": 1.0,
+  "tool_wrong_mean": 5.0
+ },
+ "R_recall_difference": {
+  "status": "complete",
+  "est_context_minus_readme": 0.15857418182962962,
+  "ci": [
+   -0.1820173285158818,
+   0.39086120682948633
+  ]
+ },
+ "B_cause": {
+  "status": "complete",
+  "items": 124,
+  "raw_agreement": 1.0,
+  "cohen_kappa": 1.0,
+  "to_adjudicate": [],
+  "adjudicated": 5,
+  "final_unsure": 0,
+  "context": {
+   "true_breaks_in_sample": 69,
+   "items_in_strata": 79,
+   "deleted": {
+    "share": 0.8446895570183242,
+    "ci": [
+     0.7471712651096729,
+     0.932144106330885
+    ],
+    "count": 60
+   },
+   "moved_renamed": {
+    "share": 0.15531044298167587,
+    "ci": [
+     0.06821378340365683,
+     0.2561196191874271
+    ],
+    "count": 9
+   },
+   "other": {
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "count": 0
+   }
+  },
+  "readme": {
+   "true_breaks_in_sample": 55,
+   "items_in_strata": 61,
+   "deleted": {
+    "share": 0.7613806903451726,
+    "ci": [
+     0.6347977581809617,
+     0.8694054748986855
+    ],
+    "count": 43
+   },
+   "moved_renamed": {
+    "share": 0.23861930965482742,
+    "ci": [
+     0.12600588471910507,
+     0.35331329238847065
+    ],
+    "count": 12
+   },
+   "other": {
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "count": 0
+   }
+  },
+  "difference_context_minus_readme_moved": {
+   "est": -0.08330886667315154,
+   "ci": [
+    -0.228769731236265,
+    0.057555207115809366
+   ]
+  }
+ },
+ "author_verification": "The authors have manually verified the final labels, the numbers quoted from prior work, and the claims presented in this manuscript.",
+ "complete": true
+}

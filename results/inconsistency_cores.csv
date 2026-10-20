@@ -1,0 +1,121 @@
+repo,file,core,core_size,form,src,clause,line,text
+Aurealibe/claude-config,CLAUDE.md,0,2,unit-,prose,-cmd(npm run dev),339,"- **NEVER use watch / dev mode for a one-off check**: not `npm run test` (watch), not `npm run dev`, not `go run cmd/main.go`, not `air` / `vite`, just to ""see if it compiles""."
+Aurealibe/claude-config,CLAUDE.md,0,2,unit+,cmd,+cmd(npm run dev),353,npm run dev
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,0,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,0,2,unit+,cmd,+cmd(make clean-juliet),205,make clean-juliet                # Remove compiled artifacts
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,1,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,1,2,unit+,cmd,+cmd(make juliet-categories),204,make juliet-categories           # List all 15 supported CWEs
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,2,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,2,2,unit+,cmd,+cmd(make test-juliet-json),203,make test-juliet-json            # JSON output to file
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,3,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,3,2,unit+,cmd,+cmd(make test-juliet),201,make test-juliet                 # Run full benchmark suite
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,4,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,4,2,unit+,cmd,+cmd(make compile-juliet),200,make compile-juliet              # Compile all 15 CWEs (LLVM 18 + mem2reg)
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,5,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,5,2,unit+,prose,+cmd(make compile-ptaben),156,- Compile with `make compile-ptaben` (runs `scripts/compile-ptaben.sh` in Docker).
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,6,2,unit-,prose,-cmd(cargo test),30,"**IMPORTANT: Never run `cargo test` or `cargo build` locally** for crates that depend on LLVM (`saf-frontends`, `saf-analysis`, `saf-python`, `saf-cli`)."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,6,2,unit+,cmd,+cmd(cargo test -p),30,"Running `cargo test -p saf-analysis` locally will fail with ""No suitable version of LLVM was found."" Always use `make test` or `make shell` to run tests inside Docker."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,7,2,unit+,cmd,+cmd(make clean),27,make clean       # Remove Docker volumes and local target/
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,7,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,8,2,unit+,cmd,+cmd(make build),26,make build       # Build minimal runtime Docker image
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,8,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,9,2,unit+,cmd,+cmd(make shell),25,make shell       # Open interactive dev shell in Docker
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,9,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,10,2,unit+,cmd,+cmd(make fmt),24,make fmt         # Auto-format all Rust code in Docker
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,10,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,11,2,unit+,cmd,+cmd(make lint-fmt),23,make lint-fmt    # Run rustfmt check only in Docker
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,11,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,12,2,unit+,cmd,+cmd(make lint-clippy),22,make lint-clippy # Run clippy only in Docker
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,12,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,13,2,unit+,cmd,+cmd(make lint),21,make lint        # Run clippy + rustfmt check in Docker (runs both targets below)
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,13,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,14,2,unit+,cmd,+cmd(make test),20,make test        # Run all tests (Rust + Python) in Docker
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,14,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,15,2,unit+,cmd,+cmd(make help),19,make help        # Show all available commands
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,15,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,0,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,0,2,unit+,cmd,+cmd(make clean-juliet),205,make clean-juliet                # Remove compiled artifacts
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,1,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,1,2,unit+,cmd,+cmd(make juliet-categories),204,make juliet-categories           # List all 15 supported CWEs
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,2,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,2,2,unit+,cmd,+cmd(make test-juliet-json),203,make test-juliet-json            # JSON output to file
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,3,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,3,2,unit+,cmd,+cmd(make test-juliet),201,make test-juliet                 # Run full benchmark suite
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,4,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,4,2,unit+,cmd,+cmd(make compile-juliet),200,make compile-juliet              # Compile all 15 CWEs (LLVM 18 + mem2reg)
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,5,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,5,2,unit+,prose,+cmd(make compile-ptaben),156,- Compile with `make compile-ptaben` (runs `scripts/compile-ptaben.sh` in Docker).
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,6,2,unit+,cmd,+cmd(make test-ptaben-llvm22),30,"Benchmarks (PTABen, Juliet, SV-COMP, CruxBC) default to LLVM 18 for baseline reproducibility; PTABen has an LLVM 22 variant (`make compile-ptaben-llvm22` + `make test-ptaben-llvm22`), but the LLVM 18 numbers remain the headline baseline."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,6,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,7,2,unit+,cmd,+cmd(make compile-ptaben-llvm22),30,"Benchmarks (PTABen, Juliet, SV-COMP, CruxBC) default to LLVM 18 for baseline reproducibility; PTABen has an LLVM 22 variant (`make compile-ptaben-llvm22` + `make test-ptaben-llvm22`), but the LLVM 18 numbers remain the headline baseline."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,7,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,8,2,unit+,cmd,+cmd(make test-llvm22),30,Use `make shell` / `make test` for LLVM 18 and `make shell-llvm22` / `make test-llvm22` for LLVM 22.
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,8,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,9,2,unit+,cmd,+cmd(make shell-llvm22),30,Use `make shell` / `make test` for LLVM 18 and `make shell-llvm22` / `make test-llvm22` for LLVM 22.
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,9,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,10,2,unit-,prose,-cmd(cargo test),28,"**IMPORTANT: Never run `cargo test` or `cargo build` locally** for crates that depend on LLVM (`saf-frontends`, `saf-analysis`, `saf-python`, `saf-cli`)."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,10,2,unit+,cmd,+cmd(cargo test -p),28,"Running `cargo test -p saf-analysis` locally will fail with ""No suitable version of LLVM was found."" Always use `make test` or `make shell` to run tests inside Docker."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,11,2,unit+,cmd,+cmd(make clean),25,make clean       # Remove Docker volumes and local target/
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,11,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,12,2,unit+,cmd,+cmd(make build),24,make build       # Build minimal runtime Docker image
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,12,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,13,2,unit+,cmd,+cmd(make shell),23,make shell       # Open interactive dev shell in Docker
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,13,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,14,2,unit+,cmd,+cmd(make fmt),22,make fmt         # Auto-format all Rust code in Docker
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,14,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,15,2,unit+,cmd,+cmd(make lint-fmt),21,make lint-fmt    # Run rustfmt check only in Docker
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,15,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,16,2,unit+,cmd,+cmd(make lint-clippy),20,make lint-clippy # Run clippy only in Docker
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,16,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,17,2,unit+,cmd,+cmd(make lint),19,make lint        # Run clippy + rustfmt check in Docker (runs both targets below)
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,17,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,18,2,unit+,cmd,+cmd(make test),18,make test        # Run all tests (Rust + Python) in Docker
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,18,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,19,2,unit+,cmd,+cmd(make help),17,make help        # Show all available commands
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,19,2,unit-,prose,-use(make),32,"**IMPORTANT: Subagents must NEVER call `make` commands.** All `make` commands (`make test`, `make shell`, `make lint`, etc.) must be called by the main agent only."
+ericmjl/llamabot,AGENTS.md,0,2,unit-,prose,-use(pytest),27,- 2026-03-28: Do not add pytest coverage for standalone demos (e.g.
+ericmjl/llamabot,AGENTS.md,0,2,unit+,prose,+use(pytest),46,- `pixi run test` - Run the test suite with pytest (usually rely on CI instead of running the full suite locally unless asked)
+immobiliare/backstage-plugin-gitlab,AGENTS.md,0,2,unit+,prose,+cmd(yarn install),383,"Run `yarn install`, then verify with `yarn type`, `yarn build`, `yarn test`"
+immobiliare/backstage-plugin-gitlab,AGENTS.md,0,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,1,2,unit+,cmd,+cmd(yarn workspace),356,"yarn workspace @immobiliarelabs/backstage-plugin-gitlab-backend test --testPathPattern=""router.test"""
+immobiliare/backstage-plugin-gitlab,AGENTS.md,1,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,2,2,unit+,cmd,+cmd(yarn publish:ci),144,yarn publish:ci          # Lerna publish from-package (CI only)
+immobiliare/backstage-plugin-gitlab,AGENTS.md,2,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,3,2,unit+,cmd,+cmd(yarn version:prerelease),143,yarn version:prerelease  # Prerelease bump (other branches)
+immobiliare/backstage-plugin-gitlab,AGENTS.md,3,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,4,2,unit+,cmd,+cmd(yarn version:release),142,yarn version:release     # Conventional version bump for main branch
+immobiliare/backstage-plugin-gitlab,AGENTS.md,4,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,5,2,unit+,cmd,+cmd(yarn type),133,`yarn type` (full type check via typescript) on `.ts` files
+immobiliare/backstage-plugin-gitlab,AGENTS.md,5,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,6,2,unit+,cmd,+cmd(yarn markdown-toc -i),132,`yarn markdown-toc -i` on `.md` files
+immobiliare/backstage-plugin-gitlab,AGENTS.md,6,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,7,2,unit+,cmd,+cmd(yarn biome --write),131,`yarn biome check --write` on all staged files
+immobiliare/backstage-plugin-gitlab,AGENTS.md,7,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,8,2,unit+,cmd,+cmd(yarn style:format),124,yarn style:format     # biome format --write packages
+immobiliare/backstage-plugin-gitlab,AGENTS.md,8,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,9,2,unit+,cmd,+cmd(yarn style:lint-fix),123,yarn style:lint-fix   # biome check --write packages
+immobiliare/backstage-plugin-gitlab,AGENTS.md,9,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,10,2,unit+,cmd,+cmd(yarn style:lint),122,yarn style:lint       # biome check packages
+immobiliare/backstage-plugin-gitlab,AGENTS.md,10,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,11,2,unit+,cmd,+cmd(yarn test:ci),108,yarn test:ci        # backstage-cli package test --watch false
+immobiliare/backstage-plugin-gitlab,AGENTS.md,11,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,12,2,unit+,cmd,+cmd(yarn test),101,yarn test           # Runs lerna run test:ci across all packages (no watch)
+immobiliare/backstage-plugin-gitlab,AGENTS.md,12,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,13,2,unit+,cmd,+cmd(yarn type --noemit),93,yarn type           # tsc --noEmit (validates all packages via root tsconfig.json)
+immobiliare/backstage-plugin-gitlab,AGENTS.md,13,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,14,2,unit+,cmd,+cmd(yarn build),85,yarn build          # tsc (type declarations) + backstage-cli repo build --all
+immobiliare/backstage-plugin-gitlab,AGENTS.md,14,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,15,2,unit+,cmd,+cmd(yarn start),79,yarn start          # Start dev-sandbox app (new frontend system)
+immobiliare/backstage-plugin-gitlab,AGENTS.md,15,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,16,2,unit+,prose,+use(yarn),22,"- **Package manager**: Yarn 4 (Berry) with `node-modules` linker — use `yarn`, not `npm`"
+immobiliare/backstage-plugin-gitlab,AGENTS.md,16,2,unit-,prose,-use(yarn),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+immobiliare/backstage-plugin-gitlab,AGENTS.md,17,2,unit-,prose,-use(npm),22,"- **Package manager**: Yarn 4 (Berry) with `node-modules` linker — use `yarn`, not `npm`"
+immobiliare/backstage-plugin-gitlab,AGENTS.md,17,2,unit+,prose,+cmd(npm run style:lint),424,**`lint-staged` calls `npm run`**: The `lint-staged.config.cjs` uses `npm run style:lint` (not `yarn`).
+jhlee0409/claude-code-history-viewer,CLAUDE.md,0,2,unit-,prose,-use(npm),97,This is a **Tauri desktop application** distributed via GitHub Releases (not npm).
+jhlee0409/claude-code-history-viewer,CLAUDE.md,0,2,unit+,cmd,+cmd(npm version --no-git-tag-version),114,npm version prerelease --preid=beta --no-git-tag-version
+mackt/pi-language-tutor,AGENTS.md,0,2,unit+,cmd,+cmd(npm version --no-git-tag-version),37,Run either `npm version minor --no-git-tag-version` or
+mackt/pi-language-tutor,AGENTS.md,0,2,unit-,prose,-cmd(npm version),48,Do not run `npm version` again after the bump PR is merged; the merged manifest
+oalanicolas/claude-design-premium,CLAUDE.md,0,2,unit-,prose,-use(npm),100,"only, no npm)."
+oalanicolas/claude-design-premium,CLAUDE.md,0,2,unit+,cmd,+cmd(npm install),180,"**Does NOT work in canvas:** `git`, `npm install`, package scripts, lint, tests, builds, dev servers"
+oalanicolas/claude-design-premium,CLAUDE.md,1,2,unit+,cmd,+use(node),53,Local `node scripts/*.mjs` mirrors
+oalanicolas/claude-design-premium,CLAUDE.md,1,2,unit-,prose,-use(node),184,There is no `node` shell in the canvas  -  execute

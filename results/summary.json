@@ -1,0 +1,865 @@
+{
+ "funnel": {
+  "search_hits": 4800,
+  "repos_with_root_file": 3346,
+  "metadata_found": 3344,
+  "eligible": 542,
+  "sampled": 542,
+  "min_stars": 50,
+  "max_kb": 150000,
+  "per_type": 10000,
+  "seed": 20261003,
+  "eligible_by_type": {
+   "AGENTS.md": 216,
+   "CLAUDE.md": 179,
+   ".cursorrules": 133,
+   "copilot-instructions.md": 14
+  },
+  "mined_ok": 542,
+  "skipped": {}
+ },
+ "corpus": {
+  "repos": 542,
+  "context_files": 755,
+  "readme_files": 523,
+  "files_by_type": {
+   "AGENTS.md": 286,
+   "CLAUDE.md": 289,
+   ".cursorrules": 135,
+   "copilot-instructions.md": 45
+  },
+  "median_stars": 127.5,
+  "stars_iqr": [
+   77.25,
+   313.0
+  ],
+  "languages_top": [
+   [
+    "TypeScript",
+    130
+   ],
+   [
+    "Python",
+    115
+   ],
+   [
+    "JavaScript",
+    47
+   ],
+   [
+    "Rust",
+    38
+   ],
+   [
+    "Go",
+    32
+   ],
+   [
+    "C++",
+    18
+   ],
+   [
+    "Java",
+    18
+   ],
+   [
+    "Shell",
+    17
+   ]
+  ],
+  "median_versions": 2.0,
+  "median_age_days": 132.9,
+  "age_iqr": [
+   43.1,
+   218.2
+  ],
+  "share_single_version": 0.4185430463576159,
+  "median_days_since_edit": 53.3,
+  "total_snapshots": 39166,
+  "fully_enumerated_repos": 430,
+  "constraint_lifetimes_ctx": 15620,
+  "constraint_lifetimes_readme": 10170
+ },
+ "head_drift": {
+  "context": {
+   "files": 755,
+   "files_with_constraints": 653,
+   "files_with_born_valid": 645,
+   "constraints_at_head": 12498,
+   "median_constraints_per_file": 12.0,
+   "born_valid_at_head": 10927,
+   "violated_at_head": 123,
+   "pooled_drift": 0.011256520545437906,
+   "pooled_drift_ci": [
+    0.00755967474486972,
+    0.01576158078944313
+   ],
+   "mean_file_drift": 0.009372520363574855,
+   "mean_file_drift_ci": [
+    0.006673217217723466,
+    0.012532222572452375
+   ],
+   "files_with_any_violation": 70,
+   "share_files_any_violation": 0.10852713178294573,
+   "share_files_any_violation_ci": [
+    0.08306920429131383,
+    0.1348889570995233
+   ],
+   "never_valid_at_head": 1448,
+   "share_never_valid": 0.11585853736597855,
+   "strict_born_valid": 8603,
+   "strict_violated": 132,
+   "strict_pooled_drift": 0.015343484830872951
+  },
+  "readme": {
+   "files": 523,
+   "files_with_constraints": 474,
+   "files_with_born_valid": 465,
+   "constraints_at_head": 6578,
+   "median_constraints_per_file": 8.0,
+   "born_valid_at_head": 5732,
+   "violated_at_head": 46,
+   "pooled_drift": 0.008025122121423587,
+   "pooled_drift_ci": [
+    0.005010966685547076,
+    0.011537158225398103
+   ],
+   "mean_file_drift": 0.00800766343247212,
+   "mean_file_drift_ci": [
+    0.0047480736494518614,
+    0.012041937853609323
+   ],
+   "files_with_any_violation": 30,
+   "share_files_any_violation": 0.06451612903225806,
+   "share_files_any_violation_ci": [
+    0.04516129032258064,
+    0.08817204301075268
+   ],
+   "never_valid_at_head": 771,
+   "share_never_valid": 0.1172088780784433,
+   "strict_born_valid": 5260,
+   "strict_violated": 42,
+   "strict_pooled_drift": 0.007984790874524715
+  },
+  "AGENTS.md": {
+   "files": 286,
+   "files_with_constraints": 276,
+   "files_with_born_valid": 274,
+   "constraints_at_head": 5861,
+   "median_constraints_per_file": 14.0,
+   "born_valid_at_head": 5184,
+   "violated_at_head": 37,
+   "pooled_drift": 0.007137345679012345,
+   "pooled_drift_ci": [
+    0.0040592274939116706,
+    0.010781698070149755
+   ],
+   "mean_file_drift": 0.007303014004534891,
+   "mean_file_drift_ci": [
+    0.004128954822138122,
+    0.011215424527151721
+   ],
+   "files_with_any_violation": 25,
+   "share_files_any_violation": 0.09124087591240876,
+   "share_files_any_violation_ci": [
+    0.058394160583941604,
+    0.12408759124087591
+   ],
+   "never_valid_at_head": 608,
+   "share_never_valid": 0.10373656372632657,
+   "strict_born_valid": 4269,
+   "strict_violated": 35,
+   "strict_pooled_drift": 0.008198641368001873
+  },
+  "CLAUDE.md": {
+   "files": 289,
+   "files_with_constraints": 248,
+   "files_with_born_valid": 245,
+   "constraints_at_head": 5128,
+   "median_constraints_per_file": 14.0,
+   "born_valid_at_head": 4548,
+   "violated_at_head": 65,
+   "pooled_drift": 0.014291996481970097,
+   "pooled_drift_ci": [
+    0.008130954722234978,
+    0.023179308099990623
+   ],
+   "mean_file_drift": 0.010640469772795418,
+   "mean_file_drift_ci": [
+    0.006292394900009406,
+    0.016153140144864884
+   ],
+   "files_with_any_violation": 32,
+   "share_files_any_violation": 0.1306122448979592,
+   "share_files_any_violation_ci": [
+    0.08979591836734693,
+    0.17552818668450976
+   ],
+   "never_valid_at_head": 535,
+   "share_never_valid": 0.10432917316692668,
+   "strict_born_valid": 3397,
+   "strict_violated": 74,
+   "strict_pooled_drift": 0.02178392699440683
+  },
+  ".cursorrules": {
+   "files": 135,
+   "files_with_constraints": 87,
+   "files_with_born_valid": 85,
+   "constraints_at_head": 870,
+   "median_constraints_per_file": 3.0,
+   "born_valid_at_head": 679,
+   "violated_at_head": 17,
+   "pooled_drift": 0.025036818851251842,
+   "pooled_drift_ci": [
+    0.0075855420037194655,
+    0.04948216190412253
+   ],
+   "mean_file_drift": 0.014028534649550856,
+   "mean_file_drift_ci": [
+    0.004515302429616763,
+    0.026196071426903694
+   ],
+   "files_with_any_violation": 9,
+   "share_files_any_violation": 0.10588235294117647,
+   "share_files_any_violation_ci": [
+    0.047058823529411764,
+    0.17647058823529413
+   ],
+   "never_valid_at_head": 189,
+   "share_never_valid": 0.21724137931034482,
+   "strict_born_valid": 543,
+   "strict_violated": 18,
+   "strict_pooled_drift": 0.03314917127071823
+  },
+  "copilot-instructions.md": {
+   "files": 45,
+   "files_with_constraints": 42,
+   "files_with_born_valid": 41,
+   "constraints_at_head": 639,
+   "median_constraints_per_file": 13.0,
+   "born_valid_at_head": 516,
+   "violated_at_head": 4,
+   "pooled_drift": 0.007751937984496124,
+   "pooled_drift_ci": [
+    0.0018582235403455062,
+    0.014925373134328358
+   ],
+   "mean_file_drift": 0.005973396529671251,
+   "mean_file_drift_ci": [
+    0.0006418485237483953,
+    0.014081206248268705
+   ],
+   "files_with_any_violation": 4,
+   "share_files_any_violation": 0.0975609756097561,
+   "share_files_any_violation_ci": [
+    0.024390243902439025,
+    0.1951219512195122
+   ],
+   "never_valid_at_head": 116,
+   "share_never_valid": 0.18153364632237873,
+   "strict_born_valid": 394,
+   "strict_violated": 5,
+   "strict_pooled_drift": 0.012690355329949238
+  }
+ },
+ "head_by_kind": {
+  "context": {
+   "path": {
+    "at_head": 10259,
+    "born_valid": 8772,
+    "violated": 115,
+    "drift": 0.013109895120839033,
+    "wilson": [
+     0.010933676247637532,
+     0.015712383544508213
+    ],
+    "never_valid": 1373
+   },
+   "script": {
+    "at_head": 907,
+    "born_valid": 882,
+    "violated": 6,
+    "drift": 0.006802721088435374,
+    "wilson": [
+     0.0031213256376514285,
+     0.014761781229309889
+    ],
+    "never_valid": 21
+   },
+   "target": {
+    "at_head": 569,
+    "born_valid": 534,
+    "violated": 1,
+    "drift": 0.0018726591760299626,
+    "wilson": [
+     0.000330638342463962,
+     0.010530552015440672
+    ],
+    "never_valid": 34
+   },
+   "manifest": {
+    "at_head": 556,
+    "born_valid": 538,
+    "violated": 1,
+    "drift": 0.0018587360594795538,
+    "wilson": [
+     0.00032817949988412417,
+     0.010452831038989228
+    ],
+    "never_valid": 16
+   },
+   "dep": {
+    "at_head": 207,
+    "born_valid": 201,
+    "violated": 0,
+    "drift": 0.0,
+    "wilson": [
+     0.0,
+     0.018754003093121707
+    ],
+    "never_valid": 4
+   }
+  },
+  "readme": {
+   "path": {
+    "at_head": 5375,
+    "born_valid": 4580,
+    "violated": 41,
+    "drift": 0.008951965065502183,
+    "wilson": [
+     0.006605853779104617,
+     0.012121145862418772
+    ],
+    "never_valid": 728
+   },
+   "script": {
+    "at_head": 408,
+    "born_valid": 398,
+    "violated": 3,
+    "drift": 0.007537688442211055,
+    "wilson": [
+     0.0025666926118720016,
+     0.02192454970848507
+    ],
+    "never_valid": 9
+   },
+   "target": {
+    "at_head": 290,
+    "born_valid": 273,
+    "violated": 1,
+    "drift": 0.003663003663003663,
+    "wilson": [
+     0.0006468863566691727,
+     0.020453988656334656
+    ],
+    "never_valid": 16
+   },
+   "manifest": {
+    "at_head": 446,
+    "born_valid": 428,
+    "violated": 1,
+    "drift": 0.002336448598130841,
+    "wilson": [
+     0.000412549066580707,
+     0.013114633122444156
+    ],
+    "never_valid": 13
+   },
+   "dep": {
+    "at_head": 59,
+    "born_valid": 53,
+    "violated": 0,
+    "drift": 0.0,
+    "wilson": [
+     -6.938893903907228e-18,
+     0.06758430445307662
+    ],
+    "never_valid": 5
+   }
+  }
+ },
+ "dynamics": {
+  "context": {
+   "born_valid_lifetimes": 13480,
+   "repos": 489,
+   "broke": 274,
+   "share_broke": 0.020326409495548963,
+   "km_survival_90_180_365": [
+    0.9788950024532317,
+    0.9709516371678025,
+    0.9593828335191018
+   ],
+   "km_ci": [
+    [
+     0.9717276448267824,
+     0.9849689095692898
+    ],
+    [
+     0.9620461399026474,
+     0.9790537655407656
+    ],
+    [
+     0.9389875963427076,
+     0.975105681465385
+    ]
+   ],
+   "km_median_days": NaN,
+   "max_followup_days": 553.747,
+   "exposure_constraint_years": 3844.7377796030114,
+   "breaks": 274,
+   "breaks_per_100_constraint_years": 7.126623861154242,
+   "rate_ci": [
+    5.055208512786586,
+    9.763336556486703
+   ],
+   "implied_half_life_years_constant_hazard": 9.726164788044278,
+   "by_kind": {
+    "path": {
+     "lifetimes": 11068,
+     "breaks": 250,
+     "exposure_years": 3019.534551676934,
+     "rate_per_100cy": 8.279421736080469
+    },
+    "script": {
+     "lifetimes": 1015,
+     "breaks": 18,
+     "exposure_years": 323.31181930184806,
+     "rate_per_100cy": 5.567380753004569
+    },
+    "target": {
+     "lifetimes": 584,
+     "breaks": 3,
+     "exposure_years": 221.04996577686515,
+     "rate_per_100cy": 1.3571592239142418
+    },
+    "manifest": {
+     "lifetimes": 577,
+     "breaks": 1,
+     "exposure_years": 216.47215879534568,
+     "rate_per_100cy": 0.46195317012817666
+    },
+    "dep": {
+     "lifetimes": 236,
+     "breaks": 2,
+     "exposure_years": 64.36928405201917,
+     "rate_per_100cy": 3.1070719978549506
+    }
+   }
+  },
+  "readme": {
+   "born_valid_lifetimes": 8721,
+   "repos": 471,
+   "broke": 165,
+   "share_broke": 0.01891984864121087,
+   "km_survival_90_180_365": [
+    0.9764695372105173,
+    0.9683531106168969,
+    0.9552194513132245
+   ],
+   "km_ci": [
+    [
+     0.9669692167665029,
+     0.9848945009528286
+    ],
+    [
+     0.9551557508407021,
+     0.9803348536817177
+    ],
+    [
+     0.9350870686901488,
+     0.9731188696964841
+    ]
+   ],
+   "km_median_days": NaN,
+   "max_followup_days": 729.916,
+   "exposure_constraint_years": 2003.720027378508,
+   "breaks": 168,
+   "breaks_per_100_constraint_years": 8.384404892124401,
+   "rate_ci": [
+    5.50225030213141,
+    11.4358100012415
+   ],
+   "implied_half_life_years_constant_hazard": 8.267100521481602,
+   "by_kind": {
+    "path": {
+     "lifetimes": 7274,
+     "breaks": 159,
+     "exposure_years": 1539.2825790554416,
+     "rate_per_100cy": 10.329487396496623
+    },
+    "script": {
+     "lifetimes": 538,
+     "breaks": 7,
+     "exposure_years": 158.97747022587268,
+     "rate_per_100cy": 4.403139633593685
+    },
+    "target": {
+     "lifetimes": 342,
+     "breaks": 1,
+     "exposure_years": 99.60029842573579,
+     "rate_per_100cy": 1.0040130559906126
+    },
+    "manifest": {
+     "lifetimes": 488,
+     "breaks": 1,
+     "exposure_years": 188.59995619438743,
+     "rate_per_100cy": 0.5302228166847046
+    },
+    "dep": {
+     "lifetimes": 79,
+     "breaks": 0,
+     "exposure_years": 17.259723477070498,
+     "rate_per_100cy": 0.0
+    }
+   }
+  },
+  "rate_ratio_context_over_readme": {
+   "estimate": 0.8499856522731003,
+   "ci": [
+    0.5919154743591338,
+    1.1955379304905334
+   ]
+  }
+ },
+ "repair": {
+  "context": {
+   "break_episodes": 274,
+   "repos": 95,
+   "exact_commit_located": 266,
+   "ends": {
+    "open": 123,
+    "edit_repair": 128,
+    "repo_repair": 23
+   },
+   "share_open_at_head": 0.4489051094890511,
+   "km_median_days_to_repair": 77.983,
+   "repaired_within_7_30_90_days": [
+    0.3396257790989603,
+    0.40014390854693693,
+    0.5158263968306227
+   ],
+   "boot_ci_open_7_30_90_touched": [
+    [
+     0.3101115129596142,
+     0.6100022935779816
+    ],
+    [
+     0.21927078208042766,
+     0.4602598741587291
+    ],
+    [
+     0.27666562219859975,
+     0.5245968956009515
+    ],
+    [
+     0.3781259957790584,
+     0.6369175315297844
+    ],
+    [
+     0.10109000373791852,
+     0.22041038154392192
+    ]
+   ],
+   "median_days_broken_closed": 2.227,
+   "median_days_open_so_far": 98.588,
+   "iqr_days_open_so_far": [
+    56.0895,
+    169.256
+   ],
+   "file_touched_in_break_commit": 43,
+   "share_file_touched_in_break_commit": 0.15693430656934307
+  },
+  "readme": {
+   "break_episodes": 168,
+   "repos": 57,
+   "exact_commit_located": 162,
+   "ends": {
+    "open": 46,
+    "repo_repair": 28,
+    "edit_repair": 94
+   },
+   "share_open_at_head": 0.27380952380952384,
+   "km_median_days_to_repair": 7.851,
+   "repaired_within_7_30_90_days": [
+    0.4806667875886055,
+    0.5750975075547068,
+    0.7626671676299199
+   ],
+   "boot_ci_open_7_30_90_touched": [
+    [
+     0.1682232370433305,
+     0.4285993303571427
+    ],
+    [
+     0.2871442457302959,
+     0.6230435449262133
+    ],
+    [
+     0.38217244664991906,
+     0.7156049853068519
+    ],
+    [
+     0.6082253056023168,
+     0.8629627655516175
+    ],
+    [
+     0.15322029790234445,
+     0.37932125709297243
+    ]
+   ],
+   "median_days_broken_closed": 0.811,
+   "median_days_open_so_far": 63.78,
+   "iqr_days_open_so_far": [
+    17.0835,
+    196.496
+   ],
+   "file_touched_in_break_commit": 42,
+   "share_file_touched_in_break_commit": 0.25
+  }
+ },
+ "coupling": {
+  "context": {
+   "in_sync_updates": 336,
+   "breaks": 274,
+   "invalidations": 610,
+   "in_sync_share": 0.5508196721311476,
+   "ci": [
+    0.45164241365415,
+    0.6471641583054626
+   ],
+   "repos": 142,
+   "removals_by_type": {
+    "removal_valid": 2181,
+    "removal_broken": 681,
+    "sync_removal": 341
+   }
+  },
+  "readme": {
+   "in_sync_updates": 444,
+   "breaks": 168,
+   "invalidations": 612,
+   "in_sync_share": 0.7254901960784313,
+   "ci": [
+    0.6108356536017706,
+    0.8116152076944522
+   ],
+   "repos": 113,
+   "removals_by_type": {
+    "removal_valid": 3134,
+    "removal_broken": 735,
+    "sync_removal": 446
+   }
+  }
+ },
+ "maintenance": {
+  "ctx_commit_share_of_window": 0.17499583883371148
+ },
+ "repo_level": {
+  "context": {
+   "repos": 489,
+   "repos_any_violation": 63,
+   "share": 0.12883435582822086,
+   "wilson": [
+    0.10200837003714242,
+    0.16144666297955101
+   ]
+  },
+  "readme": {
+   "repos": 465,
+   "repos_any_violation": 30,
+   "share": 0.06451612903225806,
+   "wilson": [
+    0.0455619630994929,
+    0.09060684103392871
+   ]
+  }
+ },
+ "ever_broken": {
+  "context": {
+   "files_with_anchored": 652,
+   "files_ever_broken": 108,
+   "share": 0.1656441717791411,
+   "wilson": [
+    0.13908284656360448,
+    0.1961224835038996
+   ],
+   "repos_ever_broken": 95
+  },
+  "readme": {
+   "files_with_anchored": 471,
+   "files_ever_broken": 57,
+   "share": 0.12101910828025478,
+   "wilson": [
+    0.09458954761824163,
+    0.15358078960579266
+   ],
+   "repos_ever_broken": 57
+  }
+ },
+ "concentration": {
+  "repos_with_breaks": 95,
+  "top10_repos_share_of_breaks": 0.40145985401459855,
+  "max_breaks_one_repo": 30
+ },
+ "paired_diff_context_minus_readme": {
+  "in_sync_share": {
+   "diff": -0.17467052394728377,
+   "ci": [
+    -0.27772799878179033,
+    -0.05373855227264144
+   ]
+  },
+  "share_open": {
+   "diff": 0.17509558567952727,
+   "ci": [
+    0.023974401155209085,
+    0.3315284439100107
+   ]
+  },
+  "pooled_drift": {
+   "diff": 0.0032313984240143184,
+   "ci": [
+    -0.0014723462636723192,
+    0.008127465645116985
+   ]
+  }
+ },
+ "who_breaks": {
+  "breaking_commits": 155,
+  "agent_attributed": 29,
+  "share": 0.1870967741935484,
+  "wilson": [
+   0.13354466465333883,
+   0.25578407542482706
+  ],
+  "base_commits": 30270,
+  "base_agent": 6102,
+  "base_share": 0.20158572844400396,
+  "all_repos_agent_share": 0.2083316432077232
+ },
+ "baselines": {
+  "single_snapshot_flagged": 1581,
+  "single_snapshot_rate": 0.12650024003840615,
+  "single_snapshot_files_flagged": 409,
+  "single_snapshot_share_files": 0.6263399693721287,
+  "anchored_flagged": 123,
+  "share_of_single_snapshot_flags_that_are_anchored": 0.0777988614800759,
+  "two_snapshot_flagged": 75,
+  "two_snapshot_recall_of_anchored_head": 0.6097560975609756,
+  "break_episodes_full_history": 274,
+  "break_episodes_visible_at_head": 123,
+  "share_breaks_invisible_at_head": 0.551094890510949,
+  "born_invalid_later_valid_at_head": 113
+ },
+ "consistency": {
+  "files_analysed": 754,
+  "files_with_rules": 448,
+  "rules": 2630,
+  "forms": {
+   "unit_pos": 2477,
+   "unit_neg": 89,
+   "horn_definite": 63,
+   "horn_negative": 1,
+   "choice": 0
+  },
+  "unit_pos_from_command_mentions": 2156,
+  "axioms": 2653,
+  "horn_rules": 2630,
+  "horn_share": 1.0,
+  "horn_share_wilson": [
+   0.9985414460763319,
+   0.9999999999999999
+  ],
+  "horn_share_ci_cluster": [
+   1.0,
+   1.0
+  ],
+  "files_all_horn": 448,
+  "share_files_all_horn": 1.0,
+  "median_rules_per_file": 4.0,
+  "max_rules_per_file": 36,
+  "files_unsat": 8,
+  "share_files_unsat": 0.017857142857142856,
+  "share_files_unsat_wilson": [
+   0.009075542954714173,
+   0.03483719106534949
+  ],
+  "cores": 60,
+  "raw_or_pairs": 4,
+  "raw_or_pairs_in_prohibitions": 4,
+  "core_sizes": {
+   "2": 120
+  }
+ },
+ "compliance": {
+  "repos_with_rule": 72,
+  "repos_without_rule": 470,
+  "with_rule_pre_post": {
+   "repos": 44,
+   "mean_pre": 0.6232985356853166,
+   "mean_post": 0.8592087280156246,
+   "median_pre": 0.7866295938104448,
+   "median_post": 0.960375,
+   "mean_diff": 0.23591019233030808,
+   "diff_ci": [
+    0.14506428481008798,
+    0.32901331122373245
+   ],
+   "wilcoxon_p": 1.6368725204704635e-06,
+   "share_post_below_half": 0.09090909090909091,
+   "share_post_above_90": 0.6590909090909091
+  },
+  "without_rule_pre_post": {
+   "repos": 178,
+   "mean_pre": 0.2850229569429224,
+   "mean_post": 0.4427093785064792,
+   "median_pre": 0.06732353748970063,
+   "median_post": 0.41585610622201635,
+   "mean_diff": 0.15768642156355686,
+   "diff_ci": [
+    0.11792340005996273,
+    0.1968783135127135
+   ],
+   "wilcoxon_p": 1.3584347195736461e-12,
+   "share_post_below_half": 0.5561797752808989,
+   "share_post_above_90": 0.19101123595505617
+  },
+  "with_rule_post_only": {
+   "repos": 53,
+   "mean_compliance": 0.862569545056133,
+   "median_compliance": 0.9696969696969697,
+   "pooled_share": 0.8861609869304996,
+   "pooled_commits": 8187,
+   "pooled_cc": 7255,
+   "share_repos_below_half": 0.09433962264150944,
+   "share_repos_at_least_90": 0.6981132075471698
+  },
+  "agent_vs_other_after_rule": {
+   "repos": 26,
+   "mean_agent": 0.9059916946025239,
+   "mean_other": 0.8459100397784803,
+   "pooled_agent": [
+    1207,
+    1370
+   ],
+   "pooled_other": [
+    4602,
+    5204
+   ],
+   "mean_diff": 0.0600816548240436,
+   "diff_ci": [
+    0.010139599421157823,
+    0.11639834667646369
+   ],
+   "wilcoxon_p": 0.008685211199123487
+  },
+  "gain_difference_rule_minus_no_rule": {
+   "estimate": 0.07822377076675122,
+   "ci": [
+    -0.018907014412549748,
+    0.18967216191707723
+   ]
+  },
+  "rule_at_creation_share": 0.7638888888888888
+ }
+}

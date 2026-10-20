@@ -1,0 +1,60 @@
+{
+ "seed": 20261005,
+ "A_anchored_violated": {
+  "population": 93,
+  "sampled": 60
+ },
+ "A_anchored_satisfied_exact": {
+  "population": 8410,
+  "sampled": 40
+ },
+ "A_anchored_satisfied_lenient": {
+  "population": 2299,
+  "sampled": 30
+ },
+ "A_never_valid": {
+  "population": 1381,
+  "sampled": 40
+ },
+ "A_entered_invalid_later_valid": {
+  "population": 121,
+  "sampled": 20
+ },
+ "B_context_non_path": {
+  "population": 19,
+  "sampled": 19
+ },
+ "B_context_path": {
+  "population": 194,
+  "sampled": 60
+ },
+ "B_readme_non_path": {
+  "population": 9,
+  "sampled": 9
+ },
+ "B_readme_path": {
+  "population": 159,
+  "sampled": 52
+ },
+ "S_context": {
+  "population": 336,
+  "sampled": 60
+ },
+ "S_readme": {
+  "population": 444,
+  "sampled": 60
+ },
+ "L": {
+  "population": 2240,
+  "sampled": 100,
+  "sample_with_more_than_one_match": 21
+ },
+ "R": {
+  "files": 30,
+  "lines": 590,
+  "lines_with_extraction": 82,
+  "frame": "all non-blank lines of the head version, 30 files drawn uniformly from context files of at least 500 bytes, up to 20 lines per file drawn uniformly, weighted by lines over sampled lines"
+ },
+ "calibration_items": 20,
+ "judgements_per_rater": 1260
+}

@@ -1,0 +1,221 @@
+id,set,label
+A000,A,genuine reference
+A001,A,genuine reference
+A002,A,genuine reference
+A003,A,genuine reference
+A004,A,genuine reference
+A005,A,genuine reference
+A006,A,genuine reference
+A007,A,genuine reference
+A008,A,genuine reference
+A009,A,genuine reference
+A010,A,genuine reference
+A011,A,genuine reference
+A012,A,not a checkable repository reference
+A013,A,genuine reference
+A014,A,genuine reference
+A015,A,genuine reference
+A016,A,genuine reference
+A017,A,genuine reference
+A018,A,not a checkable repository reference
+A019,A,genuine reference
+A020,A,genuine reference
+A021,A,genuine reference
+A022,A,not a checkable repository reference
+A023,A,genuine reference
+A024,A,genuine reference
+A025,A,genuine reference
+A026,A,genuine reference
+A027,A,genuine reference
+A028,A,genuine reference
+A029,A,genuine reference
+A030,A,genuine reference
+A031,A,genuine reference
+A032,A,genuine reference
+A033,A,genuine reference
+A034,A,genuine reference
+A035,A,genuine reference
+A036,A,genuine reference
+A037,A,genuine reference
+A038,A,genuine reference
+A039,A,genuine reference
+A040,A,not a checkable repository reference
+A041,A,genuine reference
+A042,A,genuine reference
+A043,A,genuine reference
+A044,A,genuine reference
+A045,A,genuine reference
+A046,A,genuine reference
+A047,A,genuine reference
+A048,A,genuine reference
+A049,A,genuine reference
+A050,A,genuine reference
+A051,A,genuine reference
+A052,A,genuine reference
+A053,A,genuine reference
+A054,A,genuine reference
+A055,A,genuine reference
+A056,A,genuine reference
+A057,A,genuine reference
+A058,A,genuine reference
+A059,A,genuine reference
+A060,A,genuine reference
+A061,A,genuine reference
+A062,A,genuine reference
+A063,A,genuine reference
+A064,A,genuine reference
+A065,A,genuine reference
+A066,A,genuine reference
+A067,A,genuine reference
+A068,A,genuine reference
+A069,A,genuine reference
+A070,A,genuine reference
+A071,A,genuine reference
+A072,A,genuine reference
+A073,A,genuine reference
+A074,A,genuine reference
+A075,A,genuine reference
+A076,A,genuine reference
+A077,A,genuine reference
+A078,A,genuine reference
+A079,A,genuine reference
+A080,A,genuine reference
+A081,A,genuine reference
+A082,A,genuine reference
+A083,A,genuine reference
+A084,A,genuine reference
+A085,A,genuine reference
+A086,A,genuine reference
+A087,A,genuine reference
+A088,A,genuine reference
+A089,A,genuine reference
+A090,A,genuine reference
+A091,A,genuine reference
+A092,A,genuine reference
+A093,A,genuine reference
+A094,A,genuine reference
+A095,A,genuine reference
+A096,A,genuine reference
+A097,A,genuine reference
+A098,A,genuine reference
+A099,A,genuine reference
+B000,B,true staleness
+B001,B,true staleness
+B002,B,true staleness
+B003,B,false alarm or unverifiable
+B004,B,true staleness
+B005,B,true staleness
+B006,B,false alarm or unverifiable
+B007,B,true staleness
+B008,B,true staleness
+B009,B,true staleness
+B010,B,true staleness
+B011,B,true staleness
+B012,B,true staleness
+B013,B,false alarm or unverifiable
+B014,B,true staleness
+B015,B,true staleness
+B016,B,true staleness
+B017,B,true staleness
+B018,B,true staleness
+B019,B,true staleness
+B020,B,true staleness
+B021,B,true staleness
+B022,B,true staleness
+B023,B,true staleness
+B024,B,true staleness
+B025,B,true staleness
+B026,B,false alarm or unverifiable
+B027,B,true staleness
+B028,B,true staleness
+B029,B,true staleness
+B030,B,true staleness
+B031,B,true staleness
+B032,B,false alarm or unverifiable
+B033,B,true staleness
+B034,B,true staleness
+B035,B,true staleness
+B036,B,true staleness
+B037,B,true staleness
+B038,B,true staleness
+B039,B,true staleness
+B040,B,true staleness
+B041,B,true staleness
+B042,B,true staleness
+B043,B,true staleness
+B044,B,true staleness
+B045,B,true staleness
+B046,B,true staleness
+B047,B,true staleness
+B048,B,false alarm or unverifiable
+B049,B,false alarm or unverifiable
+B050,B,false alarm or unverifiable
+B051,B,false alarm or unverifiable
+B052,B,true staleness
+B053,B,true staleness
+B054,B,true staleness
+B055,B,true staleness
+B056,B,true staleness
+B057,B,true staleness
+B058,B,true staleness
+B059,B,true staleness
+C000,C,not a path
+C001,C,untracked or generated artefact
+C002,C,not a path
+C003,C,not a path
+C004,C,untracked or generated artefact
+C005,C,untracked or generated artefact
+C006,C,untracked or generated artefact
+C007,C,"example, template or file to be created"
+C008,C,external to the repository
+C009,C,"example, template or file to be created"
+C010,C,plausibly wrong repository reference
+C011,C,external to the repository
+C012,C,not a path
+C013,C,external to the repository
+C014,C,untracked or generated artefact
+C015,C,untracked or generated artefact
+C016,C,"example, template or file to be created"
+C017,C,external to the repository
+C018,C,external to the repository
+C019,C,external to the repository
+C020,C,plausibly wrong repository reference
+C021,C,"example, template or file to be created"
+C022,C,untracked or generated artefact
+C023,C,untracked or generated artefact
+C024,C,untracked or generated artefact
+C025,C,external to the repository
+C026,C,untracked or generated artefact
+C027,C,plausibly wrong repository reference
+C028,C,not a path
+C029,C,untracked or generated artefact
+C030,C,plausibly wrong repository reference
+C031,C,untracked or generated artefact
+C032,C,"example, template or file to be created"
+C033,C,untracked or generated artefact
+C034,C,untracked or generated artefact
+C035,C,external to the repository
+C036,C,untracked or generated artefact
+C037,C,plausibly wrong repository reference
+C038,C,"example, template or file to be created"
+C039,C,"example, template or file to be created"
+C040,C,untracked or generated artefact
+C041,C,untracked or generated artefact
+C042,C,not a path
+C043,C,external to the repository
+C044,C,plausibly wrong repository reference
+C045,C,untracked or generated artefact
+C046,C,not a path
+C047,C,untracked or generated artefact
+C048,C,"example, template or file to be created"
+C049,C,"example, template or file to be created"
+C050,C,external to the repository
+C051,C,external to the repository
+C052,C,external to the repository
+C053,C,external to the repository
+C054,C,plausibly wrong repository reference
+C055,C,plausibly wrong repository reference
+C056,C,untracked or generated artefact
+C057,C,"example, template or file to be created"
+C058,C,plausibly wrong repository reference
+C059,C,plausibly wrong repository reference

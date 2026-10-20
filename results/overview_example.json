@@ -1,0 +1,95 @@
+{
+ "repo": "timweiland/Latte.jl",
+ "file_type": "CLAUDE.md",
+ "n_constraints_head": 37,
+ "n_versions": 9,
+ "age_days": 415.4,
+ "rows_shown": 14,
+ "rows_broken": 9,
+ "rows_stable": 3,
+ "rows_removed_valid": 2,
+ "break_episodes": 9,
+ "breaks_by_day": {
+  "2025-07-29": 1,
+  "2026-03-18": 3,
+  "2026-04-20": 5
+ },
+ "largest_break_day": 5,
+ "first_break_days_after_creation": 17,
+ "open_at_head": 0,
+ "ctx_touched_in_any_break_commit": 0,
+ "min_days_in_file_after_break": 62,
+ "max_days_in_file_after_break": 96,
+ "shown": [
+  {
+   "kind": "path",
+   "target": "src/main_interface/",
+   "line": 36
+  },
+  {
+   "kind": "path",
+   "target": "inla_inference.jl",
+   "line": 37
+  },
+  {
+   "kind": "path",
+   "target": "newton_types.jl",
+   "line": 47
+  },
+  {
+   "kind": "path",
+   "target": "src/latent_marginalization/",
+   "line": 48
+  },
+  {
+   "kind": "path",
+   "target": "src/hyperparameter_posterior/",
+   "line": 52
+  },
+  {
+   "kind": "path",
+   "target": "interpolation.jl",
+   "line": 55
+  },
+  {
+   "kind": "path",
+   "target": "hyperparameter_marginals.jl",
+   "line": 56
+  },
+  {
+   "kind": "path",
+   "target": "hyperparameter_marginal_distribution.jl",
+   "line": 57
+  },
+  {
+   "kind": "path",
+   "target": "src/hyperparameters/",
+   "line": 58
+  },
+  {
+   "kind": "manifest",
+   "target": "make",
+   "line": 14
+  },
+  {
+   "kind": "target",
+   "target": "test",
+   "line": 14
+  },
+  {
+   "kind": "target",
+   "target": "setup",
+   "line": 20
+  },
+  {
+   "kind": "path",
+   "target": "types.jl",
+   "line": 38
+  },
+  {
+   "kind": "path",
+   "target": "progress.jl",
+   "line": 39
+  }
+ ]
+}

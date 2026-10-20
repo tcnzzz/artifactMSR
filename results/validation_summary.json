@@ -1,0 +1,77 @@
+{
+ "extraction": {
+  "n": 100,
+  "genuine": 96,
+  "precision": 0.96,
+  "wilson": [
+   0.9016278276739262,
+   0.984336949448152
+  ],
+  "violated_in_sample": 8,
+  "violated_not_anchored": 7
+ },
+ "breaks": {
+  "n": 60,
+  "true_staleness": 51,
+  "precision": 0.85,
+  "wilson": [
+   0.7388517410884038,
+   0.9190265075770431
+  ]
+ },
+ "never_valid": {
+  "n": 60,
+  "categories": {
+   "untracked or generated artefact": {
+    "count": 20,
+    "share": 0.3333333333333333,
+    "wilson": [
+     0.2272909421592783,
+     0.459433701333366
+    ]
+   },
+   "external to the repository": {
+    "count": 13,
+    "share": 0.21666666666666667,
+    "wilson": [
+     0.13122921046407016,
+     0.3362026834734252
+    ]
+   },
+   "example, template or file to be created": {
+    "count": 10,
+    "share": 0.16666666666666666,
+    "wilson": [
+     0.09313077201321032,
+     0.28031851497207827
+    ]
+   },
+   "plausibly wrong repository reference": {
+    "count": 10,
+    "share": 0.16666666666666666,
+    "wilson": [
+     0.09313077201321032,
+     0.28031851497207827
+    ]
+   },
+   "not a path": {
+    "count": 7,
+    "share": 0.11666666666666667,
+    "wilson": [
+     0.05767647403450049,
+     0.2217902059985814
+    ]
+   }
+  }
+ },
+ "conflicts": {
+  "groups": 12,
+  "files": 8,
+  "labels": {
+   "qualified by scope, role or time": 8,
+   "extraction error or descriptive text": 4
+  },
+  "true_contradictions": 0,
+  "precision_upper_wilson": 0.2425007574992425
+ }
+}

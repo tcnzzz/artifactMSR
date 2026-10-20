@@ -1,0 +1,21 @@
+{
+ "model": "qwen2.5:14b",
+ "calls_total": 160,
+ "calls_this_run": 0,
+ "A": {
+  "n": 100,
+  "ai_label_positive": 96,
+  "model_positive": 93,
+  "raw_agreement": 0.91,
+  "cohen_kappa": 0.1379310344827584,
+  "unparsed": 0
+ },
+ "B": {
+  "n": 60,
+  "ai_label_positive": 51,
+  "model_positive": 53,
+  "raw_agreement": 0.8,
+  "cohen_kappa": 0.13669064748201507,
+  "unparsed": 0
+ }
+}

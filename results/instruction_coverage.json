@@ -1,0 +1,5258 @@
+{
+ "definition": "Pinned-head local git trees. Nested: studied basename outside the predefined root locations. Rules: tracked files under .cursor/rules, .claude/rules, .github/instructions or .windsurf/rules. Imports: @path tokens in shipped root context text resolving to tracked .md/.mdx/.txt/.rst/.adoc files relative to that root file. Import candidates are syntactic, not human-confirmed directives; other import syntaxes are unmeasured.",
+ "repositories": 542,
+ "complete": 542,
+ "counts": {
+  "nested": 64,
+  "rule_files": 42,
+  "import_candidates": 37,
+  "any": 125
+ },
+ "rows": [
+  {
+   "repo": "1Password/SCAM",
+   "head": "ce2761e8530142521360e23cce66a9e24cd1b3e5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "1amageek/SwiftAgent",
+   "head": "cdeb70357a8d8e50bfe98fdf2de61636962583a1",
+   "status": "complete",
+   "nested": [
+    "Samples/AgentCLI/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "2ue/ccman",
+   "head": "3cd50741936f742b3c47d63b84cac8c0f8996ba3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "5pyj29s7cm-tech/LumiCore",
+   "head": "35760c39764b7aae724184583b7f663bdc6670ec",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "666fy666/WebMoniter",
+   "head": "80cb2c178d5d7bd0156b9f0ac83ff1521e2fe8a4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "981029l/webnovel-writer",
+   "head": "2dc4359e162bb2d165e6f4458dac8bab41475be9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "AIDotNet/ClaudeCodexUi",
+   "head": "675a291608d2fd4905a837a8b30059aa526851ae",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Adamant-im/adamant",
+   "head": "57a4083b3b4a8e463193f077ca59c72095b47b82",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Adamlixi/codenano",
+   "head": "a32e2a2d3ac2c41faf281973dffd59ceb07f0a66",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "AgentAnycast/agentanycast",
+   "head": "f3c086a1bf6eda2e0823719583cf2f0c27ae0983",
+   "status": "complete",
+   "nested": [
+    "proto/.cursorrules"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "AgentToolkit/altk-evolve",
+   "head": "13e0be72015bc04e4f346a4a3cf6bfbd28f0b774",
+   "status": "complete",
+   "nested": [
+    "demo/workdir/CLAUDE.md",
+    "tests/platform_integrations/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Akianonymus/gdrive-downloader",
+   "head": "f15d7d8d0e01d2e0f3d94726072c06c7e1e660df",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Alanaktion/phproject",
+   "head": "ff07f2d385bd24fbb4a9044dc9e55a9debf8a1f8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Albertsun6/ontology-builder",
+   "head": "459ef5b58acc5b0212f0383cc4abac82a5f1ef7e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Alex8791-cyber/cognithor",
+   "head": "78212af5396fd42cb7103b9edfe9b2e57909aac5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Andersbakken/rtags",
+   "head": "4abf149e27645dd2bd0e4f7557e114fa86822055",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Apocrathia/home-assistant-config",
+   "head": "e28308a42eaa1c6f0167c4299b2cfb021a0a11fd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/homeassistant.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "Ar9av/gemini-nano-chrome",
+   "head": "6037e5c4ea32723a9323b9bb3537c299b696cfe1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Arize-ai/arize-skills",
+   "head": "f23d98014023f067a49ab309a3a1db7389b5c4a2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Aurealibe/claude-config",
+   "head": "e8a07f025d17b24781aa9f4dac681b675d97d9cb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Awesome3DGS/3D-Gaussian-Splatting-Papers",
+   "head": "51396e6a426d3f581fcb1f9b0083cacc73ee0bef",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "AzureAD/microsoft-authentication-library-common-for-objc",
+   "head": "5a6d2da6eaf03eb70df3e53223d700e49b2790ee",
+   "status": "complete",
+   "nested": [
+    ".clinerules/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Azure/kimojio-rs",
+   "head": "05aa18f5efcbed1d58830ca9755a9a559ed44189",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "CESNET/ndk-fpga",
+   "head": "87de3f64767a31e88ee045eb901677781bc143ca",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "CarbeneAI/Talon",
+   "head": "a7fa4c44abe62fde49dd2fd47816ccb542ca9168",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "CarlosZiegler/zt-stack",
+   "head": "d3791a685fd280382b2f46474eeab1616daf9d8b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ConaMobileDev/PdfKmp",
+   "head": "747102d44d2184281f50912976d21924ec203403",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "DFiantHDL/DFHDL",
+   "head": "f60f0c398414ee52790565a0d6c00a555c62a43e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "DataDog/datadog-static-analyzer",
+   "head": "96edc68c54a9898e91b95958984c7b06db37f8b5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "DataScienceUIBK/Rankify",
+   "head": "8a7fd9c8ee4cea6569c117e0332e49b654fae297",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "David-Sola/AIGaming",
+   "head": "92a883a99fc741b2044ba43c445412f5da4a2006",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "DeepAgentLabs/agenticlens",
+   "head": "b37c48a3525d70c5ca61628dd04109ca61b7fd53",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Doist/todoist-mcp",
+   "head": "526f059976eab6df0f3346173e75a8c3b1bb86db",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/context7.mdc",
+    ".cursor/rules/typescript.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "DumbWareio/DumbDrop",
+   "head": "ff8f813f493e89c7da056e7a3101ce2ef48e3960",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "DumbWareio/DumbPad",
+   "head": "23a644fa141d08c244e7cd4db33aa409b56927a5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ECPay/ECPay-API-Skill",
+   "head": "33f316798e1df5f33b956abe94780e3b3f767f23",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ECarry/photography-website",
+   "head": "1b987df6a66b3731dd15060f6abe28969793f553",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "EUCPilots/evergreen-module",
+   "head": "3a9a0f21d6734a7bedf9b597f433bd69d2ae5090",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Eilgnaw/dexo",
+   "head": "5246a744c89ac57ca24d7d367b49cf493b4553be",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "EliasOenal/multimon-ng",
+   "head": "0722194b7739748e49f18ac1fc76f236d4ca390d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".github/instructions/c-code.instructions.md",
+    ".github/instructions/demodulators.instructions.md",
+    ".github/instructions/generators.instructions.md",
+    ".github/instructions/tests.instructions.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "EmuKit/emukit",
+   "head": "79107490a34ae3b57eaeb5481d74f085c2996232",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "Endle/fireSeqSearch",
+   "head": "ef8888bb9d0d8371621f75ae033e3e09692fd0c9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "EvandroLG/ts-audio",
+   "head": "37474f356307c22fccdbe6deaf6666727ac95bfa",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "FlineDev/ContextKit",
+   "head": "759dd8e9d90fbc0a78e106426b958343da264980",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "Flohhhhh/ultimate-lighting-controller",
+   "head": "2a52826fa258d2678006b2159b042c31aea85244",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "FlyinPancake/yoink",
+   "head": "576068a36673e69732cedec22e99d28008308f66",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "FriendsOfREDAXO/search_it",
+   "head": "c33b7a06abd188dbee2f8d4ab986397d1e9caa47",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "GODrums/BetterFloat",
+   "head": "06b0a6bf9f8d7ac9ab78ab475124dcc88f420d73",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "GainSec/AutoProber",
+   "head": "ff0e01fe556c7e183d46462dbc1ebce7b6a10e74",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Gerstep/HumanCompiler",
+   "head": "88b5ca0eaa0174cf95e8a232a88085e1ce54dd1c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "GoogleContainerTools/config-sync",
+   "head": "17dd6d7863e1326ea312c78221f634c4286e2f5c",
+   "status": "complete",
+   "nested": [
+    "vendor/go.opentelemetry.io/otel/AGENTS.md",
+    "vendor/go.opentelemetry.io/otel/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Gridea-Pro/gridea-pro",
+   "head": "8380f2932a93cddfeb763fe0090a838a96c77e5d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "HDFGroup/hdf5-json",
+   "head": "c0254bd49e3f60da476635ab816a3a0bb7e7e9ca",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "HTMLGuyLLC/jAlert",
+   "head": "c0ac9a574646e8174c7b43d97528a4a03eba400a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Hacker-Valley-Media/Interceptor",
+   "head": "ab6772ff07b7a59bc26750e8ab79f4b134cd008e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "HassanZahirnia/laravel-package-ocean",
+   "head": "ed5108251b1ab69fea10a7a05f6d39205aedbaa1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/laravel-boost.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "HavenDV/H.Ipc",
+   "head": "6df76547e02c6181f63b0a0282ebdf25d9eb20e3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "HiThink-Research/GAGE",
+   "head": "83cc359dbb3056ea8f4090f4c398ba2f066231a0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "HorusGoul/eslint-plugin-react-render-types",
+   "head": "eae86d53252da49f26eb4fe16aa932f44ec81c61",
+   "status": "complete",
+   "nested": [
+    ".claude/skills/vercel-composition-patterns/AGENTS.md",
+    ".claude/skills/vercel-react-best-practices/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "IBM/mobx-react-router",
+   "head": "1899aa844a2597aeb5a605897b84e18475c0347b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Ikolvi/Tracelet",
+   "head": "b82d6b1d034ecd7a59552ae3a1e0ee28dc4bffdc",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".github/instructions/publishing.instructions.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "JaKooLit/NixOS-Hyprland",
+   "head": "6cb73d7d92e9dac4623db4adf54a322bc6b835f1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "JanusTida/Tida.CAD",
+   "head": "15e2270c60640f6ff743b388678c5dcb22d86844",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Jesseovo/last30days-skill-cn",
+   "head": "751887aa1ce6a8493c27f41541f5385785769205",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "JuanPabloGilA/your-saas-starterkit",
+   "head": "7885b1eaf64d34104c27627b9b54719fbb2a1a99",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "KORAYTEACHER/fintech-advisor",
+   "head": "82ae9d5cb8904f99c1660a5ada510b71d5aa7736",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "KryptosAI/mcp-observatory",
+   "head": "8f148e6fa0350ca48c62888f686a76ab547689f9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "LF-Decentralized-Trust-labs/gitmesh",
+   "head": "26df4c148fc491b8299fadd666716726d419cfa5",
+   "status": "complete",
+   "nested": [
+    "agents/triage/AGENTS.md",
+    "cli/fixtures/doctor/sample/input-repo/AGENTS.md",
+    "cli/fixtures/doctor/sample/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/agentsmd/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/agentsmd/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/agentsmd/full-surface/input-repo/docs/AGENTS.md",
+    "lib/workspace-adapters/fixtures/agentsmd/full-surface/input-repo/node_modules/dep/AGENTS.md",
+    "lib/workspace-adapters/fixtures/agentsmd/full-surface/input-repo/packages/app/AGENTS.md",
+    "lib/workspace-adapters/fixtures/agentsmd/no-artifacts/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/agentsmd/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/agentsmd/root-only/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/antigravity/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/antigravity/no-artifacts/input-repo/.github/copilot-instructions.md",
+    "lib/workspace-adapters/fixtures/antigravity/no-artifacts/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/antigravity/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/claude-code/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/full-surface/input-repo/node_modules/some-dep/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/full-surface/input-repo/packages/app/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/no-artifacts/input-repo/.github/copilot-instructions.md",
+    "lib/workspace-adapters/fixtures/claude-code/no-artifacts/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/claude-code/scoped-and-managed/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/scoped-and-managed/user-home/.claude/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/user-scope-not-requested/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/claude-code/user-scope-not-requested/user-home/.claude/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/cline/legacy-single-file/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/cline/no-artifacts/input-repo/.github/copilot-instructions.md",
+    "lib/workspace-adapters/fixtures/cline/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/cline/rules-directory/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/codex/full-surface/input-repo/.agents/AGENTS.md",
+    "lib/workspace-adapters/fixtures/codex/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/codex/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/codex/full-surface/input-repo/node_modules/some-dep/AGENTS.md",
+    "lib/workspace-adapters/fixtures/codex/full-surface/input-repo/packages/app/AGENTS.md",
+    "lib/workspace-adapters/fixtures/codex/no-artifacts/input-repo/.github/copilot-instructions.md",
+    "lib/workspace-adapters/fixtures/codex/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/codex/user-and-managed/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/copilot/full-surface/input-repo/.github/agents/AGENTS.md",
+    "lib/workspace-adapters/fixtures/copilot/full-surface/input-repo/.github/copilot-instructions.md",
+    "lib/workspace-adapters/fixtures/copilot/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/cursor/full-surface/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/cursor/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/cursor/full-surface/input-repo/node_modules/dep/AGENTS.md",
+    "lib/workspace-adapters/fixtures/cursor/full-surface/input-repo/packages/app/AGENTS.md",
+    "lib/workspace-adapters/fixtures/cursor/legacy-cursorrules/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/cursor/legacy-cursorrules/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/devin/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/devin/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/devin/full-surface/input-repo/node_modules/dep/AGENTS.md",
+    "lib/workspace-adapters/fixtures/devin/full-surface/input-repo/services/api/AGENTS.md",
+    "lib/workspace-adapters/fixtures/devin/no-artifacts/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/devin/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/dummy/copy-through/expected/AGENTS.md",
+    "lib/workspace-adapters/fixtures/dummy/copy-through/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/dummy/rejects-drift/expected/AGENTS.md",
+    "lib/workspace-adapters/fixtures/dummy/rejects-drift/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/opencode/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/opencode/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/opencode/full-surface/input-repo/node_modules/dep/AGENTS.md",
+    "lib/workspace-adapters/fixtures/opencode/full-surface/input-repo/packages/app/AGENTS.md",
+    "lib/workspace-adapters/fixtures/opencode/no-artifacts/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/opencode/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/roo/full-surface/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/roo/full-surface/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/roo/no-artifacts/input-repo/.cursorrules",
+    "lib/workspace-adapters/fixtures/roo/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/third-party-managers/no-artifacts/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/third-party-managers/no-artifacts/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/third-party-managers/ruler-managed/input-repo/.ruler/AGENTS.md",
+    "lib/workspace-adapters/fixtures/third-party-managers/ruler-managed/input-repo/AGENTS.md",
+    "lib/workspace-adapters/fixtures/third-party-managers/ruler-managed/input-repo/CLAUDE.md",
+    "lib/workspace-adapters/fixtures/third-party-managers/symlink-managed/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/drift/three-way/AGENTS.md",
+    "lib/workspace-core/fixtures/drift/three-way/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm002-protected/input-repo/.github/copilot-instructions.md",
+    "lib/workspace-core/fixtures/risk/gm006-managed-clean/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm006-managed-clean/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm006-marker-violation/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm006-marker-violation/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm007-concise/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm007-concise/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm007-oversized/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm007-oversized/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm008-orphan/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm008-orphan/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm010-bridged/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm010-bridged/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm010-unbridged/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm010-unbridged/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm011-consistent/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm011-consistent/input-repo/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm011-consistent/input-repo/vendor/sample/CLAUDE.md",
+    "lib/workspace-core/fixtures/risk/gm011-contradictions/input-repo/AGENTS.md",
+    "lib/workspace-core/fixtures/risk/gm011-contradictions/input-repo/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "Laurian/context-compression-experiments-2508",
+   "head": "1bb4cbec7c34485d5ec99e575ded90afd9fa899a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "LeadMagic/gtm-skills",
+   "head": "ca0d2ec508acf01d6edfafbfc0de046d0c5fb026",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Leaf-lsgtky/OppoPods",
+   "head": "10a2f04de5911b59b2ed74404602ea46e8741324",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Leask/Tabminal",
+   "head": "fbd26d3aff033fd850a6696eccb107520780fd8b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Lum1104/MER-Factory",
+   "head": "b637adf9bd76ed074382ceb1b773b472d8434914",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "LunaeMons/SDRPlusPlus_CommunityEdition",
+   "head": "937ff10b62e6c51e9c7ee91c506025bafab586cc",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/run-tests.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "MDGrey33/pyvisionai",
+   "head": "cc125c05100115df578cbcdf0da4e57778e423aa",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "MacroPower/kat",
+   "head": "dddb922dcfabca18c280aea4f0b3687b63f74911",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Maliksidk19/shadcn-datetime-picker",
+   "head": "8fb6322bf3f90176d02aedee546ae7f91c76e5b2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "Melkeydev/yappr",
+   "head": "2dc524b890f56f283445c41f2f45d38ed642b08b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Menghuan1918/drawio2go",
+   "head": "00a2d5b0bf8deb7b9f37a42eb713c5a6848f15b3",
+   "status": "complete",
+   "nested": [
+    "app/api/AGENTS.md",
+    "app/components/AGENTS.md",
+    "app/components/alert/AGENTS.md",
+    "app/components/chat/AGENTS.md",
+    "app/components/common/AGENTS.md",
+    "app/components/constants/AGENTS.md",
+    "app/components/mcp/AGENTS.md",
+    "app/components/settings/AGENTS.md",
+    "app/components/toast/AGENTS.md",
+    "app/components/version/AGENTS.md",
+    "app/config/AGENTS.md",
+    "app/hooks/AGENTS.md",
+    "app/i18n/AGENTS.md",
+    "app/lib/AGENTS.md",
+    "app/lib/i18n/AGENTS.md",
+    "app/lib/storage/AGENTS.md",
+    "app/styles/AGENTS.md",
+    "app/styles/components/AGENTS.md",
+    "app/styles/utilities/AGENTS.md",
+    "app/types/AGENTS.md",
+    "electron/AGENTS.md",
+    "electron/mcp/AGENTS.md",
+    "electron/storage/AGENTS.md",
+    "public/locales/zh-CN/AGENTS.md",
+    "types/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "MetrolistGroup/Metrolist",
+   "head": "f758c86de9278481bcead7b0120786ca46398251",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "MiroKaku/Musa.Veil",
+   "head": "491b3ebb86b615fff551763c1a32f57c48d4fbb5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Mister-leo/fssh",
+   "head": "0c30607bf2537990a466ca0582925c0c301c6c2e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "MrFrenik/gunslinger",
+   "head": "a38d59166ec883f3295f208d58da181fc8f6ef69",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "NakaokaRei/swift-mcp-gui",
+   "head": "25d48331a335b2eb9558eddc712e360f58dc1e22",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "NanoNative/nano",
+   "head": "7ea67d0e31093fd922ca65a17d79db046aa09946",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "NaverPayDev/pie",
+   "head": "11f340c3641916385295cfd99b8f5e38df7c4966",
+   "status": "complete",
+   "nested": [
+    "packages/es-http-status-codes/CLAUDE.md",
+    "packages/react-pdf/CLAUDE.md",
+    "packages/safe-html-react-parser/CLAUDE.md",
+    "packages/svg-manager/CLAUDE.md",
+    "packages/url-param-compressor/CLAUDE.md",
+    "packages/utils/CLAUDE.md",
+    "packages/vanilla-store/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Niall-Young/Canvasight",
+   "head": "f47e0bfe60a0ab990ca66be1102f351bf7774a6b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Noveum/ai-gateway",
+   "head": "5e4614c7a9b9d6881b4de6b04849b8bc09f274fc",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "NovyWave/NovyWave",
+   "head": "c8d16adfe96205549bd43ebfe13781fce00f266a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/core/system.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/core/development.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/project/patterns.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/project/domain_map.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/project/task_execution.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/technical/reference.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/technical/performance-debugging.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": ".claude/extra/project/specs/specs.md"
+    }
+   ]
+  },
+  {
+   "repo": "Nutlope/make-comics",
+   "head": "234372aa218fd38623ae69cc0c50eb8248b034ae",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Nuyoahwjl/MediCheck",
+   "head": "53d9e08b83f07e1563ea1089c39d1e94d11410f1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "OpenEnvision/BlogrXiv",
+   "head": "bd8b2d4234d3a9a1ff544a1fa356acff79595e27",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "OpenWSGR/AutoWSGR",
+   "head": "49c28a28d80d55f1aba4bfb44c4a4a4e7e1bfc21",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "OriNachum/claude-code-guide",
+   "head": "4c14cb13dfc98edfb4eb60a032c5cda087442662",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "PaloAltoNetworks/docusaurus-openapi-docs",
+   "head": "5712b610be7fb22b20ad55e95b143bcd833d38c3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "PaulBratslavsky/astro-strapi-example-project",
+   "head": "42a91ba42dbc7fd7196a8daf1230017f9f13406a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "PeonPing/openpeon",
+   "head": "5d413095152781866a1890fd34042f971ec2d03b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Prismer-AI/Prismer",
+   "head": "2dbe71feebeb53e2a54c708cac676835e08c2f24",
+   "status": "complete",
+   "nested": [
+    "docker/config/workspace/AGENTS.md",
+    "web/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Radexito/tidal-dl-ng-For-DJ",
+   "head": "30f00f2b733083d9f404367faaad02b40d6fce46",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "RobertoMachorro/Moped",
+   "head": "2270a2463abe1515fc480ffa5bcfff93ca277101",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "AGENTS.md",
+     "target": "10-RULES.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "Roznoshchik/Lurnby",
+   "head": "5479480fa6f681de5524a206f4ae32932f82b81f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "RvDstudio/nextjs_drizzle_better-auth",
+   "head": "8604b84eb208ececf11139f55a0c05fbeedb2fa6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SSSYoung/vibe-coding-mobile-engineering",
+   "head": "ff41dc679117e755b8a1c6e87bbf4387b0728a60",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SamuelZ12/screen-scribe",
+   "head": "b93dd82e7badddd6342cdbb0aebefb91e53cc8e2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SapiensAnatis/Dawnshard",
+   "head": "e6cda5747201bbdaffe9b0314f5c280fa6e5d5e5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "Scrapybara/codecapy",
+   "head": "9e76ee1fa2d624022614e9f9868fe93dc574834d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Semkoo/niko-table-registry",
+   "head": "e386c0c018e6aa232ace09ddc3fdb1202dd05da6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/no-cursor-coauthor.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "Shpigford/studio",
+   "head": "24d22c4ed0394b44b3ccc7612cc9bb70c8faf635",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Shuffle/python-apps",
+   "head": "b2641489f3b1c486f339e414b17d54fa19346931",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Siigari/claude-heartbeat",
+   "head": "a561806e75fdca540b180df1e541e68d50092bcf",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SimonDanisch/Bonito.jl",
+   "head": "1dcd0142dcd9854411ec168cfad7deed6f40ffb7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SiriusFHJ/ShangAnNotes",
+   "head": "79cb922828e13bf8aaa44b9716e14a668400ef41",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/shangannotes-project-guide.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "SkeneTechnologies/skene-cookbook",
+   "head": "cd3e72fc311e5da603799af8b8810bc175ecc692",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Skykai521/StickerCamera",
+   "head": "9b5ad4ad968fa6e89165f42c66c9dcd5b1a6104e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Smith42/astroPT",
+   "head": "fa361ae5b6631c89525429755ed3fc2b2d304eca",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SmokinCaterpillar/pypet",
+   "head": "a95aabf1ef4a3c8066495a0d10ee32d8c02600fe",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Static-Analyzer-Factory/static-analyzer-factory",
+   "head": "5c875b7a7cdb22c00e724144ae3fb0fd5a54008c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "SuLG-ik/yandex-mapkit-kmp",
+   "head": "653d2278ce6edb29009be7adf353d959a79bac63",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Sunagatov/Iced-Latte-Frontend",
+   "head": "a95bddba8e7890b085b0835d04fe7335e2777603",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "TAJD/economist-style-guide-plugin",
+   "head": "cfb132d62447b959dea5a49940e28da89e1ba75b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TAKETODAY/today-infrastructure",
+   "head": "aa89a546d067d71d44bcd98ed52340bf45b20e1a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TOKTOKHAN-DEV/agent-company",
+   "head": "1764c69ceebc48d2ac8cda988f6bdbc6b5499604",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TSchonleber/brainctl",
+   "head": "c6348087dd07e54583f762e07bf960ac982019e6",
+   "status": "complete",
+   "nested": [
+    "plugins/opencode/brainctl/AGENTS.md",
+    "plugins/pi/brainctl/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "The-Pocket/PocketFlow-Tutorial-Video-Generator",
+   "head": "da6d86160610fbd41c88f1a869969b0c4c34dca3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TheAcharya/XLKit",
+   "head": "1c11d6ce38345a103364c775cd798a1015980e91",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TheLogicMaster/Cranked",
+   "head": "6d29957733641e43cd789b1b1a31f17a0852ac54",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ThreeMoonsLab/agents-shipgate",
+   "head": "16dc027e5ec93a2b0124d3dcccdace5d9ea9f300",
+   "status": "complete",
+   "nested": [
+    "examples/codex/AGENTS.md"
+   ],
+   "rule_files": [
+    ".cursor/rules/agents-shipgate.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "TiddlyWiki/MultiWikiServer",
+   "head": "3627482561d47d71a7e0a188c69754836d488269",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Tmeister/wppb-generator",
+   "head": "5f5de469d1cadd72d0a5562dcce2606d2149c856",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TornLux/UnrealBridge",
+   "head": "2db23b5806a2ad3f3106546d01ef70ed3545377a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TryGhost/Journal",
+   "head": "5542a8869a44a6263dfc640f0a0f930f123ece6e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "TutoriaLLM/TutoriaLLM",
+   "head": "d6da03781488561f114c56de28ed08b98955ed1b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "UmairBaig8/okf-generator",
+   "head": "5fb73be73814ec75b5c5f48ccbbecf348ff277d3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "VRSEN/agency-voice-interface",
+   "head": "2d9d39ce02d9cb9628e8de79b3543fe05885ad42",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "VeriTeknik/pluggedin-app",
+   "head": "1a964754f14810c5196c2193c46ae505032ebddb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "VsevolodUstinov/Personal-Super-Agent-Ru",
+   "head": "e081a08abc071822417730b859f7e174a15ef5fc",
+   "status": "complete",
+   "nested": [
+    "Docs/My Company Example/Projects/.cursorrules",
+    "Docs/SePersonalCRM/.cursorrules"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "VsevolodUstinov/ai-first-workspace-template",
+   "head": "9aff41ccd5b93e78fe737ed9566b78aca2525b5a",
+   "status": "complete",
+   "nested": [
+    "Docs/SePersonalCRM/.cursorrules",
+    "Docs/Strategy/.cursorrules",
+    "Projects/.cursorrules"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Wafris/wafris-rb",
+   "head": "67e95880ace5d6015eb47af9ee0d092403173875",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "X-Profiler/xprofiler",
+   "head": "fd66e7f4a0770aaf12cea4c6f9a44ad52090a43d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "Xceptance/neodymium",
+   "head": "cdcb1e5c1e9bca3569f9ca59fa629f5d47f73c9f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "YurunChen/repo-docs-skills",
+   "head": "52674499dce957deb146fa51363f6e8e42802097",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ZenMux/zenmux-doc",
+   "head": "ec9aa55ef412ceb8e2d04615558a2eae60c750aa",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ZhangHanDong/mempal",
+   "head": "9ed705d78321daf5878e9579777b1a471e97c6f1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ZimoLiao/scholaraio",
+   "head": "777628bab7dce65bce8cad2b689a12301a1af61d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/scholaraio.mdc"
+   ],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "aashaexo/soundshuman",
+   "head": "a45cfbba9fde843d670e553a0aa98f6a23d7fb28",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "abrookins/WrapToColumn",
+   "head": "2e3354e1989769508aa86e92c52da5074560dd2f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "acgurl/mori",
+   "head": "e1bbae8d2aa43698b98e1fe0466fa4e01904d550",
+   "status": "complete",
+   "nested": [
+    ".roo/rules-architect/AGENTS.md",
+    ".roo/rules-ask/AGENTS.md",
+    ".roo/rules-code/AGENTS.md",
+    ".roo/rules-debug/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "addyosmani/factory",
+   "head": "8af116567166a0a16588b7ab1b9934ece0b775bc",
+   "status": "complete",
+   "nested": [
+    "template/AGENTS.md",
+    "template/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "afragen/git-updater",
+   "head": "e60a483a50a53df55b01062f07040017804e031a",
+   "status": "complete",
+   "nested": [
+    "vendor/afragen/wp-readme-parser/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "agility/agilitycms-nextjs-starter",
+   "head": "5b2208d49abb21fc0d2ae3f1e527df9ca1a17c9b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ahtavarasmus/lightfriend",
+   "head": "ef36b103db5dd9d4458f3a903aa24518d98cf0f5",
+   "status": "complete",
+   "nested": [
+    ".agents/skills/userinterface-wiki/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "aio-libs/frozenlist",
+   "head": "58b5a8bc01604a514c3f06b688ed488644e66631",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "albertsgarde/rustorio",
+   "head": "2b7e94b5e3fcecb29ede468d88797e2f6b9a91a9",
+   "status": "complete",
+   "nested": [
+    "ai-player/CLAUDE.md",
+    "rustorio-website/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "alexiszamanidis/vscode-git-worktrees",
+   "head": "9e162f4e571e29c482d50f2376d216ff5d254fec",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "alibaba/UnifiedModel",
+   "head": "1b54ddc4dd89ae2b0255da095d00d01e46d687b5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "aliyun/coolbpf",
+   "head": "7103a917cbbc3efd97cdc3e32b0f888b4ea0deea",
+   "status": "complete",
+   "nested": [
+    "src/agentsight/AGENTS.md",
+    "src/agentsight/CLAUDE.md",
+    "src/agentsight/src/storage/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "allenai/atlantes",
+   "head": "ba60bb11c6a39cb2fda8a920657d1b6e172ef250",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "altasoft/DomainPrimitives",
+   "head": "13784375c5302cccfc872ce3be2ec6e8b6da9355",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".github/instructions/csharp.instructions.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "amaynez/kiro-style-sdd",
+   "head": "be24eb6bd13a58ca785c10bf3798ba8392b6b508",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/design.mdc",
+    ".cursor/rules/implement.mdc",
+    ".cursor/rules/plan.mdc",
+    ".cursor/rules/spec.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "androsovm/clorch",
+   "head": "e4e7d30afd498736ea80566d847deba2feb66f8d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "animeshkundu/youtube-audio",
+   "head": "09a7075bffd0a9ac19122aefd6f1115f76a72838",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "antoniolg/agent-kit",
+   "head": "886d8bc22bdd57789967436b9f1cdea491d5bfb5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "apache/jackrabbit-filevault",
+   "head": "67e4e79104215b49bf84aaf2acdc415d3c9a495a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "apache/maven-deploy-plugin",
+   "head": "eca83496440b165a172a0d3dc0624f254d33fdc9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "appl-team/appl",
+   "head": "e39c7401e5023d1b8d4c851e3a6f1048a462f03d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "aptos-labs/aptos-wallet-adapter",
+   "head": "4eac75565d9c654349d6c71d56ca8864fb975cf6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "arcanis/terminosaurus",
+   "head": "1a50bce453b0fbfe21dbed0d3861e81a55f311ab",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "askui/python-sdk",
+   "head": "94961b26c0704a6ea8c59acb4029439d4f422321",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "asmyshlyaev177/state-in-url",
+   "head": "0f22a24d0e467e5bb0cb5df35bc40e83ae2cc028",
+   "status": "complete",
+   "nested": [
+    "packages/example-nextjs16/AGENTS.md",
+    "packages/example-nextjs16/CLAUDE.md",
+    "scripts/i18n/AGENTS.md",
+    "scripts/i18n/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "atrislabs/atris",
+   "head": "3f9bd9ec4b99480ee5c194fc1d315aa47506e66a",
+   "status": "complete",
+   "nested": [
+    "atris/AGENTS.md",
+    "atris/CLAUDE.md",
+    "templates/business-starter/CLAUDE.md",
+    "templates/research-canonical/CLAUDE.md"
+   ],
+   "rule_files": [
+    ".cursor/rules/atris-voice.mdc",
+    ".cursor/rules/atris.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "attogram/bash-screensavers",
+   "head": "b6bb74a24352ebd793b4578dbf2b7ecc20f7fe39",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "axeII/home-ops",
+   "head": "8fe6c4e338e67d75bb736493e92dc61a364982e2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "AGENTS.md",
+     "target": "AGENTS.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "baptisterajaut/amber",
+   "head": "2f8329f93110ae9b15c1000474d279a5a4775161",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bawkee/MdcAi",
+   "head": "1ad15e8adcd5ee752bdb951e6e08c88fed10e62a",
+   "status": "complete",
+   "nested": [
+    "Skills/BuildPackaging/AGENTS.md",
+    "Skills/Db/AGENTS.md",
+    "Skills/OpenAiApi/AGENTS.md",
+    "Skills/Reactive/AGENTS.md",
+    "Skills/WebViewRenderer/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bbplayer-app/BBPlayer",
+   "head": "d19b0f26558006383d5d8bd246fd0a1872604861",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "benbjurstrom/otpz",
+   "head": "a114cef8f611f31ec0e86b8c018b26abac79e06d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bhauman/clojure-mcp",
+   "head": "d625610c6434dd6e466d6d24dd657498ff4b6153",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bio-ontology-research-group/mowl",
+   "head": "b83c067eab5d54e9d001f1e3170b63ffaff3bb34",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "blopa/Resume-Builder",
+   "head": "c60b5a7cb460d14e5eedbd318b08357918fab4c2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bloxbean/cardano-client-lib",
+   "head": "ee83c7daa72f506d1e954299180c037ecc0a2d19",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "botiverse/hands",
+   "head": "17de6478ab6f497ffcc368de5c818e063eaa5ded",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "boxpositron/envsitter-guard",
+   "head": "17e37f2f76ea2c3fcc793a9082e06ab01f6f2e82",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "boyter/cs",
+   "head": "a09eff7d39c81c573ea703d5a9d2b3b9f783448e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bpolaszek/meiliweb",
+   "head": "94bcf2d6c8703fae3f3cdbb12a0c0ee81d7e1469",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "brilliantlabsAR/halo-firmware",
+   "head": "c2bfc039052ac2fae5184dc9ff8148d6c8b8894e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "broadinstitute/delphy",
+   "head": "5d5989f3e4cac9ed5ae9bbcad62bcbc81afd8c2a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "broadinstitute/gnomad_methods",
+   "head": "95261174f5b874898d108ee3238f45634c83c819",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "bytedance/vArmor",
+   "head": "2d1a54480de66e2b1dc660eab96eb46df534209b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "caltechads/deployfish",
+   "head": "fc7f42ed38d7b967a4dfc30ae84efe2d697a06e1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/graphify.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "cardmagic/classifier",
+   "head": "1ccb7b7fe21caca9ef8cc8d9ab5aff51e1c4b893",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "carlrannaberg/claudekit",
+   "head": "f22a4f9030520394bf1a517b46ad7585badf5130",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "cdavid817/vanehub-ai",
+   "head": "41ab955c730ca769eddce5d10280645918d03605",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "chapzin/parse-efd-fiscal",
+   "head": "8baa7392741875b011b1620b0f9c4825c3f6aa1d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "chen0416ccc-cpu/codex-windows-fast-patch-skill",
+   "head": "459ed732ede13d29d68284fd7564f81be054220d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "chhoumann/MetaEdit",
+   "head": "7ad7774e31cb0f54d182f6f1dc8d341c852f480f",
+   "status": "complete",
+   "nested": [
+    "website/AGENTS.md",
+    "website/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ciscoheat/sveltekit-superforms",
+   "head": "f31ea4de1874238df0fd553f5318ed5df580195d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ckotzbauer/vulnerability-operator",
+   "head": "a03ed2801d0467c1832d49de462676afca8ccff4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "code-a2z/code-a2z",
+   "head": "a4751349d3d45ae6f3b69f57dcf369e9f5c68369",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "codecation/trailmix",
+   "head": "3565d61e451a39c76ec952acf7e9196c810c5ea6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "collabland/AI-Agent-Starter-Kit",
+   "head": "d768691f417801e3dfa4272901fa50c35d719125",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "community-of-python/microbootstrap",
+   "head": "4816510b17057ee244794389a08268b39c0617a1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "confluentinc/agent-skills",
+   "head": "db79f9e411674839a12d7c01d3434c54cf137266",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "contagon/evalio",
+   "head": "70303e8fa05e92933a1debf78cbc876bffe22df2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "coverallsapp/coverage-reporter",
+   "head": "611d00b7bdc2c1d5b92bcc62da4c93c463dc0019",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "coyvalyss1/model-matchmaker",
+   "head": "4b99e64fa6a8e5e5e8ed0993cddc84d278ff9e1d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "cqframework/clinical_quality_language",
+   "head": "c41c21f5616a0da82d49e32a9cc3a5b3ca299bc2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "creasty/dotfiles",
+   "head": "6a394da8f23be6bd58cc575e283bd5d142efde5f",
+   "status": "complete",
+   "nested": [
+    "home/claude/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "crossoverJie/cim",
+   "head": "8863d9f6d76d0ad55a27bd0d6f05d6476937f0e8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "cscortes/htmxflask",
+   "head": "0206336f2f1e9bdce7b06b52cbee5a2566ddfe73",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "d3mocide/Sovereign_Watch",
+   "head": "d26e34befa56d867ba68018f6ae8d67f52c8b1f5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dashiell-zhang/NetEngine",
+   "head": "e280feffb83fe3ef2442a1539e4053958c977937",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dave-hillier/refactor-mcp",
+   "head": "1d19caaf7b823193e8c4d8bbde416522d7c6150e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "davehenke/rekordbox-mcp",
+   "head": "d8dce67700911b6bef84b25c5f93ae07f200a1c5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "davideast/inbrowser-agent",
+   "head": "f0e4c5e11a014616279c6b0a2f31c00320e4ae82",
+   "status": "complete",
+   "nested": [
+    "packages/agent/AGENTS.md",
+    "packages/model/AGENTS.md",
+    "packages/sandbox/AGENTS.md",
+    "packages/workspace/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "davraamides/todotxt-mode",
+   "head": "f05e2f4b0420d98a0200443fd5251855319a56e2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dbrattli/OSlash",
+   "head": "b6c914f0a3a902275f8f3500dc2e54c3b7ac73e9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "deerwork-ai/deer-workflow",
+   "head": "b20823012eeec15d41f4969f09964401e00f56e0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "deivdev/nomacode",
+   "head": "75d2ea67e456f54a504c4fe073d820a1942c8199",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "depalmar/ai_for_the_win",
+   "head": "944528e477e46fec1ae17c5e36c381801bafda3a",
+   "status": "complete",
+   "nested": [
+    "docs/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "devsargam/aether",
+   "head": "f5895ce7ac628bab6de86a9af0dc49a6dc796e22",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dftworks/dftworks",
+   "head": "6c6e0bdd24385dce3b2bb881f015403ac7e6bd08",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/dft-domain-specific.mdc",
+    ".cursor/rules/numerical-stability.mdc",
+    ".cursor/rules/performance-vectorization.mdc",
+    ".cursor/rules/project-overview.mdc",
+    ".cursor/rules/software-engineering.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "dg/adminer",
+   "head": "f49367847fa57f3c187a1841315c0ad1b93d5ca9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dioptx/mcp-atom-of-thoughts",
+   "head": "96306630e739bd453eb7257c68831059635918f0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dlt/pg_glimpse",
+   "head": "e29437f003f513d895c724c6fbe418b9b9565398",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dmop/puru",
+   "head": "c31e76b881f630b46d85ea9de6acf33dd9dc1526",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dofy/learn-vim",
+   "head": "d37ca0e940431bf1a28354db3cd24943ad19ad68",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "doncheli/don-cheli-sdd",
+   "head": "4adc1c84f82f9b8df926845e12b4c2718c9bd031",
+   "status": "complete",
+   "nested": [
+    "scripts/.claude/don-cheli/AGENTS.md",
+    "scripts/.claude/don-cheli/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ducan-ne/opencoder",
+   "head": "08ab3a83607dea05e58ec5f39aa2c3758d93c723",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dvcrn/mcp-server-devonthink",
+   "head": "13bc1239ba6b8e1bd5890d07f29ceff8c234728b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "dynatrace-oss/hash4j",
+   "head": "f5fb6eaaef4a52af7592aa09cc3901970eba3ff9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "eastlondoner/vibe-tools",
+   "head": "4a1d17cf501db3a719a9c2bf0ee0d288282a63a7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/changelog.mdc",
+    ".cursor/rules/git-commit.mdc",
+    ".cursor/rules/good-behaviour.mdc",
+    ".cursor/rules/repo.mdc",
+    ".cursor/rules/testing.mdc",
+    ".cursor/rules/vibe-tools.mdc",
+    ".cursor/rules/yo.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "easychen/markmark",
+   "head": "0ecc7ecc2433689c2b2c88ef618d0b5025ee08e8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "eclipse-ankaios/ankaios",
+   "head": "696da8a61f1eac4071f3f82afd66f18d638b79ef",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ecotoneframework/ecotone-dev",
+   "head": "b6556ec79695edd1096cccf114ab4585a47b16bf",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "edmundmiller/dotfiles",
+   "head": "198274fdae6aed7d420ee96e1a1b7cafeb038ede",
+   "status": "complete",
+   "nested": [
+    ".beads/AGENTS.md",
+    "bin/hey.d/AGENTS.md",
+    "config/AGENTS.md",
+    "config/agents/AGENTS.md",
+    "config/claude/AGENTS.md",
+    "config/ergodox/AGENTS.md",
+    "config/gh-dash/AGENTS.md",
+    "config/herdr/AGENTS.md",
+    "config/hermes/AGENTS.md",
+    "config/jjui/AGENTS.md",
+    "config/nvim/AGENTS.md",
+    "config/opencode/AGENTS.md",
+    "config/opensessions/AGENTS.md",
+    "config/pi/AGENTS.md",
+    "config/tmux/AGENTS.md",
+    "config/zed/AGENTS.md",
+    "config/zsh/AGENTS.md",
+    "hosts/AGENTS.md",
+    "hosts/mactraitorpro/AGENTS.md",
+    "hosts/nuc/AGENTS.md",
+    "hosts/seqeratop/AGENTS.md",
+    "hosts/shared/secrets/AGENTS.md",
+    "hosts/unas/AGENTS.md",
+    "lib/AGENTS.md",
+    "modules/AGENTS.md",
+    "modules/agenix/AGENTS.md",
+    "modules/agents/AGENTS.md",
+    "modules/agents/claude/AGENTS.md",
+    "modules/agents/codex/AGENTS.md",
+    "modules/agents/hermes/AGENTS.md",
+    "modules/agents/omp/AGENTS.md",
+    "modules/agents/opencode/AGENTS.md",
+    "modules/agents/pi/AGENTS.md",
+    "modules/desktop/AGENTS.md",
+    "modules/desktop/macos/AGENTS.md",
+    "modules/desktop/term/CLAUDE.md",
+    "modules/desktop/term/ghostty/AGENTS.md",
+    "modules/dev/AGENTS.md",
+    "modules/editors/AGENTS.md",
+    "modules/services/AGENTS.md",
+    "modules/services/agentsview/AGENTS.md",
+    "modules/services/audiobookshelf/AGENTS.md",
+    "modules/services/gatus/AGENTS.md",
+    "modules/services/hass/AGENTS.md",
+    "modules/services/hass/_domains/AGENTS.md",
+    "modules/services/hass/_domains/sleep/AGENTS.md",
+    "modules/services/lubelogger/AGENTS.md",
+    "modules/services/obsidian-sync/AGENTS.md",
+    "modules/services/opencode/AGENTS.md",
+    "modules/services/sparkyfitness/AGENTS.md",
+    "modules/shell/AGENTS.md",
+    "modules/shell/amoxide/AGENTS.md",
+    "modules/shell/git/AGENTS.md",
+    "modules/shell/herdr/AGENTS.md",
+    "modules/shell/jj/AGENTS.md",
+    "modules/shell/tmux/AGENTS.md",
+    "modules/shell/zsh/AGENTS.md",
+    "overlays/AGENTS.md",
+    "overlays/ghui/AGENTS.md",
+    "overlays/herdr/AGENTS.md",
+    "overlays/hunk/AGENTS.md",
+    "packages/AGENTS.md",
+    "packages/agent-icons/AGENTS.md",
+    "packages/amoxide/AGENTS.md",
+    "packages/callstack-diff/AGENTS.md",
+    "packages/critique/AGENTS.md",
+    "packages/jmux/AGENTS.md",
+    "packages/jw/AGENTS.md",
+    "packages/opencode-tmux-namer/AGENTS.md",
+    "packages/pi-packages/pi-command-policy-bridge/tests/AGENTS.md",
+    "packages/pi-packages/pi-context-repo/AGENTS.md",
+    "packages/pi-packages/pi-dcp/AGENTS.md",
+    "packages/stream-deck-herdr-plugin/AGENTS.md",
+    "packages/tmux-smart-name/AGENTS.md",
+    "packages/worktree-manager/AGENTS.md",
+    "packages/zele/AGENTS.md",
+    "skills/AGENTS.md",
+    "skills/catalog/AGENTS.md",
+    "skills/catalog/simplify/AGENTS.md",
+    "skills/catalog/unslop/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "egraphs-good/egglog",
+   "head": "4821547da08c1a8e5a2f530625f1648f13b058a3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "elastic/elasticsearch-java",
+   "head": "f920563fb804f9a03aa9b77fbaeb21ba5bc3b3e5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "emacsorphanage/key-chord",
+   "head": "cb646e815c61f253ad9fdfbe058049dda4e2b32b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ericmjl/llamabot",
+   "head": "30d24ae77a0b69062f686c0dbca75ba77a4ddbd8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ericmjl/pyds-cli",
+   "head": "621aade2c31228f883cc1f5df4bfc6b0198d8b50",
+   "status": "complete",
+   "nested": [
+    "pyds/templates/analysis/{{ cookiecutter.__repo_name }}/.github/copilot-instructions.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "erweixin/langshift.dev",
+   "head": "00d453742c692ad065de91a5e2c7e678665e0157",
+   "status": "complete",
+   "nested": [
+    "content/docs/js2c/.cursorrules",
+    "content/docs/js2cpp/.cursorrules",
+    "content/docs/js2go/.cursorrules",
+    "content/docs/js2java/.cursorrules",
+    "content/docs/js2kotlin/.cursorrules",
+    "content/docs/js2py/.cursorrules",
+    "content/docs/js2rust/.cursorrules",
+    "content/docs/js2swift/.cursorrules",
+    "content/docs/py2js/.cursorrules"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "etowahadams/interprot",
+   "head": "fae2d3ae90220781289e27a26cb3b0826cf2b07e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "evolution-foundation/evo-ai",
+   "head": "7ff7a1455c68c9da6aab7f1d16617570374f81b8",
+   "status": "complete",
+   "nested": [
+    "frontend/.cursorrules"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "exa-labs/exa-js",
+   "head": "f240104551c6930186b45a9ed547b1875923908a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "exon-research/genomi",
+   "head": "1df4f5bfb635e2d08f93a1102b70b840fbe80d86",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "exoscale/cli",
+   "head": "4b1858eefcc90a125ece28d77844b62a7e1a5958",
+   "status": "complete",
+   "nested": [
+    "vendor/github.com/aws/smithy-go/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "fchangjun/awesome-design-md-cn",
+   "head": "87d0cab1f21f12df8fc542c394a903160c9e343a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "figranium/figranium",
+   "head": "e33c15c58eaac3af75ffecaa9d309e8617c22926",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "firehol/iprange",
+   "head": "c87b6cbd3764d13c60e7e5a298d4f17197074aa2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "fivetaku/cc101",
+   "head": "19de1ec0dddb239e159b2b66e220fafba7e7fbff",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "fivetaku/llm-wiki",
+   "head": "f3e54d694e5efe3c531ca8cbcb7169fe28b782cc",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "fl-sean03/OpenSDL",
+   "head": "43f49889c87e78cffb383f8683766453e4daaff1",
+   "status": "complete",
+   "nested": [
+    ".agents/AGENTS.md",
+    ".agents/CLAUDE.md",
+    "adapters/AGENTS.md",
+    "adapters/CLAUDE.md",
+    "apps/api/AGENTS.md",
+    "apps/api/CLAUDE.md",
+    "examples/AGENTS.md",
+    "examples/CLAUDE.md",
+    "packages/cli/AGENTS.md",
+    "packages/cli/CLAUDE.md",
+    "packages/core/AGENTS.md",
+    "packages/core/CLAUDE.md",
+    "packages/runtime/AGENTS.md",
+    "packages/runtime/CLAUDE.md",
+    "packages/storage/AGENTS.md",
+    "packages/storage/CLAUDE.md",
+    "tests/AGENTS.md",
+    "tests/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "fopost/fopost-social-laravel",
+   "head": "5d2e0abd35a1b41d12c4463955936585ed414b2d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "formkit/auto-animate",
+   "head": "06882a8e69ba9bc8456d8f2ae6010f697fd7a37c",
+   "status": "complete",
+   "nested": [
+    ".dmux-hooks/AGENTS.md",
+    ".dmux-hooks/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "francoeur003/replication",
+   "head": "80309127a1752316580c7414c917c6bc8cf558bf",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "frankdilo/MarkdownViewer",
+   "head": "d3d655a7121b5cfcac5cddb74a4d6b3737492c54",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "funnywwh/prjflow",
+   "head": "800c4b177cf9b949fcfc196c4537c20de7894cd1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "generalui/s3p",
+   "head": "d8d6dcac7f9c8a68c50c196400e9007bfbfd42f0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "getredash/contrib-helm-chart",
+   "head": "d0c3d38e0b771a19b1d3cfe771f192039f4c1911",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "go-spring/go-spring",
+   "head": "502da251bbe0faa6c2787620c0fc64162803e7f9",
+   "status": "complete",
+   "nested": [
+    "gs/AGENTS.md",
+    "gs/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "gogpu/gg",
+   "head": "bd563f4c293fd1f70afe56276c444a38302bac15",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "graphframes/graphframes",
+   "head": "407773a341a344207127139c098337fa601d0275",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "greyhaven-ai/autocontext",
+   "head": "f72c154152397f54d55407508b153d28861888a5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "guess/claude_code",
+   "head": "3fb3b3d92c0107f1776ad7dcb27030a44a26bbfd",
+   "status": "complete",
+   "nested": [
+    "docs/guides/CLAUDE.md"
+   ],
+   "rule_files": [
+    ".claude/rules/options.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "hectcastro/gh-metrics",
+   "head": "69e9ce4e0cb525f1668c726eece3c3ccda285de4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "helm/helm-www",
+   "head": "f32ec4dc5bfedac17e3f4c984f3bac4af629936d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "hengfengliya/imgood",
+   "head": "f742321b4940d9d50c27ea7b868aa4393ccfbc69",
+   "status": "complete",
+   "nested": [
+    "workspace/agents/Aeloria/AGENTS.md",
+    "workspace/agents/Elowen/AGENTS.md",
+    "workspace/agents/Seraphine/AGENTS.md",
+    "workspace/agents/lilithara/AGENTS.md",
+    "workspace/agents/malvyra/AGENTS.md",
+    "workspace/agents/velmoria/AGENTS.md",
+    "workspace/agents/zelphira/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "hirokidaichi/gilot",
+   "head": "0099c706ce242079976eacaf8785467d67626ad3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "hjinco/mdit",
+   "head": "2248f42e31cacc91a1033fef7e680eb71bdebc6e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "hschne/puny-monitor",
+   "head": "626049d81396da315397fb786bf2dcf83a7a0eac",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "hughjonesd/huxtable",
+   "head": "a0e3fc2ac9334be1d32a11cdb250741c0a8a9d80",
+   "status": "complete",
+   "nested": [
+    "docs/AGENTS.md",
+    "docs/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "huisezhiyin/sdd-riper",
+   "head": "34ddbb954d00d7ff666fa04c2843099207b0ea1a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "huthvincent/yt-bilingual-app",
+   "head": "dfe0320be8bfa9f2085a26c1bcee2b68cfcb66e9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "iPzard/electron-react-python-template",
+   "head": "080c09d2d2063928158c265c44590b8517119ae0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "igorbarshteyn/athena",
+   "head": "555a145c354c18527eebc36b0851bbcc9d4c18ea",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ilius/ayandict",
+   "head": "47c7dcd421e41c528e44055ecbf3db95484070eb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "immobiliare/backstage-plugin-gitlab",
+   "head": "bf4b1f89c401e7ff12778c85be1aeee58147875e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "imranarshad/vibe_coding_template",
+   "head": "1a47d33b02720c89134f7e0c98b6fd4af531ec59",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "indiesoftby/defold-sharp-sprite",
+   "head": "60d7eb8f18714c08a23996517a71b6bde6232ba3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "indiesoftby/defold-yagames",
+   "head": "778da7b63d99e1dc46a02dbf9269b1a3e9ad1ba1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ivngineer/sword",
+   "head": "bca058a27648bc76331e0d26fef9fbbba287e165",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jasonanewcoder/abaqus_skills",
+   "head": "4737c0ab8d0548e0aa26345c5f7d5ac1a2e5dbc9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jaychempan/coding-with-beat",
+   "head": "0c5eb49da6f82cb1e2fac9d9d8bf3f76986bf6a2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jeffdcamp/android-template",
+   "head": "7eea7a8ace45ecb1352ae1e1a1fc62e989d2e25c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "jessegrosjean/TaskPaper",
+   "head": "0782360bd17c1ba55d94c64f13235f9aeadb36be",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jhlee0409/claude-code-history-viewer",
+   "head": "090737b593d81b84b3d2b2a602f85a5c8cb9edc8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jlvihv/R2Uploader",
+   "head": "24fa78c208e1d806677603bfde2d8be46f09d183",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jmagly/aiwg",
+   "head": "1276385ca46e0f1d5f5b70ab8d4c87061880c2f6",
+   "status": "complete",
+   "nested": [
+    "agentic/code/frameworks/sdlc-complete/templates/project/CLAUDE.md",
+    "test/fixtures/context-memory-firewall/AGENTS.md",
+    "test/fixtures/mcp-test-project/CLAUDE.md",
+    "test/fixtures/providers/pi/project/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "WORKSPACE.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "AIWG.md"
+    }
+   ]
+  },
+  {
+   "repo": "jmandel/health-skillz",
+   "head": "c5378cb0b338e721e89eba7c5ae070dae6f19d3b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "joesdu/EasilyNET",
+   "head": "119cba4904c9812f9b8c95839ed612a77869d7d0",
+   "status": "complete",
+   "nested": [
+    "sample/AGENTS.md",
+    "src/EasilyNET.AutoDependencyInjection/AGENTS.md",
+    "src/EasilyNET.Core/AGENTS.md",
+    "src/EasilyNET.Mongo/AGENTS.md",
+    "src/EasilyNET.RabbitBus/AGENTS.md",
+    "src/EasilyNET.Security/AGENTS.md",
+    "src/EasilyNET.WebCore/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "johnathanchiu/roomform",
+   "head": "083a2bf7c8fc6f002881ce2b9abb968156b6bf7f",
+   "status": "complete",
+   "nested": [
+    "research/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "johnpapa/vscode-peacock",
+   "head": "dabf412a4f55cc54bebec2cef2c9854a3a51b826",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "johnpapa/vscode-winteriscoming",
+   "head": "260547834cb6ac37dd5b8bb5842cc1c8d3164946",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jordanhindo/beadboard",
+   "head": "9e3059dbb7c2e907cef79b5fa68d51f8cb390457",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jossephus/chuchu",
+   "head": "c23311054d94a519fc8113094a4dd91d4bf19e67",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jrnl-org/jrnl",
+   "head": "90de4948d79a4fca8c7238dd2487b599f458c903",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "julien-blanchon/Montelimar",
+   "head": "a406a36561a0a9ee3f00e2672c7d1a0b06972c22",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jumpserver/luna",
+   "head": "8160a2744e34bfdcbfc42a4dea8cf14f39b03930",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/ponytail.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "junh0328/prepare_frontend_interview",
+   "head": "dbfb55c841f7a8cbda0e23ec7d5602a1bcd27ab8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "justdoinc/justdo",
+   "head": "c4cbfd03f4f1511da27db1174d98b612ec776d92",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/010-workflow.mdc",
+    ".cursor/rules/020-structure.mdc",
+    ".cursor/rules/030-coding-style.mdc",
+    ".cursor/rules/031-bash-development.mdc",
+    ".cursor/rules/032-coffeescript-style.mdc",
+    ".cursor/rules/033-client-style.mdc",
+    ".cursor/rules/040-architecture.mdc",
+    ".cursor/rules/050-testing.mdc",
+    ".cursor/rules/060-package-integration.mdc",
+    ".cursor/rules/070-terminology.mdc",
+    ".cursor/rules/999-mdc-format.mdc",
+    ".cursor/rules/tasks/010-test-generation.mdc",
+    ".cursor/rules/tasks/030-i18n-files.mdc",
+    ".cursor/rules/tasks/040-meteor-3-migration.mdc",
+    ".cursor/rules/tasks/050-version-updates.mdc",
+    ".cursor/rules/tasks/060-i18n-language-specific-routes.mdc",
+    ".cursor/rules/tasks/150-instruction-for-gantt-custom-coloring.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "jvkersch/tmtools",
+   "head": "c506ec546699b9b47db9a343d02a69393d23fc68",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jxnl/kura",
+   "head": "956d95ac6a19c841c59eefe692f3341dfc2ba410",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "jxnl/systematically-improving-rag",
+   "head": "e2d11ad079e004d0dc0319c0309b272fcd0f55d7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/coding-style.mdc",
+    ".cursor/rules/documentation-style.mdc",
+    ".cursor/rules/educational-rag-project.mdc",
+    ".cursor/rules/mkdocs-navigation.mdc",
+    ".cursor/rules/project-structure.mdc",
+    ".cursor/rules/synthetic-question-generation.mdc",
+    ".cursor/rules/talks-formatting.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "kamathhrishi/finance-agent",
+   "head": "d85b55fb2e28ac72aeaa0b613ebe2bedd1809480",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kantord/headson",
+   "head": "26ccc98d9e90150ff4c2d9a7299f7ad85544cd23",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kenshiro-o/nagato-ai",
+   "head": "ea19ab507d1aba6f545cb76448e6d281d70e86ff",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kiitdev/kiit",
+   "head": "c2bf88395473eccc2a26d3190d4cb3a8e69e345a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kingbootoshi/codex-orchestrator",
+   "head": "035d5813a1d93c4d8385ee4d5ff09a9416f6a749",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kipsilabs/postie",
+   "head": "6724364753bd89fce5301670ea1eefe367b9de9b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kirill-markin/chrome-auto-image-blocker",
+   "head": "8ce7e5f97e64bc22d4f105305275b6fdb69c432c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kivo360/OmoiOS",
+   "head": "65d8f5eff4fd129e33ba18b6b9ba144aa4eea38f",
+   "status": "complete",
+   "nested": [
+    ".claude/skills/oip-proposal/CLAUDE.md",
+    "backend/CLAUDE.md",
+    "backend/config/CLAUDE.md",
+    "backend/migrations/versions/CLAUDE.md",
+    "backend/omoi_os/CLAUDE.md",
+    "backend/omoi_os/api/CLAUDE.md",
+    "backend/omoi_os/api/routes/CLAUDE.md",
+    "backend/omoi_os/services/CLAUDE.md",
+    "backend/omoi_os/workspace/CLAUDE.md",
+    "backend/tests/CLAUDE.md",
+    "docs/.archive-20260422-0900/design/sandbox-agents/CLAUDE.md",
+    "docs/CLAUDE.md",
+    "docs/assets/CLAUDE.md",
+    "docs/proposals/CLAUDE.md",
+    "docs/user_journey/CLAUDE.md",
+    "frontend/CLAUDE.md",
+    "frontend/app/(app)/CLAUDE.md",
+    "frontend/app/(app)/activity/CLAUDE.md",
+    "frontend/app/(app)/agents/CLAUDE.md",
+    "frontend/app/(app)/agents/spawn/CLAUDE.md",
+    "frontend/app/(app)/command/CLAUDE.md",
+    "frontend/app/(app)/commits/[commitSha]/CLAUDE.md",
+    "frontend/app/(app)/diagnostic/[entityType]/[entityId]/CLAUDE.md",
+    "frontend/app/(app)/graph/[projectId]/CLAUDE.md",
+    "frontend/app/(app)/health/CLAUDE.md",
+    "frontend/app/(app)/organizations/[id]/billing/CLAUDE.md",
+    "frontend/app/(app)/organizations/[id]/members/CLAUDE.md",
+    "frontend/app/(app)/organizations/new/CLAUDE.md",
+    "frontend/app/(app)/projects/[id]/specs/[specId]/CLAUDE.md",
+    "frontend/app/(app)/prototype/CLAUDE.md",
+    "frontend/app/(app)/sandbox/CLAUDE.md",
+    "frontend/app/(app)/sandbox/[sandboxId]/CLAUDE.md",
+    "frontend/app/(app)/sandboxes/CLAUDE.md",
+    "frontend/app/(app)/settings/security/CLAUDE.md",
+    "frontend/app/(app)/settings/sessions/CLAUDE.md",
+    "frontend/app/CLAUDE.md",
+    "frontend/app/docs/[[...slug]]/CLAUDE.md",
+    "frontend/app/showcase/[token]/CLAUDE.md",
+    "frontend/components/CLAUDE.md",
+    "frontend/components/docs/CLAUDE.md",
+    "frontend/components/layout/CLAUDE.md",
+    "frontend/components/marketing/CLAUDE.md",
+    "frontend/components/marketing/sections/CLAUDE.md",
+    "frontend/components/sandbox/CLAUDE.md",
+    "frontend/components/ui/CLAUDE.md",
+    "frontend/lib/api/CLAUDE.md",
+    "frontend/public/videos/CLAUDE.md",
+    "scripts/CLAUDE.md",
+    "scripts/live-preview/CLAUDE.md"
+   ],
+   "rule_files": [
+    ".cursor/rules/development.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "koljapluemer/learn-worldmap",
+   "head": "3f063aed25bf9dad94ac2731b2d0337854f0909d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kosukesaigusa/geoflutterfire_plus",
+   "head": "f8bb6b8435fda88ff8a8076ee5454a1183448b4d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kousen/java_8_recipes",
+   "head": "1ac73b3031c73e8e03e09d166be62cc38512aa72",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kristiyan-velkov/frontend-production-dockerfiles",
+   "head": "4d2636ed4fd800ae1db14cdb1127353c7c10a9ba",
+   "status": "complete",
+   "nested": [
+    ".cursor/rules/.cursorrules"
+   ],
+   "rule_files": [
+    ".cursor/rules/.cursorrules",
+    ".cursor/rules/docker-compose-standards.mdc",
+    ".cursor/rules/dockerfile-standards.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "kubernetes-sigs/cluster-api-provider-openstack",
+   "head": "eb70f384a5fb7793ee0bd43dc4f3fcdb849024af",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "kulterryan/who-to-bother-at-on-x",
+   "head": "b78c9bd8103f7d78f90536961cf66f74afe57a2c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/ultracite.mdc",
+    ".windsurf/rules/ultracite.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "kzahel/web-server-chrome",
+   "head": "0c231c17f5e49b9d738561399981d0244d1ba31c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "l0usie/nexus-agents",
+   "head": "49bf43d83b52792b8597adb01ed09941d901a60d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "lajarre/pi-vim",
+   "head": "e55b07c05b648f3bbccf656c2b0c6ec63f1a91d1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "lambdaclass/spawned",
+   "head": "579533cb88975806cc44ba04a5694b4c7d5f1fd6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "laurb9/StepperDriver",
+   "head": "4cb34bf0caa021d59dafd15df7272e4f7e6e1cf4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "leboncoin/spark-web",
+   "head": "da358140322b0689f6511ac7a84be753e0fa0aae",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/accessibility-standards.md",
+    ".cursor/rules/code-style.md",
+    ".cursor/rules/component-guidelines.md",
+    ".cursor/rules/project-overview.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "leemonade/leemons",
+   "head": "b1ca5d84d8b2f704e80dea127c9769e16a22201f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "letuswerss/werss",
+   "head": "0862aab90d7aea91e776bcdab4b495a727f12051",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "lexler/skill-factory",
+   "head": "80173337304a5f6e861afe1ff74eb2f3f2c8fb1b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "liuxingqitd/skills-hub",
+   "head": "3d74a83ef908be6aff906d9908addfdeedff4f3f",
+   "status": "complete",
+   "nested": [
+    "tests/fixtures/instructions/claude-project/CLAUDE.md",
+    "tests/fixtures/instructions/codex-project/AGENTS.md",
+    "tests/fixtures/instructions/codex-project/apps/web/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "lldap/lldap",
+   "head": "99c510a7a603df1cdaca00a9ffff95ec73b296eb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "longbridge/gpui-fast",
+   "head": "2e2c73a75b6edb9c68077153f72e74ccaba229ae",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ludoguenet/laravel-zap",
+   "head": "bf070c9c9faf6d2a926677e382b2a7b682817abd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "lukaspustina/mhost",
+   "head": "cc72730c1ee6e9653e540981c6494f3fd6cf3e17",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mackt/pi-language-tutor",
+   "head": "aeaa9fa36b4fc9e147b8ebc23cf38cdda426f72d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "madarco/ragrabbit",
+   "head": "b3906b13487a76fce44940aeee93177435da18b7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "maitrungduc1410/react-native-video-trim",
+   "head": "85a6056976ff8e027f410192232cd690a879492e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "malforge/mdk2",
+   "head": "04c09c735a1514c83b587c7847d649a518baa52b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "manager-dot-dev/manager-skills",
+   "head": "c47ebc7adc3ef84056f059e2a426077cfe12de8c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mandatoryprogrammer/thermoptic",
+   "head": "e27f4de2321311f48c785bf0391d0d78c3706c4c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "manusa/podman-mcp-server",
+   "head": "5fd49dbb496f74216c8c464d7c0cf84c9a9bd848",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "marc-shade/Ollama-Workbench",
+   "head": "e16a0c12abf58393d4507a81182da969a2dc19a3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "marcobambini/gravity",
+   "head": "088a1a9fd580475f8b015e9bd5543f1dd4cfb3f1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mateonunez/website",
+   "head": "5c1b719318a6b9902e7089d41b2ad9d1ac86543d",
+   "status": "complete",
+   "nested": [
+    ".agents/skills/vercel-react-best-practices/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "matiasvillaverde/context-creator",
+   "head": "f07cf173c5f78cd32efc3e933cafff4eb6ff8e62",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "maverick-js/maverick",
+   "head": "d9a3b92d2614ba600ed314971aaad048996ec905",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "maxmind/GeoIP2-ruby",
+   "head": "bdbd2972690152c9c173e4706ec4e3a181d9bedd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mblode/burger",
+   "head": "922b042fea4bbd3c339b87b4419dcca2305aeade",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mckaywrigley/o1-xml-parser",
+   "head": "d3ab5c068f8db5117b01cfc81b6ef637d37ac474",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mckaywrigley/slack-customer-service-ai-agent",
+   "head": "f79891ba5a491c64a1e3c6d290126d3517642ee3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "meain/dotfiles",
+   "head": "f469fb660e577bf429bc440ca9d99e62ee9eb13b",
+   "status": "complete",
+   "nested": [
+    "agents/.agents/AGENTS.md",
+    "claude/.claude/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "medama-io/medama",
+   "head": "d4fe02cc9c00e5c13f22283a1bac9b85be678b68",
+   "status": "complete",
+   "nested": [
+    "core/AGENTS.md",
+    "dashboard/AGENTS.md",
+    "tracker/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "meilisearch/meilisearch-java",
+   "head": "740d3f60c5f31f8c6df0f8da20660230d73f7d67",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "meodai/skill.color-expert",
+   "head": "f74624ceadcde459b4fe07fb8a0ea1c1e97967a0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mercury/hs-temporal-sdk",
+   "head": "a4cc442a1f130afde5a78af55bc4a8533e9fd732",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "metaspartan/mactop",
+   "head": "8dbfaaed7426cff3bcfbcb7951a2e15dfb6d1667",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mhernesniemi/hoikka",
+   "head": "c2065c3cff2534b9cebf064cad2a64271240e923",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "michaelklishin/pantomime",
+   "head": "8a71e27c64fcc679db2163679d389b4e4c695d03",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "microsoft/Agent365-devTools",
+   "head": "1dfbf01417ecb82ba8216e69e32adcf5834756c1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "migueldeicaza/TermKit",
+   "head": "2cdfc96f9c524251ae1f517a440f28150182b7c2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mike-bronner/zed-laravel",
+   "head": "7d8a2ee702c7a499320c1c53101b9ec614e56204",
+   "status": "complete",
+   "nested": [
+    "test-project/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "miyuesc/blog",
+   "head": "909363dfa277f5281121b35edb98a548a05e0121",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mjcumming/wiim",
+   "head": "f8019690a56fd66041d455f475f873789464979b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mkleehammer/pyodbc",
+   "head": "9fd386c370288d802ddec58e5580fe1ec9adeade",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "moonbitlang/x",
+   "head": "8bd31c136000b37b4b470218bbc3717a9da2c5e7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "moq-dev/web-transport",
+   "head": "8e168c3b2714acbc49cf52f2dbc9aa01096e4b6f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mosh-hamedani/helpdesk",
+   "head": "cb981f63022a4f544054a67e74a1224598393fe0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mouse-lin/finesse-brief",
+   "head": "d1f45618b605587b882a20d72eb0d8ec666990bd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/finesse-brief.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "mozilla-ai/any-guardrail",
+   "head": "8cb63bd664a0b7f44deb81a14b575611277fafe8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "muraenateam/necrobrowser",
+   "head": "6cc31dd4128cc189fc3f9adc3d4539ca3d85f1e5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "mxstbr/mxstbr.com",
+   "head": "76e545e9bb8b1839acd2a565fdff96cd14fb35de",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nRF24/RF24Mesh",
+   "head": "18ab343beae7b34a0a24c9cd95bed0e2c1d8f242",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nacos-group/nacos-sdk-rust",
+   "head": "c0af25b46d5998b9fbe2216d2a3d366cccfa4a09",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "napjon/krisk",
+   "head": "73b0409a84784a6f9071d7a1dfeef4d54e8a1354",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "narnia-sh/layrr",
+   "head": "e4e7a0ab972d3df4f5acc6a5929f36f3def89c59",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nette/application",
+   "head": "e6c304fa9a1164335402452f94f370b4d22766fe",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nextcloud/notes-android",
+   "head": "77ff08270c5e1bbe84538917c2e2761a35224721",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "nim-lang/atlas",
+   "head": "d563be7ba26124ec43cf5eadbccd525e33201a4e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "niqiuqiux/AMem",
+   "head": "e8905f701ebe1d2509d1dc65151ddf62b02cfb9f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nmoroze/tclint",
+   "head": "bb7bb86d59a338d00ca2023c4074c023688eeb5b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nnstreamer/nnstreamer",
+   "head": "e83a287db91e9583417cf90283ae8ff5d184db0a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nolebase/integrations",
+   "head": "c0fadd20e38242f7aaf69bb69233200bf7aa833f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nonononull/codex-retry-gateway",
+   "head": "ef7fc5a0f9da125b91431cd99bcf6fd9387a53b2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "northword/zotero-format-metadata",
+   "head": "2b747409e8c3df866fca327a8ad859d770694a5b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nrgapple/historic-country-borders-app",
+   "head": "01d15a1bc1c694aeaf7723dc4f3380d851f13f9e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nstrayer/cv",
+   "head": "daf526604b468630d6ede5c154a87ac812215c93",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ntygod/ZhiWei",
+   "head": "7043f3f6c5c51072e1f48e569f362d5b967f4d9a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".claude/rules/frontend-conventions.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "nullptrx/pangle_flutter",
+   "head": "17825b258a6d1f1e9ad7df581d3e087ac715c124",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "nwiizo/ccswarm",
+   "head": "1cec7fe72886b2fffc4424637350f28f3130e6b4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".claude/rules/architecture-patterns.md",
+    ".claude/rules/development-standards.md",
+    ".claude/rules/performance.md",
+    ".claude/rules/security-guidelines.md"
+   ],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "docs/ROADMAP.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "docs/ARCHITECTURE.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "docs/APPLICATION_SPEC.md"
+    }
+   ]
+  },
+  {
+   "repo": "o19s/hello-ltr",
+   "head": "39365b384377019e0b3aa35e61b8c2cec4bad2c1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "oalanicolas/claude-design-premium",
+   "head": "61650f14620223063bac2b06301ca570dd1ce6c2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ohcnetwork/care",
+   "head": "3fe704930d9b2d7b6ffdc212cbf6a6a72bfaede4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "oliverearl/nes-php-glfw",
+   "head": "70ac5803a7d4a73a3efd9617992ac055c1296b7a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "openMF/mifos-mobile",
+   "head": "08ce9edf0d670267558c6410460ae258fe298a32",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "openshift-examples/web",
+   "head": "3511549298833a8bcc5487b11329e0f13d9f2661",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "openshift/cluster-kube-descheduler-operator",
+   "head": "7f2731941f3e76afb6544a7545db9becdfb36caa",
+   "status": "complete",
+   "nested": [
+    "vendor/github.com/openshift/api/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "opra-project/OPRA",
+   "head": "0b88ecd4e2bef7cf69fd5d50f1d06fb586c10865",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "opxiahub/tanya",
+   "head": "117921951159a385a2bcab761be3beb4e428c5d4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "owncloud/notes",
+   "head": "f37a989f7495a61137d4bac95f93baa82abf28cc",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pansila/mcp_server_gdb",
+   "head": "78021078c291ee6aac6dc1893bb09a654c0b19f1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "passportxyz/passport",
+   "head": "b9bc306a1ffbc74bb1181837f04e7bc6ee909cda",
+   "status": "complete",
+   "nested": [
+    "platforms/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "wiki/index.md"
+    }
+   ]
+  },
+  {
+   "repo": "passwall/passwall-server",
+   "head": "bdd06e30853dda2bf0f41f6a2a3c0cb40d8ef06e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/agent-autoload.mdc",
+    ".cursor/rules/memory-bank.mdc",
+    ".cursor/rules/passwall-workspace.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "paulovenoy/venoyBot",
+   "head": "02b0f7f9c62c144c0bcc58df16fb398d5ffbcd6e",
+   "status": "complete",
+   "nested": [
+    "node_modules/thread-stream/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pavlof01/jslab",
+   "head": "76b6517b687633605dd747a4ce8cd6f12e4a85c7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pawcoding/astro-loader-pocketbase",
+   "head": "2995a449f99f619982c14e7fd9f4ac734ba87b78",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pbakaus/agent-reviews",
+   "head": "bf14a95dc7f556fc35a006862f05e197dc4e9832",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "phatMT97/VKey",
+   "head": "2679c5717913f4cafb1337f47df50e37db5b3fdb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pikapikaspeedup/Antigravity-Mobility-CLI",
+   "head": "3842844835196b566afc167226a41c5d169fa729",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pktgen/Pktgen-DPDK",
+   "head": "c0f11bba974036ee6b69f0e9c734da9325033e99",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "platformatic/undici-cache-redis",
+   "head": "2c3b154d297092caf445955451a4ea2a7c35afb0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "plexe-ai/plexe",
+   "head": "a1e05f6dc4c0875e0075f3b6f020fbecef57a699",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "pomerium/mcp-app-demo",
+   "head": "d24e7ff7f100284521d5a5503e39d464549ec02a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "puikinsh/kiaalap",
+   "head": "e369be9fabb9fc17a059148653ff195a2c932139",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "purton-tech/rust-on-nails",
+   "head": "58002503ac14fac04ae9d9ee48eacad5a273d108",
+   "status": "complete",
+   "nested": [
+    "nails-devcontainer/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "qelos-io/qelos",
+   "head": "8f5c2975901cee67c9619c720ec2d6668621a4c9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/backend-unit-tests.mdc",
+    ".windsurf/rules/graph.png",
+    ".windsurf/rules/qelos.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "radekamirko/C.R.I.S.P",
+   "head": "0953e4453a13b7ca6478575a87ad1e1d5918b405",
+   "status": "complete",
+   "nested": [
+    "examples/longevity-platform/CLAUDE.md",
+    "templates/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "radxa/radxa-som-projects",
+   "head": "cf5a4b1984fb4321233d2439320bcaea05af4817",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rainx/cn_stock_holidays",
+   "head": "bab59abedacda6df269e784a972c18b21f14a8db",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "raphaelmansuy/code2prompt",
+   "head": "1af498e7905b1fc5fdd9ff25156fc64548d5a608",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "raphaelmansuy/edgecrab",
+   "head": "ed3330703bc91f498062451136b89592c9ee098a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "raphaelsalaja/userinterface-wiki",
+   "head": "256a954080c8bcf1b1ceb1e2a4079d1f24cf593a",
+   "status": "complete",
+   "nested": [
+    "skills/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rapkin/osm2geojson",
+   "head": "0091edcf414c90a2903b33e1c3b8b741de5d2fdd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "relytcloud/pg_ducklake",
+   "head": "bc5d4b4e198ab57c38ecf0fa8fc89e5447720a45",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "remorses/tuistory",
+   "head": "363cbd2b05a24aaa6953e93a3d020731ea4e87ce",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rifkyputra/postlab",
+   "head": "861b29f218a3df40d1dc51563ae65b6c56485622",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rivertwilight/kanso",
+   "head": "9065609a2f300edd6ebcc594350c45a30ae1ddcb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rmpowell77/wxUI",
+   "head": "d6970156192198f1b75a4569fb814e35b6490741",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "robot-i-o/rio",
+   "head": "7c60b69065d0c226be55cf91770e0b5c34964bc3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "rolod0x/rolod0x",
+   "head": "60c1f2aa85331a945cd444140ffdcd21f82b4dad",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "romiluz13/cc10x",
+   "head": "891acf0f2a24e7285481e37e93882da0ec9039f0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rstrouse/nodejs-poolController-dashPanel",
+   "head": "ab8060cd5b08b0745f950805840cfc9f5090fd18",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rtk-ai/grit",
+   "head": "0f3c9d04abe9525b1884f3a0ade890e54a6d9ffe",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ruaan-deysel/unraid-management-agent",
+   "head": "e6280a4d6f6692a2dea0c4b4073d4e4b0abbc0c9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".github/instructions/api-handlers.instructions.md",
+    ".github/instructions/collectors.instructions.md",
+    ".github/instructions/controllers.instructions.md",
+    ".github/instructions/dto.instructions.md",
+    ".github/instructions/go.instructions.md",
+    ".github/instructions/mcp.instructions.md",
+    ".github/instructions/tests.instructions.md",
+    ".github/instructions/yaml-markdown.instructions.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "rust-tieng-viet/rust-tieng-viet.github.io",
+   "head": "f7a788a1a2dedd01a6f6a1aba9c9f88eb89be3b1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "rwightman/timme",
+   "head": "ff927ce6fcb91d31e5b95e1a34e04aee33cc2a4a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ryanrasti/typegres",
+   "head": "b8fbf7d79ef69f278b72608866996bd004a76bed",
+   "status": "complete",
+   "nested": [
+    "docs/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "samuelloranger/labby",
+   "head": "059d2eb461276fc19bffa71461016d628d3526fc",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "samurmaykrr/zqlz",
+   "head": "d8364b927e100ab124dc935536a398f45da24089",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "saubakirov/KZ-IT-telegram-list",
+   "head": "13a88a07544e3d13617461f2aa1687df6f76125b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "say828/claude-router",
+   "head": "1c37f4304be6c95af4401577843bfe6b1dbbec27",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "scosman/Biscotti",
+   "head": "f1a4214795d312e23a94d3fced3adb979cf54c1d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "securego/gosec",
+   "head": "65c2c082857febe898116edeb1fcddea0193634a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "sem-in-r/seminr",
+   "head": "6e9eb76422a32bdd0bdf4c70eb35106a5a7e218a",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "semantic-release/gitlab",
+   "head": "906aca4b2b50c5f321a1abea24294152b88b611c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "semos-labs/attyx",
+   "head": "12c06ec7f8ff63a6fee3590a15dc1c9ecbfb68e9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/clean-code.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "sethlaw/sputr",
+   "head": "7a1cf4cc6b1e2571c6ca4ed1c4bcf8aee06c65b0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "sfakir/feiertagejs",
+   "head": "311f1f88f5a009e0626c0e632da663614304212c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "shangyankeji/super-dev",
+   "head": "d06e640153bd83fc63ef716e1149cf2b2bbf02ed",
+   "status": "complete",
+   "nested": [
+    ".codex/AGENTS.md",
+    ".junie/AGENTS.md",
+    ".super-dev/AGENTS.md"
+   ],
+   "rule_files": [
+    ".cursor/rules/super-dev.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "shanselman/FlaUI-MCP",
+   "head": "da1d2a24eae6ccdfbbd40a1375b6617536552351",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "shutiao-org/shutiao-life",
+   "head": "9534d5f7f1e6c6d7d67c3df76ed05fd8c599a0b8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "simonw/simonwillisonblog",
+   "head": "53a10931a1b379b2324e065ddc84fa68fe8ba9a3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "siriwatknp/mui-treasury",
+   "head": "8fa129a0519d08764af1a208bafd3e83e19fd9c6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".claude/rules/development.md",
+    ".claude/rules/primitive-demo-design.md",
+    ".claude/rules/registry.md",
+    ".claude/rules/visual-regression.md",
+    ".cursor/rules/formatting-table.mdc",
+    ".cursor/rules/registry-block.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "six-ddc/livecaption",
+   "head": "da182e0ae496743d975d4de556d3b6e450698a5c",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "skywind3000/vim",
+   "head": "150e224e42b89602658a3b50fa07dce4e0b6f47b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "smmarty/friflex_flutter_starter",
+   "head": "139bf5cd0b9621af3c5c0cbc4c4ba5e336e215fd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "snowdreamtech/frp",
+   "head": "88ab780dc27dd85530d51c135defdfdba342eed5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/rules.md",
+    ".cursor/rules/rules.mdc",
+    ".cursor/rules/specify-rules.mdc",
+    ".cursor/rules/speckit_snowdreamtech.init.mdc",
+    ".cursor/rules/speckit_speckit.agent-context.update.mdc",
+    ".cursor/rules/speckit_speckit.analyze.mdc",
+    ".cursor/rules/speckit_speckit.checklist.mdc",
+    ".cursor/rules/speckit_speckit.clarify.mdc",
+    ".cursor/rules/speckit_speckit.constitution.mdc",
+    ".cursor/rules/speckit_speckit.git.commit.mdc",
+    ".cursor/rules/speckit_speckit.git.feature.mdc",
+    ".cursor/rules/speckit_speckit.git.initialize.mdc",
+    ".cursor/rules/speckit_speckit.git.remote.mdc",
+    ".cursor/rules/speckit_speckit.git.validate.mdc",
+    ".cursor/rules/speckit_speckit.implement.mdc",
+    ".cursor/rules/speckit_speckit.plan.mdc",
+    ".cursor/rules/speckit_speckit.specify.mdc",
+    ".cursor/rules/speckit_speckit.tasks.mdc",
+    ".cursor/rules/speckit_speckit.taskstoissues.mdc",
+    ".github/instructions/rules.instructions.md",
+    ".windsurf/rules/rules.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "softwaredoug/searcharray",
+   "head": "5ead0c721128d506264be33d9445e9a8508c5f98",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "soloterm/dumps",
+   "head": "829ad564381d8eca34b381c0032656bd7e2a60c6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "some-natalie/kubernoodles",
+   "head": "cf65600b39d3e8fe6b39447f337ee58a1b2c0448",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "sonpiaz/evox",
+   "head": "60835be552d417d1ba50976e7c4febee9dc6b385",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "sous-chefs/postfix",
+   "head": "40625488b26ee331f037e1f516e3d0c62fd1840f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "spring-ai-community/agent-client",
+   "head": "eec1806e431d6489eee09dc318d0426fc8d2898f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ssdeanx/deep-research-mcp-server",
+   "head": "3b9d7171eaa0ecda735bb28943f750401c5d7e72",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".windsurf/rules/00-critical-code-practices.md",
+    ".windsurf/rules/01-project.md",
+    ".windsurf/rules/02-chunking-and-splitting-rules.md",
+    ".windsurf/rules/03-mcp-server.md",
+    ".windsurf/rules/04-gemini-structured-output-rules.md",
+    ".windsurf/rules/05-google-search-grounding-rules.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "stefanbschneider/mobile-env",
+   "head": "4205dfdd33ab8a89b1138b36804bab04b2495c4e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "steveyegge/vc",
+   "head": "f0d2be6228aa189d3cf6fc0b4049de4d3cc51457",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "stoicflame/enunciate",
+   "head": "4f149796eb6a709753d57d6d4e07094de1bd2897",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "strangebuzz/MicroSymfony",
+   "head": "92a0823a55fff5723f9589346511ce6a44f3b2bd",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "strapi-community/plugin-rest-cache",
+   "head": "af0e7d8d446791c49e05eca3dceb1b20c845e38b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "sugarforever/01coder-agent-skills",
+   "head": "e51fb6e74c41c7828df4c168ddc6f5486592f7a9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "suitux/Tagr",
+   "head": "8449a6375e0896486f1d4576358bb67eade4db3d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "suiyuebaobao/go-proxy-pro",
+   "head": "ec26b8a48b3514aa273f69c1e7e062f0d7cd477f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "superagent-ai/gateway",
+   "head": "041b08a658ffd0ae587d7065ebb6f4d2ccfc1a18",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "sveneisenschmidt/n8n-openai-bridge",
+   "head": "98976fe041d5ca6ce4dc01cfc63a60ba3012350e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "swaruplab/operon",
+   "head": "5cbb05520da361d5ece5db1a4c65dc2501706251",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "syi0808/screenize",
+   "head": "027be96bbf2d855698bc67f1536ac8cef48cc3e4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "synatic/noql",
+   "head": "d0662456c9d29a045a242aa38d8bcc0f0f96cfa7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "takehaya/xdperf",
+   "head": "906cbae1faf68212e63c6c62c78f0c2d3de515e4",
+   "status": "complete",
+   "nested": [
+    ".ocr/skills/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "tanevanwifferen/pi-mail",
+   "head": "a9f0e69dcaab7ab991a82e27d792b615b3323536",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "team-mirai/mirai-gikai",
+   "head": "84f6431779302e7c2b3b8b8dbc6f3232e465046e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "team-telnyx/ai",
+   "head": "02d34331a0acc45ca6c246f40d7def7cbeb929b8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/main.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "tektoncd/catalog",
+   "head": "112374ce1262b133a77300bd8133445722605e04",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".claude/rules/task-yaml.md",
+    ".claude/rules/test-infra.md"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "terragon-labs/terragon-oss",
+   "head": "83142a17f3970df3e14d1879234a603db6e4f615",
+   "status": "complete",
+   "nested": [
+    "apps/docs/CLAUDE.md"
+   ],
+   "rule_files": [
+    ".cursor/rules/project-conventions.mdc",
+    ".cursor/rules/theme-colors.mdc"
+   ],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "terryyin/translate-python",
+   "head": "e2328dab46048630a34aa50b0b1ad9edd4048dcb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/basic-development.mdc",
+    ".cursor/rules/issue.mdc",
+    ".cursor/rules/translate-rule.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "tevelee/swift-graphs",
+   "head": "3bf14cb012425556b631fb46d3f841567b458664",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "thecfu/scraparr",
+   "head": "a17cbbaf954b2e4a3518b40015737cc4a3991812",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "thejaustin/hexodus",
+   "head": "f61579b8a78b8fbb731750865d7a2b1cf328392e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "thomasnordquist/MQTT-Explorer",
+   "head": "35f31973c456a024a37450f5961e4610dc9a9ce0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "thoth-pub/thoth",
+   "head": "4fa7eaa9ccb60d39c41ccd8feb257edf28c173ff",
+   "status": "complete",
+   "nested": [
+    ".github/workflows/AGENTS.md",
+    "docs/engineering/AGENTS.md",
+    "thoth-api-server/AGENTS.md",
+    "thoth-api/AGENTS.md",
+    "thoth-client/AGENTS.md",
+    "thoth-errors/AGENTS.md",
+    "thoth-export-server/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "thumbor/libthumbor",
+   "head": "fce608483ed1becf57e6fd60c251171ae671d622",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "timweiland/Latte.jl",
+   "head": "4e9417a6a7df5ebe9e774ab738bcf58734f6a97d",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tin-computer/with-md",
+   "head": "1cd74972296a68bba93c48b8d564623afe374d69",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tinybirdco/logs-explorer-template",
+   "head": "c74c105603503323f39add05554367d0789829a7",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tjdrhs90/flutter-flame-harness",
+   "head": "824b2070892a4e74ef7d47a4feeba01e4deca53b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tmchow/illo-skill",
+   "head": "0b0abee9214d9cef3c9f42d5c739a0d63cb618e6",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "tokuhirom/jawiki-kana-kanji-dict",
+   "head": "af217868eed2c3b95acd6d3d0c437332e6f42f56",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tovifun/VivalArc",
+   "head": "41363620174517d7235e81077dd8bbcd7327bfa8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "trevor-nichols/agentrules-architect",
+   "head": "e0194e8fff417d5658f5d1ffa85f88d32b8b01f1",
+   "status": "complete",
+   "nested": [
+    "tests/tests_input/AGENTS.md",
+    "tests/utils/inputs/.cursorrules",
+    "tests/utils/outputs/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "treyhunner/dotfiles",
+   "head": "b30a9bc9c8c74b5ce1c90d8fcc51abad5a6d8ee3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "trigger/trigger",
+   "head": "07030b27ca655ee70e577e7c76653aa1f6d81404",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "triwinds/ns-emu-tools",
+   "head": "c4a39519e53270dff9961a642e5b77800c911a54",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tudelft3d/azul",
+   "head": "3ebd8718837ad29c6481b126620a140a5a81bc23",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "tychedelia/td-rs",
+   "head": "56f7654319f0382b8b50b9a020cfba4cdaf600f0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ultralytics/magellan",
+   "head": "817778ee43e40aed41c38e730b037afe7518474f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "umputun/cc-thingz",
+   "head": "fb520ca89c606f806408ca56874d8895fe9b83b3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "unclebob/empire-2025",
+   "head": "eb932bc27b436f94cdd0e57c391137f5aab82857",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "unpoller/unpoller",
+   "head": "69f39c4cd89afa9cefa8da9ec18aeea39136fe8b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "unvell/ReoScript",
+   "head": "86db216f479e09d2050f026807f4c6779ccba35e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "up-to-speed/vibe-coded-lol",
+   "head": "c2e016ca2dd5bd3887e9bfc5862c8d09f37966e8",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "url-kaist/ERASOR2",
+   "head": "d43d94f7e06a900456042979e29c3c933a39fd48",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "utkuozdemir/nvidia_gpu_exporter",
+   "head": "06c8cdcd28c71e67197e99ec6fd73c07d88b98de",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "vahiiiid/go-rest-api-boilerplate",
+   "head": "c8930598791e9961e01aa2f9968ff7cefe3d2d0e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/grab.mdc",
+    ".windsurf/rules/grab.md"
+   ],
+   "import_candidates": [
+    {
+     "from": "AGENTS.md",
+     "target": "AGENTS.md"
+    },
+    {
+     "from": "CLAUDE.md",
+     "target": "AGENTS.md"
+    }
+   ]
+  },
+  {
+   "repo": "vamshi4001/saas-clawds",
+   "head": "1331b8dc80a901da7bec47456a3cf1f60ff3fb53",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "veloplanner/map-matrix",
+   "head": "6979b5edd14de4846159a58eeed9bd01a021588e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "vincanger/envelope-budgeting-test",
+   "head": "458debd8cccd8115dcfd73da317fdb94aa90f572",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/1-wasp-overview.mdc",
+    ".cursor/rules/2-project-conventions.mdc",
+    ".cursor/rules/3-database-operations.mdc",
+    ".cursor/rules/4-authentication.mdc",
+    ".cursor/rules/5-frontend-styling.mdc",
+    ".cursor/rules/6-advanced-troubleshooting.mdc",
+    ".cursor/rules/7-possible-solutions-thinking.mdc",
+    ".cursor/rules/8-deployment.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "vlasenkoalexey/tpu_performance_autoresearch_wiki",
+   "head": "b0f16aa0b081e5717de46c285645254938147fbe",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": [
+    {
+     "from": "CLAUDE.md",
+     "target": "SCHEMA.md"
+    }
+   ]
+  },
+  {
+   "repo": "vmDeshpande/ai-agent-automation",
+   "head": "86b6072dd4c9bf6abe68c26c4265b3296a368737",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "vunguyentuan/vscode-css-variables",
+   "head": "84644afeb7b9a5f45ba0036d3d8a4d2ba03c8f36",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "wangdicoder/tiny-design",
+   "head": "2f28df1cf65c79fa4c765117e9a231d45d729ef5",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "wasp-lang/vibe-coding-video",
+   "head": "49bbc53839b1194aaa7a737f3f354687574645b3",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [
+    ".cursor/rules/1-wasp-overview.mdc",
+    ".cursor/rules/2-project-conventions.mdc",
+    ".cursor/rules/3-database-operations.mdc",
+    ".cursor/rules/4-authentication.mdc",
+    ".cursor/rules/5-frontend-styling.mdc",
+    ".cursor/rules/6-advanced-troubleshooting.mdc",
+    ".cursor/rules/7-possible-solutions-thinking.mdc",
+    ".cursor/rules/8-deployment.mdc"
+   ],
+   "import_candidates": []
+  },
+  {
+   "repo": "wcygan/dotfiles",
+   "head": "fd0ceebfb4d9af418854fd66e4787bd698a96ee6",
+   "status": "complete",
+   "nested": [
+    "config/agents/AGENTS.md",
+    "config/codex/AGENTS.md",
+    "docs/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "wenshao/codeagents",
+   "head": "ed2a6a16ee0accc750d97075afad76a115dce168",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "wolfSSL/wolfTPM",
+   "head": "8b2d12ac751f212837d6fd4fc81d5bae52c9f667",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "workersio/skills",
+   "head": "0e3950fc7b284db4f6b317e48bcb99edd2c1e3bb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "workos/case",
+   "head": "63ece1d1161b83ec9183e1b7430102086b384047",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "wpnuxt/wpnuxt",
+   "head": "165b6830d205edb49364a1ebf6ce7118c6e0d39f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "wxpusher/wxpusher-docs",
+   "head": "e88d57fe2e84b1173046816851d499db7a332059",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "xiashao/KaiyanTool",
+   "head": "9b7b945c1218723f054911f7ebbad6c4f51c395c",
+   "status": "complete",
+   "nested": [
+    "openspec/AGENTS.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "xingBaGan/image-management",
+   "head": "64195676d51e9eb2320d5d681d3a7254a07bf2df",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "xplainable/xplainable",
+   "head": "bdfa8fb48d2d7fb615caec63a849c2ddc1e956b0",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "xxraincandyxx/Amadeus",
+   "head": "883fb921c52e02c210100821f96ed1606ddd9cd1",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "yahiafarghaly/PrettyOS",
+   "head": "d2c8370011475b78c8037eaa3c1ac8516be2d9b2",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "yanhaoluo0/AlibabaDevelopmentManualSkills",
+   "head": "3dd5405b28801df7b5bf5c84ab0192a0512ed8e9",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "ygsgdbd/TypeSwitch",
+   "head": "c3ff1c70f28a081c9693c7f20e5d9dae0ca59796",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "yu-iskw/dbt-artifacts-parser",
+   "head": "0f6e85b43e4551b286b1add187bdd5ccb429b0ee",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "yxbian23/research-mate",
+   "head": "c31b46350c686c01163591d2ec7d41141bdb220d",
+   "status": "complete",
+   "nested": [
+    "third-party/academic-research-skills/.claude/CLAUDE.md",
+    "third-party/claude-review-loop/plugins/review-loop/AGENTS.md",
+    "third-party/claude-review-loop/plugins/review-loop/CLAUDE.md"
+   ],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zabbix-community/helm-zabbix",
+   "head": "be2dc447f78884d856d33a45c294c073f02df99b",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zaidmukaddam/miniscira",
+   "head": "07a01c39eda4750d2237e6baa4a92c6d983f3fab",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zamesin/Next-Move-Theory-Canon-and-Skills",
+   "head": "f8e87d10255b48d381ebc7fa65172960eb6d483f",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zenml-io/zenml-dashboard",
+   "head": "713374a27dc7dc20024ff22cce8dc8d18cd5a04e",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zhangchenchen/awesome_sora2_prompt",
+   "head": "9e797e75506d384f96c75e94527b06a001bcf1e4",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zhixianio/botdrop-android",
+   "head": "85ed3a6627008c344fe85e529e2e8cd919b60d77",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zsylvester/meanderpy",
+   "head": "0b836b4896ced7e70aab6d81972d81bc72e86d57",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zuston/riffle",
+   "head": "1fd80d69dcf594376c618f5acc1f7ad7195aaa90",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zwl467135974/lumina",
+   "head": "8eb5bd328fda2b418b004068230faa5425e8d981",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  },
+  {
+   "repo": "zzfn/zzf",
+   "head": "793bb4fee6b4d192d1e326884e7502350ef738fb",
+   "status": "complete",
+   "nested": [],
+   "rule_files": [],
+   "import_candidates": []
+  }
+ ]
+}

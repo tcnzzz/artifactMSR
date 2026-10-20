@@ -1,0 +1,17 @@
+{
+ "B_breaks": {
+  "effective_n": {
+   "context": 70.20167113678563,
+   "readme": 56.998252359314925
+  },
+  "detectable_gap_80pct_two_sided_5pct_conservative": 0.2497541834399565
+ },
+ "S_insync": {
+  "effective_n": {
+   "context": 60.0,
+   "readme": 60.0
+  },
+  "detectable_gap_80pct_two_sided_5pct_conservative": 0.2557485701222506
+ },
+ "definition": "Normal planning approximation at maximum Bernoulli variance 0.25, known stratum weights, independent items, complete ratings and no unsure exclusions. Clustering would reduce effective sample sizes. Not an equivalence test."
+}

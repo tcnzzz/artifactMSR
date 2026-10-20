@@ -1,0 +1,13 @@
+repo,file,prohibition,line,conflicting_units,label
+Aurealibe/claude-config,CLAUDE.md,-cmd(npm run dev),339,1,"qualified by scope, role or time"
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,-use(make),32,15,"qualified by scope, role or time"
+Static-Analyzer-Factory/static-analyzer-factory,AGENTS.md,-cmd(cargo test),30,1,"qualified by scope, role or time"
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,-use(make),32,19,"qualified by scope, role or time"
+Static-Analyzer-Factory/static-analyzer-factory,CLAUDE.md,-cmd(cargo test),28,1,"qualified by scope, role or time"
+ericmjl/llamabot,AGENTS.md,-use(pytest),27,1,"qualified by scope, role or time"
+immobiliare/backstage-plugin-gitlab,AGENTS.md,-use(yarn),424,17,extraction error or descriptive text
+immobiliare/backstage-plugin-gitlab,AGENTS.md,-use(npm),22,1,extraction error or descriptive text
+jhlee0409/claude-code-history-viewer,CLAUDE.md,-use(npm),97,1,extraction error or descriptive text
+mackt/pi-language-tutor,AGENTS.md,-cmd(npm version),48,1,"qualified by scope, role or time"
+oalanicolas/claude-design-premium,CLAUDE.md,-use(npm),100,1,extraction error or descriptive text
+oalanicolas/claude-design-premium,CLAUDE.md,-use(node),184,1,"qualified by scope, role or time"
