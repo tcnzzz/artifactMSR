@@ -284,53 +284,53 @@
   "n_lines": 300,
   "rater1": {
    "recall": {
-    "path": 0.3490175801447777,
+    "path": 0.37667410714285715,
     "script": 0.12307692307692308,
     "target": null,
     "manifest": 1.0,
     "dep": null,
-    "all": 0.396568789178489
+    "all": 0.41606092073381795
    },
    "ci_all": [
-    0.18608021730443614,
-    0.7008706933896951
+    0.19152430034203938,
+    0.7740833327580605
    ],
-   "true_references_in_sample": 16.0
+   "true_references_in_sample": 15.0
   },
   "rater2": {
    "recall": {
     "path": 0.3490175801447777,
-    "script": 0.12307692307692308,
+    "script": 0.17391304347826086,
     "target": null,
     "manifest": 1.0,
     "dep": null,
-    "all": 0.396568789178489
+    "all": 0.4230904611052447
    },
    "ci_all": [
-    0.19161370659094115,
+    0.20866737434169635,
     0.6893397748069107
    ],
-   "true_references_in_sample": 16.0
+   "true_references_in_sample": 15.0
   },
-  "mean_recall_all": 0.396568789178489,
-  "mean_recall_path": 0.3490175801447777,
+  "mean_recall_all": 0.4195756909195313,
+  "mean_recall_path": 0.36284584364381745,
   "mean_ci_all": [
-   0.18884696194768863,
-   0.6951052340983028
+   0.20009583734186787,
+   0.7317115537824856
   ],
   "agreement_line_has_reference": {
-   "raw_agreement": 1.0,
-   "cohen_kappa": 1.0
+   "raw_agreement": 0.9933333333333333,
+   "cohen_kappa": 0.9298245614035083
   },
-  "exact_count_agreement": 1.0,
+  "exact_count_agreement": 0.9933333333333333,
   "tool_wrong_mean": 5.0
  },
  "R_recall_difference": {
   "status": "complete",
-  "est_context_minus_readme": 0.15857418182962962,
+  "est_context_minus_readme": 0.13556728008858732,
   "ci": [
-   -0.1820173285158818,
-   0.39086120682948633
+   -0.22754840040639673,
+   0.3726967649226061
   ]
  },
  "B_cause": {

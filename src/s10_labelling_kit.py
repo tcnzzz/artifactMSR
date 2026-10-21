@@ -10,13 +10,20 @@ Sheets (one blinded copy per rater, independent random orders, random item ident
   S_insync      in-sync update events, context files and README
   L_lenient     anchored path constraints satisfied at the head only by base name or suffix, with the matched locations
   R_recall      a uniform random sample of ALL non-blank lines of 30 context files, with what the tool extracted from each line
+  R_recall_readme  the same for README files: up to 20 non-blank lines from each of N README files (default 15), same columns as R_recall
 calibration/    20 items outside the samples, labelled jointly by the raters before they start
 key/            strata, artefact, population sizes and sampling weights (raters must not open it)
 
 Items in the development samples that the AI assistant labelled (results/validation_sample.csv) are excluded from A and B.
 No label is written by this script.
+
+Modes
+  python3 src/s10_labelling_kit.py                         full build (refuses if any label is filled)
+  python3 src/s10_labelling_kit.py --add-readme-recall     for a kit that is already being labelled: ADDS R_recall_readme only.
+                                                           Never touches another sheet's items, ids or labels. Options: --readme-files N, --force
+R_recall_readme is drawn with its own random generator, so the other sheets are identical whether or not it is built.
 """
-import csv, gzip, json, os, random, re, subprocess, sys, collections
+import csv, gzip, json, os, random, re, subprocess, sys, collections, urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import compiler as K
@@ -29,7 +36,14 @@ SEED = 20261005
 ENV = dict(os.environ, GIT_TERMINAL_PROMPT="0", GIT_NO_LAZY_FETCH="1")
 LABEL_COLS = {"A_extraction": ["is_repo_reference", "notes"], "B_breaks": ["true_staleness", "reason"],
               "S_insync": ["target_invalidated", "reference_updated", "notes"], "L_lenient": ["matched_is_intended", "notes"],
-              "R_recall": ["true_path", "true_script", "true_target", "true_manifest", "true_dep", "tool_wrong", "notes"]}
+              "R_recall": ["true_path", "true_script", "true_target", "true_manifest", "true_dep", "tool_wrong", "notes"],
+              "R_recall_readme": ["true_path", "true_script", "true_target", "true_manifest", "true_dep", "tool_wrong", "notes"]}
+README_FILES, PER_FILE = 15, 20
+# R_recall_readme was built under its former name R2_readme_recall and keeps what that build produced: item ids R2001..., and the same
+# independent random orders for the two raters (the order seed used len(name) of the former name).
+PREFIX = {"R_recall_readme": "R2"}
+ORDER_SALT = {"R_recall_readme": len("R2_readme_recall")}
+RATERS = ("rater1", "rater2")
 
 
 def rows(name):
@@ -82,7 +96,7 @@ def write(path, rows_, fields):
 
 def emit(name, items, shown, key_cols, rng):
     """Assign random identifiers (no relation to stratum), write the key and one independently shuffled sheet per rater."""
-    prefix = name.split("_")[0]
+    prefix = PREFIX.get(name, name.split("_")[0])
     order = list(range(len(items)))
     rng.shuffle(order)
     for n, i in enumerate(order):
@@ -90,7 +104,7 @@ def emit(name, items, shown, key_cols, rng):
     write(os.path.join(KIT, "key", name + ".csv"), sorted(items, key=lambda x: x["id"]), ["id"] + key_cols)
     for r, rater in enumerate(("rater1", "rater2")):
         o = items[:]
-        random.Random(SEED + 101 * (r + 1) + len(name)).shuffle(o)
+        random.Random(SEED + 101 * (r + 1) + ORDER_SALT.get(name, len(name))).shuffle(o)
         write(os.path.join(KIT, rater, name + ".csv"), [dict({k: it.get(k, "") for k in ["id"] + shown}, **{c: "" for c in LABEL_COLS[name]}) for it in o],
               ["id"] + shown + LABEL_COLS[name])
 
@@ -116,12 +130,157 @@ def filled():
     return None
 
 
+def readme_cache_path(repo, commit, file):
+    return os.path.join(CACHE, "readme_text", repo.replace("/", "__") + "@" + commit[:12] + "__" + file.replace("/", "_"))
+
+
+def remote_text(repo, commit, file):
+    """File at a pinned commit from raw.githubusercontent.com, cached under CACHE/readme_text. Set S03_OFFLINE=1 to disable."""
+    cp = readme_cache_path(repo, commit, file)
+    if os.path.exists(cp):
+        return open(cp, encoding="utf-8").read()
+    if os.environ.get("S03_OFFLINE"):
+        return ""
+    try:
+        req = urllib.request.Request(f"https://raw.githubusercontent.com/{repo}/{commit}/{file}", headers={"User-Agent": "context-rot-labelling-kit"})
+        text = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+    except Exception:
+        return ""
+    os.makedirs(os.path.dirname(cp), exist_ok=True)
+    with open(cp, "w", encoding="utf-8") as f:
+        f.write(text)
+    return text
+
+
+def head_text(repo, file):
+    """Head version of a tracked file, in this order: text stored in the mined timeline, the last stored version, the partial clone,
+    and finally GitHub at the pinned head commit (the same commit the pipeline evaluated)."""
+    m = mined(repo)
+    fd = (m.get("files") or {}).get(file) or {}
+    t = fd.get("head_text") or ""
+    if not t:
+        try:
+            t = (fd.get("texts") or {}).get(fd["version_oids"][-1][1], "") if fd.get("version_oids") else ""
+        except (KeyError, IndexError, TypeError):
+            t = ""
+    return t or git(repo, "show", f"{m['head']}:{file}") or remote_text(repo, m["head"], file)
+
+
+def head_counts():
+    """Denominators of head drift for context files, written to kit_summary.json so that the hidden-drift estimate needs no manual input."""
+    cons = [c for c in rows("constraints.csv") if c["is_ctx"] == "1"]
+    anch = [c for c in cons if c["live_head"] == "1" and c["born_valid"] == "1"]
+    lenient = [c for c in anch if c["kind"] == "path" and c["head_code"] == "2" and "*" not in c["target"]]
+    return {"n_anchored_head": len(anch), "n_violations_head": sum(1 for c in anch if c["head_code"] == "0"), "n_lenient_head": len(lenient)}
+
+
+def build_readme_recall(rng2, nfiles):
+    """Sheet R_recall_readme: same frame as R_recall, applied to the root README. Files are taken from a random permutation of the READMEs and kept
+    when the head text has at least 500 bytes, which is a uniform draw without replacement from the eligible READMEs."""
+    cand = {}
+    for f in rows("files.csv"):
+        if f["is_ctx"] == "0":
+            cand[(f["repo"], f["file"])] = 1
+    if not cand:
+        for r in rows("repos.csv"):
+            cand[(r["repo"], "README.md")] = 1
+    cand = sorted(cand)
+    rng2.shuffle(cand)
+    Rs, picked, why, in_a_row = [], 0, collections.Counter(), 0
+    for repo, file in cand:
+        if picked >= nfiles:
+            break
+        try:
+            m = mined(repo)
+        except FileNotFoundError:
+            why["no mined timeline"] += 1
+            continue
+        text = head_text(repo, file)
+        if not text:
+            why["no text (mined, clone and GitHub all empty)"] += 1
+            in_a_row += 1
+            if in_a_row >= 15 and not picked:
+                break
+            continue
+        in_a_row = 0
+        if len(text.encode("utf-8", "ignore")) < 500:
+            why["under 500 bytes"] += 1
+            continue
+        cs = collections.defaultdict(list)
+        for c in K.compile_text(text):
+            cs[c.line].append(c)
+        lines = [(i, l) for i, l in enumerate(text.splitlines(), 1) if l.strip()]
+        take = sorted(rng2.sample(lines, min(PER_FILE, len(lines))))
+        picked += 1
+        for i, l in take:
+            ex = cs.get(i, [])
+            cnt = collections.Counter(c.kind for c in ex)
+            Rs.append({"repo": repo, "file": file, "line": i, "text": l.strip()[:400], "link": url_file(repo, m["head"], file, i),
+                       "tool_extracted": " ; ".join(f"{c.kind}: {c.target}" for c in ex) or "(nothing)", "artefact": "readme",
+                       "file_lines": len(lines), "file_sampled": len(take), **{"tool_" + k: cnt.get(k, 0) for k in ("path", "script", "target", "manifest", "dep")}})
+    if not Rs:
+        lst = os.path.join(KIT, "readme_missing.txt")
+        with open(lst, "w", encoding="utf-8") as f:
+            n = 0
+            for repo, file in cand:
+                try:
+                    c = mined(repo)["head"]
+                except FileNotFoundError:
+                    continue
+                n += 1
+                f.write(f"{n}\thttps://raw.githubusercontent.com/{repo}/{c}/{file}\t{readme_cache_path(repo, c, file)}\n")
+                if n >= 40:
+                    break
+        sys.exit("no README text found. candidates: %d, reasons: %s. Texts are looked up in data/mined, then the clones, then github.com at the pinned head commit "
+                 "(needs network; S03_OFFLINE is %s).\nTo add them by hand: open each URL in %s, save the page as plain text to the path on the same line "
+                 "(all 40, in order, keep the file name exactly), then rerun this command." % (len(cand), dict(why), "set" if os.environ.get("S03_OFFLINE") else "not set", lst))
+    if picked < nfiles:
+        print(f"warning: only {picked} eligible README files found, {nfiles} requested")
+    emit("R_recall_readme", Rs, ["repo", "file", "line", "text", "tool_extracted", "link"],
+         ["artefact", "repo", "file", "file_lines", "file_sampled", "tool_path", "tool_script", "tool_target", "tool_manifest", "tool_dep"], rng2)
+    return {"files": picked, "lines": len(Rs), "lines_with_extraction": sum(1 for r in Rs if r["tool_extracted"] != "(nothing)"),
+            "frame": f"all non-blank lines of the head README, {picked} files drawn uniformly from READMEs of at least 500 bytes, up to {PER_FILE} lines per file drawn uniformly, weighted by lines over sampled lines"}
+
+
+GUIDE = """R_recall_readme: how to label (both raters, independently, blind to the key/ folder; same rules as R_recall)
+  Read each README line. Count the repository references that a careful reader would extract, by kind: true_path, true_script, true_target,
+  true_manifest, true_dep. Put 0 where there are none; every count cell must be filled. tool_wrong is the number of items in tool_extracted
+  that are not repository references. Do not look at tool_extracted before you have counted. No adjudication for this sheet.
+"""
+
+
+def add_readme_recall(nfiles, force):
+    if not os.path.isdir(KIT):
+        sys.exit("no kit at " + KIT + "; run the full build first")
+    p = [os.path.join(KIT, r, "R_recall_readme.csv") for r in RATERS]
+    if any(os.path.exists(x) and any((r.get(c) or "").strip() for r in csv.DictReader(open(x)) for c in LABEL_COLS["R_recall_readme"]) for x in p) and not force:
+        sys.exit("refusing to rebuild R_recall_readme: labels found; use --force only if you want to discard them")
+    r2 = build_readme_recall(random.Random(SEED + 7), nfiles)
+    sp = os.path.join(KIT, "kit_summary.json")
+    summary = json.load(open(sp)) if os.path.exists(sp) else {"seed": SEED}
+    for old in ("R2", "extra_judgements_per_rater"):
+        summary.pop(old, None)
+    summary["R_recall_readme"], summary["head"] = r2, head_counts()
+    summary["extra_judgements_per_rater"] = {"R_recall_readme_lines": r2["lines"]}
+    json.dump(summary, open(sp, "w"), indent=1)
+    open(os.path.join(KIT, "GUIDE_readme_recall.txt"), "w").write(GUIDE)
+    stale = os.path.join(KIT, "GUIDE_review_sheets.txt")   # written by an earlier version of this script, describes retired columns
+    if os.path.exists(stale):
+        os.remove(stale)
+        print("removed outdated", stale)
+    print(json.dumps({"R_recall_readme": r2, "head": summary["head"]}, indent=1))
+    print("Sanity check: n_anchored_head and n_violations_head must equal 'Anchored' and 'Viol.' of the All row in Table II.")
+
+
 def main():
+    if "--add-readme-recall" in sys.argv:
+        n = int(sys.argv[sys.argv.index("--readme-files") + 1]) if "--readme-files" in sys.argv else README_FILES
+        return add_readme_recall(n, "--force" in sys.argv)
     if not os.path.isdir(os.path.join(CACHE, "clones")):
         sys.exit("refusing to build the kit: clones not found under " + CACHE + " (commit records and matched files would be empty)")
     f_ = filled()
     if f_ and "--force" not in sys.argv:
-        sys.exit("refusing to rebuild the kit: labels found in " + f_)
+        sys.exit("refusing to rebuild the kit: labels found in " + f_ + "\nTo add only the README recall sheet to this kit run: python3 src/s10_labelling_kit.py --add-readme-recall")
     rng = random.Random(SEED)
     cons_all = rows("constraints.csv")
     cons = [c for c in cons_all if c["is_ctx"] == "1"]
@@ -243,6 +402,12 @@ def main():
     summary["R"] = {"files": len(rfiles), "lines": len(Rs), "lines_with_extraction": sum(1 for r in Rs if r["tool_extracted"] != "(nothing)"),
                     "frame": "all non-blank lines of the head version, 30 files drawn uniformly from context files of at least 500 bytes, up to 20 lines per file drawn uniformly, weighted by lines over sampled lines"}
 
+    # ---------------------------------------------------------------- R_recall_readme: README recall (own random generator, does not move any other draw)
+    n_readme = int(sys.argv[sys.argv.index("--readme-files") + 1]) if "--readme-files" in sys.argv else README_FILES
+    summary["R_recall_readme"] = build_readme_recall(random.Random(SEED + 7), n_readme)
+    summary["head"] = head_counts()
+    open(os.path.join(KIT, "GUIDE_readme_recall.txt"), "w").write(GUIDE)
+
     # ---------------------------------------------------------------- calibration round (outside the samples)
     rng.shuffle(calib)
     calib = calib[:20]
@@ -251,7 +416,7 @@ def main():
     write(os.path.join(KIT, "calibration", "calibration_items.csv"), calib,
           ["id", "sheet", "repo", "file", "kind", "extracted", "reference", "context", "instruction_context", "commit", "commit_record", "link", "label_agreed", "notes"])
     summary["calibration_items"] = len(calib)
-    summary["judgements_per_rater"] = len(A) + len(Bs) + 2 * len(Ss) + len(Ls) + len(Rs)
+    summary["judgements_per_rater"] = len(A) + len(Bs) + 2 * len(Ss) + len(Ls) + len(Rs) + summary["R_recall_readme"]["lines"]
     json.dump(summary, open(os.path.join(KIT, "kit_summary.json"), "w"), indent=1)
     print(json.dumps(summary, indent=1))
 

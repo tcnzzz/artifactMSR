@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Single entry point. Default: rebuild every result, figure and number from the mined timelines.
-#   bash run.sh                 stages 4 to 11 except 10. The labelling kit is NOT rebuilt (python3 src/s10_labelling_kit.py does that, once, with clones). Reads ~/.cache/context-rot-study/S03/mined if present, otherwise data/mined shipped here.
-#   bash run.sh --from-scratch  stages 1 to 11 (GitHub search, metadata, partial clones, mining; about one hour, 0.6 GB in the cache)
+#   bash run.sh                 stages 4 to 12 except 10. The labelling kit is NOT rebuilt (python3 src/s10_labelling_kit.py does that, once, with clones). Reads ~/.cache/context-rot-study/S03/mined if present, otherwise data/mined shipped here.
+#   bash run.sh --from-scratch  stages 1 to 12 (GitHub search, metadata, partial clones, mining; about one hour, 0.6 GB in the cache)
 # The cache location can be changed with S03_CACHE.
 set -euo pipefail
 export PYTHONDONTWRITEBYTECODE=1
@@ -27,7 +27,7 @@ python3 src/s8_llm_second_rater.py > /dev/null   # cached responses; calls local
 python3 src/s4b_robustness.py > /dev/null        # invalidation rates, competing risks, robustness (four to twelve minutes)
 python3 src/s4c_revision.py > /dev/null
 python3 src/s6_figures.py
-python3 src/s11_labelling_agreement.py > /dev/null   # writes ../manuscript/human_numbers.tex; every macro prints [PENDING] until the sheets are filled
-python3 src/s12_precision_sensitivity.py
+python3 src/s11_labelling_agreement.py > /dev/null   # writes results/human_validation.json and ../manuscript/human_numbers.tex; a macro prints [PENDING] only if its sheet is empty
+python3 src/s12_precision_sensitivity.py             # reads results/human_validation.json; writes ../manuscript/sensitivity_numbers.tex
 python3 src/s9_texnumbers.py
 echo "done: results/ refreshed, figures and numbers.tex written to ../manuscript"
